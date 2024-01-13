@@ -36,7 +36,18 @@
 </div>
 <script type="text/javascript" >
 		var divID= document.getElementById("box3");
- 		divID.innerHTML = getData() ;
+		//let str = "hello world";
+		//let str1 = str.replace("world", "js");
+		//let str = "2016\n09\n19";
+		//let str1 = str.replace(/\n/g,"-");
+
+		let str = getData();
+		//换行
+		let str1 = str.replace(/\n/g,"<br/>");
+
+		
+		//getData()
+ 		divID.innerHTML = str1;
 
 </script>
 
