@@ -7,11 +7,35 @@
 </head>
 
 <body>
-<div align="center" id="box1"><p></p><h1 style="font-size: 2.0rem; color: #2ecc71">每日法语</h1><p></p></div>
-<div align="center" id="box2" style="font-size: 1.5rem;">
+<div align="center" id="box1">
+	<table border="0">
+	<tr>
+        		<th  align="center">  <p></p><h1 style="font-size: 2.0rem; color: #2ecc71">每日法语</h1><p></p></th>
+        
+    	</tr>
+	<tr>
+        		<th  align="center">  <p></p>
+		<h1 style="font-size: 1.5rem; color: #aaaaff"">
+			<script>
+        			date = new Date().toLocaleDateString();
+       			 document.write(date);
+    		</script>
+		</h1><p></p></th>
+        
+    	</tr>
+	<tr>
+        		<th  align="center"> 
+		<p>&nbsp;</p>
+	</th>
+        
+    	</tr>
+	</table>
+
+
+<div align="center" id="box3" style="font-size: 1.5rem;">
 </div>
 <script type="text/javascript" >
-		var divID= document.getElementById("box2");
+		var divID= document.getElementById("box3");
  		divID.innerHTML = getData() ;
 
 </script>
