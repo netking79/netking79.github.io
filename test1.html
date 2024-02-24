@@ -2,9 +2,17 @@
 
 <head>
 
-<script type="text/javascript" src="script1.js"></script>
   <meta charset="UTF-8">
     <title>音频和视频测试</title>
+ <style>
+        #music-player {
+            width: 400px;
+  height: 100px;
+  background-color: #F0FFF0;
+  border-radius: 5px;
+  padding: 10px;
+        }
+    </style>
 
 </head>
 
@@ -12,11 +20,15 @@
 <div align="center">
 mp3测试
 <p></p>
-	<audio src="https://res.wx.qq.com/voice/getvoice?mediaid=MzkzNjI1MzQzOV8yMjQ3NDg3NDM2" autoplay="autoplay" controls="controls" loop="loop"></audio>
+<div  id="music-player">
+	
+<audio src="https://res.wx.qq.com/voice/getvoice?mediaid=MzkzNjI1MzQzOV8yMjQ3NDg3NDM2" autoplay="autoplay" controls="controls" loop="loop"></audio>
+</div>
 <p></p>
 视频测试
 <p></p>
-<iframe width=400 height=500 frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=j35143c7fq1" allowFullScreen="true"></iframe>
+<iframe width=550 height=600 frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=j35143c7fq1" allowFullScreen="true"></iframe>
+
 
 </div>
 
