@@ -36,11 +36,12 @@
         }
 
 .trh1 {
-    height: 50px; /*设置行高为50像素*/
+    height: 80px; /*设置行高为50像素*/
+   font-size: 27px;
   }
 
 .trh2 {
-    height: 50px; /*设置行高为50像素*/
+    height: 60px; /*设置行高为50像素*/
   }
 
 
