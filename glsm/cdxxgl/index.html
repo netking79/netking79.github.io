@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+<link rel="stylesheet" href="../../css/c2.css">
+<script type="text/javascript" src="../../js/s1.js"></script>
+    <meta charset="UTF-8">
+    <title>次第修学概览</title>
+</head>
+<body>
+<p></p>
+<h1 >次第修学概览【志归莲社】</h1><p></p><h1 >20211124版</h1>
+<h2 >次第修学是依于经典和祖师教言，是按照严谨的次第进行学习和实修，通过这份资料可以概要的了解到次第修学的方方面面。</h2>
+
+<div align="center">
+
+<!--边框宽度为1-->
+<table id="table1" border="0" cellspacing="1" >
+<tr class="trh1">
+        <th  align="center"> <p>内容列表</p> </th>
+        
+    </tr>
+
+</table>
+
+<script>
+        /**
+         * 动态添加的方法有两种
+         *  1、document.create();
+         *  2、innerHTML();
+         *
+         */
+
+       var table =document.getElementById("table1");
+
+	 let aList= getData('概览说明','次第修学概览','','','','不','2');
+		var sLen = aList.length;
+		var str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3+1,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+       
+</script>
+<p><a href="javascript:history.back(-1)">返回上一页</a></p>
+
+</div>
+
+
+</body>
+</html>
