@@ -1,0 +1,31 @@
+
+
+
+ body {
+            font-family: Arial, sans-serif; /* 设置字体 */
+            line-height: 1.5; /* 设置行间距 */
+            background-color:#CDC5BF;
+        }
+        
+        h1 {
+            color: #007bff; /* 设置标题颜色 */
+	   text-align:center;
+          font-size: 25px;
+        }
+
+    h2{
+            color: #aa0000; /* 设置标题颜色 */
+	   text-align:center;
+          font-size: 1.5rem; 
+        }
+        
+        p {
+            margin-bottom: 1em; /* 设置段落之间的间距 */
+		font-size: 25px;
+        }
+        
+        a {
+            text-decoration: none; /* 去除超链接下划线 */
+            color: blue; /* 设置超链接颜色 */
+	  font-size: 1.2rem;
+        }
