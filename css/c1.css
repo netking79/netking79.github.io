@@ -29,3 +29,11 @@
             color: blue; /* 设置超链接颜色 */
 	  font-size: 1.5rem;
         }
+
+.trh1 {
+    height: 50px; /*设置行高为50像素*/
+  }
+
+.trh2 {
+    height: 50px; /*设置行高为50像素*/
+  }
