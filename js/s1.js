@@ -36,6 +36,7 @@ p7: 比较第几层
 function getData(p1,p2,p3,p4,p5,p6,p7) {
 
 var myaddr = 'https://www.zhigui48.cn/';
+//var myaddr = 'http://localhost:4000/';
 
 //督导修学模式 原资料 地址
 var ddxxms_ys = [];
@@ -452,7 +453,7 @@ var contdatas = [
 ['概览说明','次第修学概览','','','003','次第修学所用资料','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247494584&idx=5&sn=6d1dd01a2f4be4abffecdde6fdd2e84b&scene=21#wechat_redirect','无','无','文章','原始'],
 
 //添加一个目录 glsm/cdxxgl/whycdxw/
-['概览说明','次第修学概览','','','004','为何要次第修学',myaddr+'glsm/cdxxgl/whycdxw/','无','无','目录',''],
+['概览说明','次第修学概览','','','004','为何要次第修学',myaddr+'glsm/cdxxgl/whycdxx/','无','无','目录',''],
 //添加"为何要次第修学"里的单篇
 //有的是入门手册里的，可以作为原始资料
 ['概览说明','次第修学概览','为何要次第修学','','001','为什么要次第修？','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247483969&idx=1&sn=9e0e43d11c70e042b12c91aeb05e04f4&scene=21#wechat_redirect','无','无','文章','原始'],
@@ -631,7 +632,7 @@ var datas = [];
     	// 匹配类别一、类别二、类别三
 			for(var i=0;i<sLen;i++){
            	 
-				if  ( p1 === contdatas[i][0] && p2 === contdatas[i][1] && p3 === contdatas[i][2] && pcontdatas[i][3] === '')
+				if  ( p1 === contdatas[i][0] && p2 === contdatas[i][1] && p3 === contdatas[i][2] && contdatas[i][3] === '')
 				{
 				    
 					datas.push(contdatas[i][5]);

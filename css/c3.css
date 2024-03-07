@@ -1,0 +1,66 @@
+
+/*显示具体文章内容页面*/
+
+ body {
+            font-family: Arial, sans-serif; /* 设置字体 */
+            line-height: 1.5; /* 设置行间距 */
+            background-color:#CDC5BF;
+        }
+        
+        h1 {
+            color: #006400; /* 设置标题颜色 */
+	   text-align:center;
+          font-size: 30px;
+        }
+ h2 {
+            color: #006400; /* 设置标题颜色 */
+	   text-align:center;
+          font-size: 25px;
+        }
+    h3{
+            color: #000000; /* 设置标题颜色 */
+	   text-align:left;
+          font-size: 25px; 
+	font-weight:normal;
+        }
+        
+        p {
+            margin-bottom: 1em; /* 设置段落之间的间距 */
+		font-size: 25px;
+        }
+        
+        a {
+            text-decoration: none; /* 去除超链接下划线 */
+            color: #0000CD; /* 设置超链接颜色 */
+	  
+        }
+
+.trh1 {
+    height: 80px; /*设置行高为50像素*/
+   font-size: 27px;
+  }
+
+.trh2 {
+    height: 60px; /*设置行高为50像素*/
+  }
+
+
+
+table
+
+{
+
+border-collapse:collapse;
+
+border:1px solid black;
+
+}
+
+td
+
+{
+
+border:1px solid black;
+font-size: 25px;
+
+}
