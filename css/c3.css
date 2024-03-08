@@ -1,5 +1,5 @@
 
-/*显示具体文章内容页面*/
+/*用于分页，显示目录级别的*/
 
  body {
             font-family: Arial, sans-serif; /* 设置字体 */
@@ -37,11 +37,21 @@
 
 .trh1 {
     height: 80px; /*设置行高为50像素*/
-   font-size: 27px;
+   font-size: 28px;
+   background-color:#E6E6FA;
+   text-align:center;
+  }
+  .trh3 {
+    height: 60px; /*设置行高为50像素*/
+   font-size: 25px;
+   background-color:#B2DFEE;
+   text-align:center;
   }
 
 .trh2 {
     height: 60px; /*设置行高为50像素*/
+    font-size: 25px;
+    align:left;
   }
 
 
@@ -53,7 +63,7 @@ table
 border-collapse:collapse;
 
 border:1px solid black;
-
+/*table-layout: auto;*/
 }
 
 td
