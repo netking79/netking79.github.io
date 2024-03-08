@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+<link rel="stylesheet" href="../../css/c2.css">
+<script type="text/javascript" src="../../js/s1.js"></script>
+    <meta charset="UTF-8">
+    <title>随缘开示-因缘果汇集</title>
+</head>
+<body>
+<p></p>
+<h1 >因缘果汇集</h1>
+<h2 >2021国庆版</h2>
+
+
+<div align="center">
+
+<!--边框为细线-->
+<table id="table1" border="0" cellspacing="1" >
+<tr class="trh2">
+        <td > <p>下面表格内容分三个部分:</p>
+
+<p>一，师父专题讲解因缘果；【1-10】</p>
+
+<p>二；小组共修因缘果师父点评学员分享；【11-26】</p>
+
+<p>三，师父随缘开示因缘果。【27-47】</p></td>
+        
+    </tr>
+<tr class="trh1">
+        <th  align="center"> 内容列表 </th>
+        
+    </tr>
+
+</table>
+
+<script>
+        /**
+         * 动态添加的方法有两种
+         *  1、document.create();
+         *  2、innerHTML();
+         *
+         */
+
+       var table =document.getElementById("table1");
+	let lb1 = '随缘开示';
+	let lb2 = '因缘果汇集';
+	let lb3 = '';
+	let lb4 = '';
+	let cs = '2';
+
+	 let aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		var sLen = aList.length;
+		var str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3+1,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+       
+</script>
+<p><a href="javascript:history.back(-1)">返回上一页</a></p>
+
+</div>
+
+
+</body>
+</html>

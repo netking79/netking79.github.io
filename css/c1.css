@@ -26,12 +26,14 @@
         
         a {
             text-decoration: none; /* 去除超链接下划线 */
-            color: #6959CD; /* 设置超链接颜色 */
+            color: #0000CD; /* 设置超链接颜色 */
 	  font-size: 1.5rem;
         }
 
 .trh1 {
     height: 50px; /*设置行高为50像素*/
+
+
   }
 
 .trh2 {

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+<link rel="stylesheet" href="../../css/c2.css">
+<script type="text/javascript" src="../../js/s1.js"></script>
+    <meta charset="UTF-8">
+    <title>学员分享摘选</title>
+</head>
+<body>
+<p></p>
+<h1 >学员分享摘选</h1>
+<h2 >2021-09-02</h2>
+
+
+<div align="center">
+
+<!--边框为细线-->
+<table id="table1" border="0" cellspacing="1" >
+<tr class="trh1">
+        <td  align="center"> 修学综合感受 </td>
+        
+    </tr>
+
+</table>
+
+<script>
+        /**
+         * 动态添加的方法有两种
+         *  1、document.create();
+         *  2、innerHTML();
+         *
+         */
+
+       var table =document.getElementById("table1");
+	let lb1 = '学员分享摘选';
+	let lb2 = '修学综合感受';
+	let lb3 = '';
+	let lb4 = '';
+	let cs = '2';
+	var i=0;
+
+	 let aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		var sLen = aList.length;
+		var str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			for(i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3+1,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+				//alert("<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>");
+       			 }
+		}
+	//添加行 每日四项
+	table.innerHTML += "<tr class=\"trh1\"><td  align=\"center\"> 每日四项 </td> </tr>";
+	lb1 = '学员分享摘选';
+	lb2 = '每日四项';
+	lb3 = '';
+	 lb4 = '';
+	 cs = '2';
+
+	 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+	sLen = aList.length;
+	str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			for(i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			xuhao= getStr(i/3+1,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+	//添加行 基础心态
+	table.innerHTML += "<tr class=\"trh1\"><td  align=\"center\">基础心态 </td> </tr>";
+	lb1 = '学员分享摘选';
+	lb2 = '基础心态';
+	lb3 = '';
+	 lb4 = '';
+	 cs = '2';
+
+	 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+	sLen = aList.length;
+	str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			for(i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			xuhao= getStr(i/3+1,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+	
+	//添加行 弱化执着
+	table.innerHTML += "<tr class=\"trh1\"><td  align=\"center\">弱化执着 </td> </tr>";
+	lb1 = '学员分享摘选';
+	lb2 = '弱化执着';
+	lb3 = '';
+	 lb4 = '';
+	 cs = '2';
+
+	 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+	sLen = aList.length;
+	str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			for(i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			xuhao= getStr(i/3+1,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+	//添加行 出离心
+	table.innerHTML += "<tr class=\"trh1\"><td  align=\"center\">出离心 </td> </tr>";
+	lb1 = '学员分享摘选';
+	lb2 = '出离心';
+	lb3 = '';
+	 lb4 = '';
+	 cs = '2';
+
+	 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+	sLen = aList.length;
+	str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			for(i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			xuhao= getStr(i/3+1,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+	//添加行 欣求心
+	table.innerHTML += "<tr class=\"trh1\"><td  align=\"center\">欣求心 </td> </tr>";
+	lb1 = '学员分享摘选';
+	lb2 = '欣求心';
+	lb3 = '';
+	 lb4 = '';
+	 cs = '2';
+
+	 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+	sLen = aList.length;
+	str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			for(i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			xuhao= getStr(i/3+1,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+
+       
+</script>
+
+
+
+<p><a href="javascript:history.back(-1)">返回上一页</a></p>
+
+</div>
+
+
+</body>
+</html>
