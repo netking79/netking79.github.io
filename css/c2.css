@@ -46,7 +46,13 @@ background-color:#E6E6FA;
     height: 60px; /*设置行高为50像素*/
   }
 
+.trh3 {
+    height: 60px; /*设置行高为50像素*/
+background-color:#F5DEB3;
+  font-size: 25px;
+text-align:center;
 
+  }
 
 table
 

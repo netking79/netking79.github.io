@@ -2,8 +2,8 @@
 <html >
 
 <head>
-<link rel="stylesheet" href="../../css/c2.css">
-<script type="text/javascript" src="../../js/s1.js"></script>
+<link rel="stylesheet" href="../../../css/c2.css">
+<script type="text/javascript" src="../../../js/s1.js"></script>
     <meta charset="UTF-8">
     <title>随缘开示-因缘果汇集</title>
 </head>
@@ -11,30 +11,23 @@
 <p></p>
 <h1 >因缘果汇集</h1>
 <h2 >2021国庆版</h2>
+<h3>
+<p>内容简介：</p>
+<p>《往生见闻记》这套音频（原版是10集视频，重新编辑为7集音频）。是由台中莲社（李炳南老师创办）的一位居士讲解的往生案例。有出家,有在家，大多是预知时至自在往生的。是非常难得珍贵的一份资料。对于咱们修往生有极其重要的参考意义。</p>
+<p>师父对这套音频又进行了专门的补充讲解。下面是所有音频的汇集，这里推文有更新版和老版，有标注。方便大家学习，（音频与文稿有所出入，仅供参考）</p>
 
+</h3>
 
 <div align="center">
 
 <!--边框为细线-->
 <table id="table1" border="0" cellspacing="1" >
-<tr class="trh2">
-        <td > <p>下面内容分三个部分:</p>
-
-<p>一，师父专题讲解因缘果；【01-10】</p>
-
-<p>二；小组共修因缘果师父点评学员分享；【11-26】</p>
-
-<p>三，师父随缘开示因缘果。【27-47】</p></td>
-        
-    </tr>
 <tr class="trh1">
-        <th  align="center"> 内容列表 </th>
+        <th  align="center"> 念佛往生见闻记-思归子
+ </th>
         
     </tr>
-<tr class="trh3">
-        <th > 一，师父专题讲解【因缘果】</th>
-        
-    </tr>
+
 </table>
 
 <script>
@@ -46,19 +39,16 @@
          */
 
        var table =document.getElementById("table1");
-	let lb1 = '随缘开示';
-	let lb2 = '因缘果汇集';
-	let lb3 = '';
+	let lb1 = '选学资料汇总';
+	let lb2 = '静修班资料';
+	let lb3 = '往生见闻记和师父随缘开示';
 	let lb4 = '';
-	let cs = '2';
+	let cs = '3';
 
 	 let aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
 		var sLen = aList.length;
 		var str1="";
 		
-	//table.innerHTML += "<tr class=\"trh3\"><th > 三，师父随缘开示【因缘果】</th></tr>";
-
-
 
 		if (sLen === 0)
 		{
@@ -78,11 +68,11 @@
 				{
 						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
 					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
-					if (xuhao == '10')
+					if (xuhao == '07')
 
-						table.innerHTML += "<tr class=\"trh3\"><th > 二，师父点评【小组学习】</th></tr>";
-					if (xuhao == '26')
-						table.innerHTML += "<tr class=\"trh3\"><th > 三，师父随缘开示【因缘果】</th></tr>";
+						table.innerHTML += "<tr class=\"trh1\"><th > 师父结合实际案例 随缘开示往生问题</th></tr>";
+					if (xuhao == '17')
+						table.innerHTML += "<tr class=\"trh1\"><th > 师父补充讲解 往生见闻记</th></tr>";
 
 
 				}

@@ -5,34 +5,20 @@
 <link rel="stylesheet" href="../../css/c2.css">
 <script type="text/javascript" src="../../js/s1.js"></script>
     <meta charset="UTF-8">
-    <title>随缘开示-因缘果汇集</title>
+    <title>其他专题-破邪显正</title>
 </head>
 <body>
 <p></p>
-<h1 >因缘果汇集</h1>
-<h2 >2021国庆版</h2>
+<h1 >破邪显正</h1>
+<h2 >2023-09-02</h2>
 
 
 <div align="center">
 
 <!--边框为细线-->
 <table id="table1" border="0" cellspacing="1" >
-<tr class="trh2">
-        <td > <p>下面内容分三个部分:</p>
-
-<p>一，师父专题讲解因缘果；【01-10】</p>
-
-<p>二；小组共修因缘果师父点评学员分享；【11-26】</p>
-
-<p>三，师父随缘开示因缘果。【27-47】</p></td>
-        
-    </tr>
 <tr class="trh1">
         <th  align="center"> 内容列表 </th>
-        
-    </tr>
-<tr class="trh3">
-        <th > 一，师父专题讲解【因缘果】</th>
         
     </tr>
 </table>
@@ -46,8 +32,8 @@
          */
 
        var table =document.getElementById("table1");
-	let lb1 = '随缘开示';
-	let lb2 = '因缘果汇集';
+	let lb1 = '其他专题';
+	let lb2 = '破邪显正';
 	let lb3 = '';
 	let lb4 = '';
 	let cs = '2';
@@ -56,8 +42,6 @@
 		var sLen = aList.length;
 		var str1="";
 		
-	//table.innerHTML += "<tr class=\"trh3\"><th > 三，师父随缘开示【因缘果】</th></tr>";
-
 
 
 		if (sLen === 0)
@@ -78,12 +62,7 @@
 				{
 						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
 					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
-					if (xuhao == '10')
-
-						table.innerHTML += "<tr class=\"trh3\"><th > 二，师父点评【小组学习】</th></tr>";
-					if (xuhao == '26')
-						table.innerHTML += "<tr class=\"trh3\"><th > 三，师父随缘开示【因缘果】</th></tr>";
-
+				
 
 				}
        			 }
