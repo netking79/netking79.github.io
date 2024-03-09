@@ -1,0 +1,130 @@
+<html>
+
+<head>
+<style>a{TEXT-DECORATION:none}</style> 
+<link rel="stylesheet" href="css/c4.css">
+<script type="text/javascript" src="js/s1.js"></script>
+  <meta charset="UTF-8">
+    <title>资料查询</title>
+
+</head>
+
+<body>
+<h1>资料查询</h1>
+<h3>当查询类别为“所有类别”时，查询关键词不能为空。当查询其他的具体类别（比如“概览说明”、“基础班资料”等）时，查询关键词可以为空，此时查询的就是这个具体类别的所有资料。</h3>
+<h3>查询结果中，【】里的是资料类别，【】后面是资料名称。</h3>
+<h2>类别选择</h2>
+<div align="center" id="box1">
+	
+	
+		<select id="leibie" name="leibie">
+			<option value="不选择">-所有资料</option>
+			<option value="概览说明">-概览说明</option>
+			<option value="基础班资料">-基础班资料</option>
+		<!--	<option value="每日四项讲解">-每日四项讲解</option> -->
+		<!--		<option value="净土次第修">-净土次第修</option> -->
+			<option value="学员分享摘选">-学员分享摘选</option>
+			<option value="随缘开示">-随缘开示</option>
+			<option value="其他专题">-其他专题</option>
+			<option value="老年修学资料">-选学资料汇总-老年修学资料</option>
+			<option value="静修班资料">-选学资料汇总-静修班资料</option>
+			<option value="印祖文钞讲解">-选学资料汇总-印祖文钞讲解</option>
+		<!--		<option value="二级修学资料">-选学资料汇总 二级修学资料</option> -->
+		</select><br/>
+
+	
+<h2>查询关键词输入</h2>
+
+<p>
+<input type="text" id="gjc">
+</p>
+
+<button onclick="myFunction()">按条件查询资料</button>
+<p ></p>
+
+<!--边框为细线-->
+<table id="table1" border="0" cellspacing="1" >
+
+</table>
+
+<script type="text/javascript" >
+
+	function myFunction(){
+		//获取下拉框的对象
+               var s1 = document.getElementById("leibie");
+               //获取选中下拉框选项的索引
+               var index = s1.selectedIndex;
+               //获取选中的值
+               var myVal = s1.options[index].value;
+               //检查选中的值
+              // alert(myVal);
+
+		//获取输入条件
+		var s2 = document.getElementById("gjc").value;
+		var s3="";
+  		//去掉空字符
+		if ( s2 !== "")
+			s3 = s2.replace(/\s*/g,"");
+
+		var divID= document.getElementById("box3");
+
+		//let aList= getData("glsm","资料");
+               let aList= [];		
+	
+		var str1="";
+		
+		if ( myVal === "老年修学资料" ||  myVal === "静修班资料" || myVal === "印祖文钞讲解" || myVal === "二级修学资料")
+			aList = getData('选学资料汇总',myVal,'','',s3,'是','');
+		else
+			aList = getData(myVal,'','','',s3,'是','');
+
+		var sLen = aList.length;
+		var table =document.getElementById("table1");
+
+		var rowNum=table.rows.length;
+    
+		for (var j=0;j<rowNum;j++){
+			table.deleteRow(j);
+			rowNum=rowNum-1;
+			j=j-1;
+		}
+
+
+	
+		if (sLen === 0)
+		{
+			table.innerHTML += "<tr class=\"trh1\"><td>没有查到相关资料！</td></tr>";	
+
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh1\"><td>查询结果如下：共 " + sLen/3+ " 条</td></tr>";	
+
+			//alert(sLen);
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= i/3 + 1;
+
+			str1 = "";
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+				else
+						str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+			table.innerHTML += "<tr class=\"trh2\"><td>" +str1+"</td></tr>";	
+       			 }
+
+			//getData()
+ 			
+		}
+		
+		
+		
+}
+
+</script>
+
+</body>
+
+</html>

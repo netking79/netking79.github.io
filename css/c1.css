@@ -21,7 +21,7 @@
         
         p {
             margin-bottom: 1em; /* 设置段落之间的间距 */
-		font-size: 25px;
+		font-size: 20px;
         }
         
         a {
@@ -40,3 +40,6 @@
     height: 50px; /*设置行高为50像素*/
   }
 
+.trh3 {
+    height: 50px; /*设置行高为50像素*/
+  }

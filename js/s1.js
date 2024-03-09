@@ -23,7 +23,37 @@ function getStr(p1,p2){
 return str1;
 }
 
-
+//ds:datas 一维数组,cs:contdatas 二维数组,gjc:关键词
+function pushDatas(ds,cs,gjc){
+				var str1='';
+				//不需要比较p1，就是按关键字查询
+				for(var i=0;i<cs.length;i++){
+				//查询原始资料，引用的不查
+					if ( cs[i][10]  !== "引用")
+					{
+						str1 = cs[i][5];
+						index =  str1.indexOf(gjc);  //查关键词
+						str1 = '';
+						if (index !== -1) {  
+						
+						str1 = '【' + cs[i][0] + '-';  
+						if (cs[i][1] !== '')
+							str1 = str1 + cs[i][1] + '-'; 
+						if (cs[i][2] !== '')
+							str1 = str1 + cs[i][2] + '-'; 
+						if (cs[i][3] !== '')
+							str1 = str1 + cs[i][3] + '-'; 
+						str1 = str1 + '】' + cs[i][5];
+						ds.push(str1);
+						//ds.push(cs[i][5]);
+						ds.push(cs[i][6]);
+						ds.push(cs[i][9]);
+						//datas.push('dfsfs');
+						} 
+					}
+       			}
+	return;
+}
 /*
 p1: 类别一
 p2: 类别二
@@ -434,8 +464,22 @@ jtcdx_ys[180] = '';
 jtcdx_ys[181] = '';
 
 
+/*
+概览说明 contdatas1
+基础班资料 contdatas2
+每日四项讲解 contdatas3
+净土次第修 contdatas4
+学员分享摘选 contdatas5
+随缘开示 contdatas6
+其他专题 contdatas7
 
-var contdatas = [
+选学资料汇总 老年修学资料 contdatas8
+选学资料汇总 静修班资料 contdatas9
+选学资料汇总 印祖文钞选讲 contdatas10
+选学资料汇总 二级修学资料 contdatas11 */
+
+
+var contdatas1 = [
 
 /*
 ['类别一','类别二','类别三','类别四','在分类中的序号','标题','地址','有/无音频','有/无视频','文章/目录','原始/引用'],
@@ -499,8 +543,11 @@ var contdatas = [
 ['概览说明','次第修学概览','督导修学模式','','002','何谓督导修学模式',ddxxms_ys[2],'无','有','文章','引用'], //引用 
 ['概览说明','次第修学概览','督导修学模式','','003','督导修学模式有什么优势',ddxxms_ys[3],'无','有','文章','引用'], //引用 
 
-['概览说明','次第修学概览','','','011','学员修学效果分享','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247488268&idx=2&sn=158756a50e2c248548c53eb6cf9b4cd3&scene=21#wechat_redirect','无','有','文章','引用'], //引用 基础班资料
+['概览说明','次第修学概览','','','011','学员修学效果分享','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247488268&idx=2&sn=158756a50e2c248548c53eb6cf9b4cd3&scene=21#wechat_redirect','无','有','文章','引用'] //引用 基础班资料
+];
 
+
+var contdatas2 = [
 //基础班资料 原始资料
 ['基础班资料','原始资料','','','001','《佛教基础》','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247487443&amp;idx=2&amp;sn=73ad3e183d54488bf5a6f23603424a5e&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['基础班资料','原始资料','','','002','《皈依三宝》','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247487443&amp;idx=3&amp;sn=250722b93b98c163ca786a9be3629674&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -678,20 +725,23 @@ var contdatas = [
 ['基础班资料','辅助资料','礼节概讲','','017','从感恩辅导员说起要懂得理事结合','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247483789&amp;idx=8&amp;sn=268af412b87c46ee295db8dc7c40c2fd&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['基础班资料','辅助资料','礼节概讲','','018','及时反馈','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247483807&amp;idx=1&amp;sn=6b8a67b35a835783a784faa6996f86e0&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['基础班资料','辅助资料','礼节概讲','','019','如何融入团队','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247483807&amp;idx=2&amp;sn=7bcc1a9794dda0907f4542f7534637b2&amp;scene=21#wechat_redirect','有','无','文章','原始'],
-['基础班资料','辅助资料','礼节概讲','','020','重视基础次第修学','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247483807&amp;idx=3&amp;sn=d58056c2fc386af28d6b69509c329ca7&amp;scene=21#wechat_redirect','有','无','文章','原始'],
+['基础班资料','辅助资料','礼节概讲','','020','重视基础次第修学','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247483807&amp;idx=3&amp;sn=d58056c2fc386af28d6b69509c329ca7&amp;scene=21#wechat_redirect','有','无','文章','原始']
+];
 
 
 
 //每日四项
+var contdatas3 = [['类别一','类别二','类别三','类别四','在分类中的序号','标题','地址','有无音频','有无视频','文章目录','原始引用']];
 
 //净土次第修
 
 /* 举例：净土次第修-分类导读-思维修-思维修经论依据 */ 
-
+var contdatas4 = [
 ['净土次第修','分类导读','思维修','思维修经论依据','001','陌生又熟悉资料','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247484821&idx=4&sn=2597ebb801fba72c7d339022615934ca&scene=21#wechat_redirect','无','无','文章','原始'],  
-['净土次第修','分类导读','思维修','思维修经论依据','002','无量寿经中的思维修','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247485061&idx=2&sn=4d503b182ba78f8482a3b11526d4fd44&scene=21#wechat_redirect','无','无','文章','原始'],
+['净土次第修','分类导读','思维修','思维修经论依据','002','无量寿经中的思维修','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247485061&idx=2&sn=4d503b182ba78f8482a3b11526d4fd44&scene=21#wechat_redirect','无','无','文章','原始']
+];
 
-
+var contdatas5 = [
 //学员分享 修学综合感受
 ['学员分享摘选','修学综合感受','','','001','受益进步部分','http://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247493275&amp;idx=2&amp;sn=447c34d6e001b648d961f94474f6a054&amp;chksm=fde2473dca95ce2b2d8788060b0014ab157ff27fbb4abc6e20aa5fe015ab49f937fa9ff38302&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['学员分享摘选','修学综合感受','','','002','推荐59号全篇:对督导修学的认识、学习、观修与反思总结','http://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247493275&amp;idx=3&amp;sn=d126b17a07704832c6a49ae974c4e2f9&amp;chksm=fde2473dca95ce2ba70d31159ddcce5c4e8ecbfc63776a3a6993448d9f3b12be4512a57a9ed9&amp;scene=21#wechat_redirect','无','无','文章','原始'],
@@ -754,14 +804,16 @@ var contdatas = [
 
 //学员分享 欣求心
 ['学员分享摘选','欣求心','','','001','欣求心','http://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247493739&amp;idx=6&amp;sn=abf9f3f039244d21a531f97a6588c176&amp;chksm=fde249cdca95c0db5dce7b2e6b82c786c0c1f1ff5aa1af831c436f6bb3bfbacf68e867bd2d3c&amp;scene=21#wechat_redirect','无','无','文章','原始'],
-['学员分享摘选','欣求心','','','002','推荐260号全篇:侧重欣求心、修学针对性与总结误区避免提醒','http://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247493739&amp;idx=8&amp;sn=dc7cc185a6970d3d0e30017ff0edad95&amp;chksm=fde249cdca95c0db8fbbe18b3a67cfc0ddda7cef6045e4f5da215799c20e84c3c3f184b735bb&amp;scene=21#wechat_redirect','无','无','文章','原始'],
+['学员分享摘选','欣求心','','','002','推荐260号全篇:侧重欣求心、修学针对性与总结误区避免提醒','http://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247493739&amp;idx=8&amp;sn=dc7cc185a6970d3d0e30017ff0edad95&amp;chksm=fde249cdca95c0db8fbbe18b3a67cfc0ddda7cef6045e4f5da215799c20e84c3c3f184b735bb&amp;scene=21#wechat_redirect','无','无','文章','原始']
+];
 
 
 
 //辅助资料
 
-//随缘开示 因缘果汇集
 
+var contdatas6 = [
+//随缘开示 因缘果汇集
 
 ['随缘开示','因缘果汇集','','','001','因缘果讲解','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492375&amp;idx=1&amp;sn=aa6540189713055bed140f7b08f10f90&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','因缘果汇集','','','002','什么是因缘果','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247489993&amp;idx=5&amp;sn=fc07da06893cd612ab528ed35ee56de2&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -935,8 +987,11 @@ var contdatas = [
 ['随缘开示','小组开示汇集','','','105','关于悟静师父的问题开示	','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247490981&amp;idx=7&amp;sn=dc1595b5627aa6273d2f5e9a73d2db53&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','小组开示汇集','','','106','师父讲袁琳前期对境失败的原因是修学不如法','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247491023&amp;idx=5&amp;sn=aa593b9f96f18dbc7580dfa57f52bd8f&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','小组开示汇集','','','107','害怕是业力和正念不足导致	','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247491023&amp;idx=8&amp;sn=38cbb147e34decfcb14eca3b1c6724a3&amp;scene=21#wechat_redirect','有','无','文章','原始'],
-['随缘开示','小组开示汇集','','','108','为什么越修习气越重','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247491075&amp;idx=2&amp;sn=90649ba2545afd2f7c4c60b975452029&amp;scene=21#wechat_redirect','有','无','文章','原始'],
+['随缘开示','小组开示汇集','','','108','为什么越修习气越重','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247491075&amp;idx=2&amp;sn=90649ba2545afd2f7c4c60b975452029&amp;scene=21#wechat_redirect','有','无','文章','原始']
+];
 
+
+var contdatas7 = [
 //其他专题 
 ['其他专题','破邪显正','','','001','关于扶乩','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247485529&amp;idx=4&amp;sn=da0dd9e02a42da16c964cedf24516800&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['其他专题','破邪显正','','','002','五个佛法非正法','https://mp.weixin.qq.com/s?__biz=MzI4MTU2NTY2Mg==&amp;mid=2247483781&amp;idx=1&amp;sn=937659c215d480e38d3435c921a39551&amp;scene=21#wechat_redirect','无','无','文章','原始'],
@@ -961,9 +1016,10 @@ var contdatas = [
 ['其他专题','新年寄语','','','002','新年贺卡【2018·恩师】','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494637&amp;idx=5&amp;sn=1f8ec9b74a7fb7831234e8c4cd47b902&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['其他专题','新年寄语','','','003','新春嘱语【2019·恩师】','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247488349&amp;idx=2&amp;sn=98f8370f7e9b04d82807e29057467883&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['其他专题','新年寄语','','','004','新年共勉【2020·恩师】','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494637&amp;idx=3&amp;sn=8001e893046f3a7adf6d6c94fde36bef&amp;scene=21#wechat_redirect','无','有','文章','原始'],
-['其他专题','新年寄语','','','005','新春嘱语-老实念佛【2021·恩师】','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494637&amp;idx=2&amp;sn=2e56dab6445a0d6f9f7ccf350fd6ab3a&amp;scene=21&amp;token=1052206643&amp;lang=zh_CN#wechat_redirect','无','有','文章','原始'],
+['其他专题','新年寄语','','','005','新春嘱语-老实念佛【2021·恩师】','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494637&amp;idx=2&amp;sn=2e56dab6445a0d6f9f7ccf350fd6ab3a&amp;scene=21&amp;token=1052206643&amp;lang=zh_CN#wechat_redirect','无','有','文章','原始']
+];
 
-
+var contdatas8 = [
 //选学资料汇总 老年修学资料
 ['选学资料汇总','老年修学资料','','','001','忏悔发愿文【音频版】','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494691&amp;idx=1&amp;sn=be05748cf2df531405bc859be20a1d86&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['选学资料汇总','老年修学资料','','','002','忏悔发愿文【视频版】','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494691&amp;idx=2&amp;sn=ea69509bc0cde3d18ef14698e69d47ca&amp;scene=21#wechat_redirect','无','有','文章','原始'],
@@ -1035,8 +1091,11 @@ var contdatas = [
 ['选学资料汇总','老年修学资料','','','068','观苦','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247495164&amp;idx=1&amp;sn=b6f397f8d93a92f05672d05e5ceaeab2&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['选学资料汇总','老年修学资料','','','069','愿心','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247495164&amp;idx=2&amp;sn=c7f08a392f1bb585623fb9b8221f711a&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['选学资料汇总','老年修学资料','','','070','信心','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247495164&amp;idx=3&amp;sn=3be711f92d5a40a79ae393668274d84e&amp;scene=21#wechat_redirect','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','071','当下','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247495164&amp;idx=4&amp;sn=09a15516ce7dd8847f153daaf082e605&amp;scene=21#wechat_redirect','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','071','当下','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247495164&amp;idx=4&amp;sn=09a15516ce7dd8847f153daaf082e605&amp;scene=21#wechat_redirect','有','无','文章','原始']
+];
 
+
+var contdatas9 = [
 //选学资料汇总 静修班资料
 ['选学资料汇总','静修班资料','','','001','往生训练1（三项训练）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247487192&amp;idx=1&amp;sn=31d2bdf41fddba83523638ebbfc24792&amp;chksm=cff51fcaf88296dced8266f4ffb87c4b9a949f1265d34e9964fe4a6f86d55b38595cc0267bb4&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','','','002','邬婆婆一心求往生','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247487192&amp;idx=2&amp;sn=a7366e600b348af60a3fbd77ad567696&amp;chksm=cff51fcaf88296dc6b802d81a9aeb67382cc942d144f46bf2e9b67dbbe4d21a36bc14e1cde3f&amp;scene=21#wechat_redirect','无','有','文章','原始'],
@@ -1096,10 +1155,12 @@ var contdatas = [
 ['选学资料汇总','静修班资料','','','024','《吊藤馋蜜图》的故事','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247487233&amp;idx=3&amp;sn=b5c9bafc632ff3454d55b3873affb8a8&amp;chksm=cff51e13f8829705e3c17c2f5dfa3a979c05b12b4043c67fa256c51c03a754e8394d7c0fb6fa&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','','','025','《五母子经》原文、白话文','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247487233&amp;idx=2&amp;sn=87e4a5c63b3072bada9ad4696857322c&amp;chksm=cff51e13f882970555c5305db722ae01398bcf63b8b0ac82a8604ae9136b67bd1a45c1cca7f2&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['选学资料汇总','静修班资料','','','026','为什么五逆十恶的人临终能往生到极乐世界','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247487247&amp;idx=1&amp;sn=61ed6ef9c5fcfe835401debea07bf4df&amp;chksm=cff51e1df882970b47f4c693a3a0c20702064ec77c0f9da269089fecd801d33cef37bab28c80&amp;scene=21#wechat_redirect','无','无','文章','原始'],
-['选学资料汇总','静修班资料','','','027','印光大师开示：一心求往生，不起别念','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247487233&amp;idx=1&amp;sn=60fd8d1fb5fbe6e168b0e3598beb2e60&amp;chksm=cff51e13f88297056963ef382bb2ad0bf6e8de7974680a3a3a4aba2fd5d16169aa3bb3ffa9ca&amp;scene=21#wechat_redirect','无','无','文章','原始'],
+['选学资料汇总','静修班资料','','','027','印光大师开示：一心求往生，不起别念','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247487233&amp;idx=1&amp;sn=60fd8d1fb5fbe6e168b0e3598beb2e60&amp;chksm=cff51e13f88297056963ef382bb2ad0bf6e8de7974680a3a3a4aba2fd5d16169aa3bb3ffa9ca&amp;scene=21#wechat_redirect','无','无','文章','原始']
+];
+
 
 //选学资料汇总 印祖文钞选讲
-
+var contdatas10 = [
 ['选学资料汇总','印祖文钞选讲','','','001','印祖简介	','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247496310&amp;idx=1&amp;sn=26b73dde7cdada244cc9d1e0f249880f&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['选学资料汇总','印祖文钞选讲','','','002','真谛与俗谛','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247496310&amp;idx=2&amp;sn=1afe537b0e1995fe42fd2ed97711c39c&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['选学资料汇总','印祖文钞选讲','','','003','因果与心性	','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247496310&amp;idx=3&amp;sn=f7b3d505e30d03c0caf7c6c5d316b097&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -1313,19 +1374,10 @@ var contdatas = [
 ['选学资料汇总','印祖文钞选讲','','','211','九江查六庆童女往生记	','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247490665&amp;idx=7&amp;sn=5064436d5a3437fb1e2f7507f1ae8009&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['选学资料汇总','印祖文钞选讲','','','212','蔚州僧莲某','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247490665&amp;idx=8&amp;sn=25c90af241c5673f515197c04dbd8d3f&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['选学资料汇总','印祖文钞选讲','','','213','风水师的话	','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247490725&amp;idx=3&amp;sn=c5869f0bef5291e41c56beea32a92346&amp;scene=21#wechat_redirect','有','无','文章','原始']
+];
 
-
-
-
-	];//数组结尾
-
-
-
-
-
-
-
-
+//选学资料汇总 二级修学资料
+var contdatas11 = [['类别一','类别二','类别三','类别四','在分类中的序号','标题','地址','','有无视频','文章目录','原始引用']];//数组结尾
 
 
 /*
@@ -1337,12 +1389,82 @@ p5: 关键词
 p6: 是否查询关键词 是/不
 p7: 比较第几层
 */
+
+
+var contdatas = [[]];
+ //let copy = original.map(innerArray => innerArray.slice());
+
+
+switch(p1){
+	case '概览说明':
+		contdatas = contdatas1.map(innerArray => innerArray.slice());
+	break;
+	case '基础班资料':
+		contdatas = contdatas2.map(innerArray => innerArray.slice());
+	break;
+	case '每日四项讲解':
+		contdatas = contdatas3.map(innerArray => innerArray.slice());
+	break;
+	case '净土次第修':
+		contdatas = contdatas4.map(innerArray => innerArray.slice());
+	break;
+	case '学员分享摘选':
+		contdatas = contdatas5.map(innerArray => innerArray.slice());
+	break;
+	case '随缘开示':
+		contdatas = contdatas6.map(innerArray => innerArray.slice());
+	break;
+	case '其他专题':
+		contdatas = contdatas7.map(innerArray => innerArray.slice());
+	break;
+	case '选学资料汇总':
+		
+		switch(p2)
+		{
+			case '老年修学资料':
+				contdatas = contdatas8.map(innerArray => innerArray.slice());
+				
+			break;
+			case '静修班资料':
+				contdatas = contdatas9.map(innerArray => innerArray.slice());
+			break;
+			case '印祖文钞选讲':
+				contdatas = contdatas10.map(innerArray => innerArray.slice());
+			break;
+			case '二级修学资料':
+				contdatas = contdatas11.map(innerArray => innerArray.slice());
+			break;
+			default:
+				alert('未知类型，在选学资料汇总');
+    		break;
+		}
+	break;
+	case '不选择':
+		//查询用,先复制1
+		//contdatas = contdatas1.map(innerArray => innerArray.slice());
+	break;
+	
+	default:
+		alert('未知 类别一');
+    	// 如果 expression 与上面的 value 值都不匹配，执行此处语句
+    break;
+}
+ //alert(contdatas.length);
+/*if( contdatas.length == 1 )
+{
+	alert('数据为空');
+	return datas;
+}*/
+
+
 var sLen = contdatas.length;
 var str1="";
 var index;
 //var datas =[ ['标题0','https://www.baidu.com']];
 var datas = [];
-	
+
+
+	//是否查询
 	if (p6=='是'){
 	if ( p1=='不选择' )
 	{
@@ -1350,23 +1472,20 @@ var datas = [];
 		return datas;
 		else
 		{
-			//不需要比较p1
-			for(var i=0;i<sLen;i++){
-			   //查询原始资料，引用的不查
-           	 	   if ( contdatas[i][10]  !== "引用")
-			   {
-				str1 = contdatas[i][5];
-				index =  str1.indexOf(p5);  //查关键词
-				if (index !== -1) {  
-  				//alert(contdatas[i][5]);
-				//三项：标题，地址，文章/目录。
-				datas.push(contdatas[i][5]);
-				datas.push(contdatas[i][6]);
-				datas.push(contdatas[i][9]);
-				//datas.push('dfsfs');
-				} 
-			   }
-       		     }
+			//依次查询所有文章
+			pushDatas(datas,contdatas1,p5);//概览说明
+			pushDatas(datas,contdatas2,p5);//基础班资料
+			//pushDatas(datas,contdatas3,p5);//每日四项
+			//pushDatas(datas,contdatas4,p5);//净土次第修
+			pushDatas(datas,contdatas5,p5);//学员分享摘选
+			pushDatas(datas,contdatas6,p5);//随缘开示
+			pushDatas(datas,contdatas7,p5);//其他专题
+			pushDatas(datas,contdatas8,p5);//选学资料汇总 老年修学资料
+			pushDatas(datas,contdatas9,p5);//选学资料汇总 静修班资料
+			pushDatas(datas,contdatas10,p5);//选学资料汇总 印祖文钞选讲
+			//pushDatas(datas,contdatas11,p5);//二级修学
+			//pushDatas(datas,contdatas12,p5);
+			
 		}
 	}
 	else
@@ -1376,16 +1495,24 @@ var datas = [];
 		{
 			for(var i=0;i<sLen;i++){
            	 
-				if  ( p1 === contdatas[i][0] )
-				{
+				//if  ( p1 === contdatas[i][0] )
+				//{
 				    if ( contdatas[i][10]  !== "引用")
 				    {
-					datas.push(contdatas[i][5]);
-					datas.push(contdatas[i][6]);
-					datas.push(contdatas[i][9]);
-					//datas.push('dfsfs');
+						//alert(contdatas[i][5]);
+						str1 = '【' + contdatas[i][0] + '-';  
+						if (contdatas[i][1] !== '')
+							str1 = str1 + contdatas[i][1] + '-'; 
+						if (contdatas[i][2] !== '')
+							str1 = str1 + contdatas[i][2] + '-'; 
+						if (contdatas[i][3] !== '')
+							str1 = str1 + contdatas[i][3] + '-'; 
+						str1 = str1 + '】' + contdatas[i][5];
+						datas.push(str1);
+						datas.push(contdatas[i][6]);
+						datas.push(contdatas[i][9]);
 				     }
-				} 
+				//} 
 		
        		}
 		}
@@ -1402,7 +1529,15 @@ var datas = [];
 					index =  str1.indexOf(p5);  
 					if (index !== -1) {  
   						//alert(contdatas[i][5]);
-						datas.push(contdatas[i][5]);
+						str1 = '【' + contdatas[i][0] + '-';  
+						if (contdatas[i][1] !== '')
+							str1 = str1 + contdatas[i][1] + '-'; 
+						if (contdatas[i][2] !== '')
+							str1 = str1 + contdatas[i][2] + '-'; 
+						if (contdatas[i][3] !== '')
+							str1 = str1 + contdatas[i][3] + '-'; 
+						str1 = str1 + '】' + contdatas[i][5];
+						datas.push(str1);
 						datas.push(contdatas[i][6]);
 						datas.push(contdatas[i][9]);
 					//datas.push('dfsfs');
