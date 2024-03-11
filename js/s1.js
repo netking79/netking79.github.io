@@ -65,8 +65,8 @@ p7: 比较第几层
 */
 function getData(p1,p2,p3,p4,p5,p6,p7) {
 
-var myaddr = 'https://www.zhigui48.site/';
-//var myaddr = 'http://localhost:4000/';
+//var myaddr = 'http://154.19.84.29/';
+var myaddr = 'http://localhost:4000/';
 
 //督导修学模式 原资料 地址
 var ddxxms_ys = [];
