@@ -1,57 +1,56 @@
 <html>
 
 <head>
+<link rel="stylesheet" href="css/c3.css">
 
-<script type="text/javascript" src="script1.js"></script>
+<script type="text/javascript" src="js/s2.js"></script>
   <meta charset="UTF-8">
     <title>每日法语</title>
 
 </head>
 
 <body>
-<div align="center" id="box1">
-	<table border="0">
-	<tr>
-        		<th  align="center">  <p></p><h1 style="font-size: 2.0rem; color: #2ecc71">每日法语</h1><p></p></th>
-        
-    	</tr>
-	<tr>
-        		<th  align="center">  <p></p>
-		<h1 style="font-size: 1.5rem; color: #aaaaff"">
-			<script>
+<p></p>
+<h1 >每日法语</h1>
+<h2>
+<script>
         			date = new Date().toLocaleDateString();
        			 document.write(date);
     		</script>
-		</h1><p></p></th>
-        
-    	</tr>
-	<tr>
-        		<th  align="center"> 
-		<p>&nbsp;</p>
-	</th>
-        
-    	</tr>
-	</table>
+</h2>
+	
 
-
-<div align="left" id="box3" style="font-size: 1.5rem;">
+<div align="left" id="box1" style="font-size: 1.5rem;">
 </div>
 <script type="text/javascript" >
-		var divID= document.getElementById("box3");
-		//let str = "hello world";
-		//let str1 = str.replace("world", "js");
-		//let str = "2016\n09\n19";
-		//let str1 = str.replace(/\n/g,"-");
-
-		let str = getData();
+		var divID= document.getElementById("box1");
+		
+		let str = getData1();
 		//换行
-		let str1 = str.replace(/\n/g,"<br/>");
+		let str1 = str.replace(/@@/g,"<br/>");
 
 		
 		//getData()
  		divID.innerHTML = str1;
 
 </script>
+<p></p>
+<div align="left" id="box2" style="font-size: 1.5rem;">
+</div>
+<script type="text/javascript" >
+		divID= document.getElementById("box2");
+		
+		str = getData2();
+		//换行
+		str1 = str.replace(/@@/g,"<br/>");
+
+		
+		//getData()
+ 		divID.innerHTML = str1;
+
+</script>
+
+<p align="center"><a href="javascript:history.back(-1)">返回上一页</a></p>
 
 </body>
 

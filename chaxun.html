@@ -20,11 +20,12 @@
 			<option value="不选择">-所有资料</option>
 			<option value="概览说明">-概览说明</option>
 			<option value="基础班资料">-基础班资料</option>
-		<!--	<option value="每日四项讲解">-每日四项讲解</option> -->
+			<option value="每日四项讲解">-每日四项讲解</option> 
 		<!--		<option value="净土次第修">-净土次第修</option> -->
 			<option value="学员分享摘选">-学员分享摘选</option>
 			<option value="随缘开示">-随缘开示</option>
 			<option value="其他专题">-其他专题</option>
+			<option value="佛教动画">-选学资料汇总-佛教动画</option>
 			<option value="老年修学资料">-选学资料汇总-老年修学资料</option>
 			<option value="静修班资料">-选学资料汇总-静修班资料</option>
 			<option value="印祖文钞讲解">-选学资料汇总-印祖文钞讲解</option>
@@ -72,7 +73,7 @@
 	
 		var str1="";
 		
-		if ( myVal === "老年修学资料" ||  myVal === "静修班资料" || myVal === "印祖文钞讲解" || myVal === "二级修学资料")
+		if ( myVal === "佛教动画" ||  myVal === "老年修学资料" ||  myVal === "静修班资料" || myVal === "印祖文钞讲解" || myVal === "二级修学资料")
 			aList = getData('选学资料汇总',myVal,'','',s3,'是','');
 		else
 			aList = getData(myVal,'','','',s3,'是','');

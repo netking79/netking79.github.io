@@ -20,10 +20,76 @@
         <th  align="center"> 一 、老居士经教音频 </th>
         
     </tr>
-<tr class="trh3">
-        <th > 待制作</th>
+<tr class="trh2">
+        <td> 01.<a href='ljsjjyp/46_61.html'>《四十八大愿》 定弘法师</a></td>
         
     </tr>
+<tr class="trh2">
+        <td> 02.<a href='ljsjjyp/62_77.html'>《大势至菩萨念佛圆通》 净空法师</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 03.<a href='ljsjjyp/78_82.html'>《发菩提心一向专念》 定弘法师</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 04.<a href='ljsjjyp/83_86.html'>《往生净土的理论与事实》 定弘法师</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 05.<a href='ljsjjyp/87_98.html'>《往生净土之正因》 定弘法师</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 06.<a href='ljsjjyp/99_100.html'>《怎样取得往生的把握》 定弘法师</a></td>
+        
+    </tr>
+
+<tr class="trh2">
+        <td> 07.<a href='ljsjjyp/101_102.html'>《印祖开示往生要道暨净土修学座谈会》 定弘法师</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 08.<a href='ljsjjyp/103.html'>《无上醍醐决定往生》 定弘法师</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 09.<a href='ljsjjyp/104_114.html'>《末世无如念佛好》 定弘法师</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 10.<a href='ljsjjyp/115.html'>《 如何护持老人往生》 定弘法师</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 11.<a href='ljsjjyp/116_117.html'>《印光大师开示临终三大要》 定弘法师</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 12.<a href='ljsjjyp/118_126.html'>《喜送姐姐回家》 刘素云</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 13.<a href='ljsjjyp/127_131.html'>《我为净土鼓与呼》 刘素云</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 14.<a href='ljsjjyp/132.html'>《海会圣贤》 海贤老和尚</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 15.<a href='ljsjjyp/133.html'>《黄忠昌居士闭关往生纪实》 </a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 16.<a href='ljsjjyp/134.html'>《刘素云姐夫郭永发往生报告》刘素云</a></td>
+        
+    </tr>
+<tr class="trh2">
+        <td> 17.<a href='ljsjjyp/135_176.html'>《助念心得报告》 程晋林</a></td>
+        
+    </tr>
+
 <tr class="trh1">
         <th  align="center"> 二、 往生开示和纪实 </th>
         
@@ -62,7 +128,8 @@
 		}
 		else
 		{
-			for(var i=0;i<sLen;i+=3){
+			//从17*3开始
+			for(var i=51;i<sLen;i+=3){
            		
 			//查询序号
 			var xuhao= getStr(i/3+1,2);
@@ -75,25 +142,25 @@
 						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
 					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
 					
-					if (xuhao == '08')
+					if (xuhao == '25')
 						table.innerHTML += "<tr class=\"trh3\"><th >中阴身时开示↓</th></tr>";
-					if (xuhao == '10')
-						table.innerHTML += "<tr class=\"trh3\"><th >四大分离时的开示↓</th></tr>";
-					if (xuhao == '14')
-						table.innerHTML += "<tr class=\"trh3\"><th > 病苦，无常观，出离心，欣求心的开示↓ </th></tr>";
 					if (xuhao == '27')
+						table.innerHTML += "<tr class=\"trh3\"><th >四大分离时的开示↓</th></tr>";
+					if (xuhao == '31')
+						table.innerHTML += "<tr class=\"trh3\"><th > 病苦，无常观，出离心，欣求心的开示↓ </th></tr>";
+					if (xuhao == '44')
 						table.innerHTML += "<tr class=\"trh3\"><th >往生纪实 </th></tr>";
-					if (xuhao == '47')
+					if (xuhao == '64')
 						table.innerHTML += "<tr class=\"trh1\"><th >三、师父随缘开示 </th></tr>";
 
-					if (xuhao == '57'){
+					if (xuhao == '74'){
 						table.innerHTML += "<tr class=\"trh1\"><th > 四、老居士思维修</th></tr>";
 						table.innerHTML += "<tr class=\"trh3\"><th > 01 扫除一些障碍 </th></tr>";
 
 					}
-					if (xuhao == '61')
+					if (xuhao == '78')
 						table.innerHTML += "<tr class=\"trh3\"><th > 02 清静心</th></tr>";
-					if (xuhao == '66')
+					if (xuhao == '83')
 						table.innerHTML += "<tr class=\"trh3\"><th > 03  愿心和信心</th></tr>";
 									
 					
