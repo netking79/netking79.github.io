@@ -93,3 +93,20 @@ border:1px solid black;
 font-size: 25px;
 
 }
+
+/*屏幕大于1200p×（大屏幕电脑）*/
+@media screen and  (min-width: 1200px){
+/*屏幕大于1200px（大屏幕电脑）的样式*/
+}
+/*屏幕在1024p×到1199之间（中屏幕电脑）*/
+@media screen and  (min-width: 1024px) and  (max-width: 1199px){
+/*屏幕在1024p×到1199之间（中屏幕电脑）的样式*/
+}
+/*屏幕在768p×到1023之间(小屏幕-pad)*/
+@media screen and  (min-width: 768px) and (max-width:1023px){
+/*屏幕在768p×到1023之间(小屏幕pad)的样式*/
+}
+/*屏幕在480p×到768之间（主要是手机屏幕）*/
+@media screen and (max-width: 768px) {
+/*屏幕小于768之间（主要是手机屏幕）的样式*
+}
