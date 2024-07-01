@@ -8,11 +8,11 @@
 <link rel="stylesheet" type="text/css" href="../../css/c2.css">
 <script type="text/javascript" src="../../js/s1.js"></script>
 
-    <title>其他专题-新年寄语</title>
+    <title>辅导员资料汇集</title>
 </head>
 <body>
 <p></p>
-<h1 >新年寄语</h1>
+<h1 >辅导员资料汇集</h1>
 <h2 >2024-07-01</h2>
 
 
@@ -22,6 +22,10 @@
 <table id="table1" border="0" cellspacing="1" >
 <tr class="trh1">
         <th  align="center"> 内容列表 </th>
+        
+    </tr>
+<tr class="trh3">
+        <th > 类别一</th>
         
     </tr>
 </table>
@@ -36,10 +40,10 @@
 
        var table =document.getElementById("table1");
 	let lb1 = '其他专题';
-	let lb2 = '新年寄语';
-	let lb3 = '';
+	let lb2 = '辅导员资料汇集';
+	let lb3 = '类别一';
 	let lb4 = '';
-	let cs = '2';
+	let cs = '3';
 
 	 let aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
 		var sLen = aList.length;
@@ -69,8 +73,47 @@
 
 				}
        			 }
-//alert(xuhao);
 		}
+
+		table.innerHTML += "<tr class=\"trh3\"><th > 类别二</th> </tr>";
+
+		 lb1 = '其他专题';
+		 lb2 = '辅导员资料汇集';
+		 lb3 = '类别二';
+		 lb4 = '';
+		 cs = '3';
+
+
+	 	 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		 str1="";
+		
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3+1,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+				{
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+				
+
+				}
+       			 }
+		}
+
+
+		
        
 </script>
 <p><a href="javascript:history.back(-1)">返回上一页</a></p>

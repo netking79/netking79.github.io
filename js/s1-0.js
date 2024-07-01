@@ -66,8 +66,8 @@ p7: 比较第几层
 function getData(p1,p2,p3,p4,p5,p6,p7) {
 
 //var myaddr = 'http://www.zhigui.site/';
-var myaddr = 'http://www.zhigui48.cn/';
-//var myaddr = 'http://localhost:4000/';
+//var myaddr = 'http://www.zhigui48.cn/';
+var myaddr = 'http://localhost:4000/';
 
 //督导修学模式 原资料 地址
 var ddxxms_ys = [];
@@ -105,12 +105,8 @@ ddxxms_ys[11] = 'https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=224749177
 每日四项讲解 contdatas3
 净土次第修 contdatas4
 学员分享摘选 contdatas5
-随缘开示 因缘果汇集 contdatas60
-随缘开示 QQ群开示汇集 contdatas61
-随缘开示 小组开示汇集 contdatas62
-其他专题 破邪显正 contdatas70
-其他专题 新年寄语 contdatas71
-其他专题 辅导员资料汇集 contdatas72
+随缘开示 contdatas6
+其他专题 contdatas7
 
 选学资料汇总 老年修学资料 contdatas8
 选学资料汇总 静修班资料 contdatas9
@@ -1249,7 +1245,7 @@ var contdatas5 = [
 //辅助资料
 
 
-var contdatas60 = [
+var contdatas6 = [
 //随缘开示 因缘果汇集
 
 ['随缘开示','因缘果汇集','','','001','因缘果讲解','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492375&amp;idx=1&amp;sn=aa6540189713055bed140f7b08f10f90&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -1298,10 +1294,7 @@ var contdatas60 = [
 ['随缘开示','因缘果汇集','','','044','因上努力，果上随缘.','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492731&amp;idx=1&amp;sn=67ee69067850d1f67affeac179dfe8f0&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','因缘果汇集','','','045','每件事的形成都是无量因缘的促成','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492750&amp;idx=1&amp;sn=66815278ebaf6dc1e6656d4338957cda&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','因缘果汇集','','','046','要相信因果，用事实看问题','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492750&amp;idx=2&amp;sn=b4c083374cc71d93435e04e4071bfa01&amp;scene=21#wechat_redirect','有','无','文章','原始'],
-['随缘开示','因缘果汇集','','','047','每个人都有度化的缘','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492750&amp;idx=3&amp;sn=557e2b4866e973f26724d81111b7aa29&amp;scene=21#wechat_redirect','有','无','文章','原始']
-];
-
-var contdatas61 = [
+['随缘开示','因缘果汇集','','','047','每个人都有度化的缘','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492750&amp;idx=3&amp;sn=557e2b4866e973f26724d81111b7aa29&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 
 //随缘开示 QQ群开示汇集
 ['随缘开示','QQ群开示汇集','','','001','榜样实例篇','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247488131&amp;idx=1&amp;sn=9c37025d82cdc8e24b27e2020c99fde0&amp;scene=21#wechat_redirect','无','无','文章','原始'],
@@ -1317,10 +1310,8 @@ var contdatas61 = [
 ['随缘开示','QQ群开示汇集','','','011','纠偏之一','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494514&amp;idx=4&amp;sn=d8fe7d7caa388ab1e66d997fac9b3bf8&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['随缘开示','QQ群开示汇集','','','012','纠偏之二','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494514&amp;idx=5&amp;sn=ae2cb8be118f3ff59d2063365f670ff9&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['随缘开示','QQ群开示汇集','','','013','弱化执着篇','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494514&amp;idx=6&amp;sn=3fbd8d05ec8f870eab36fb99bea0c0c3&amp;scene=21#wechat_redirect','无','无','文章','原始'],
-['随缘开示','QQ群开示汇集','','','014','缘起','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494514&amp;idx=7&amp;sn=7d47f7314c94d1b5122f942d30daf085&amp;scene=21#wechat_redirect','无','无','文章','原始']
-];
+['随缘开示','QQ群开示汇集','','','014','缘起','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494514&amp;idx=7&amp;sn=7d47f7314c94d1b5122f942d30daf085&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 
-var contdatas62 = [
 //随缘开示 小组开示汇集
 ['随缘开示','小组开示汇集','','','001','往生要有平时的训练','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247490851&amp;idx=8&amp;sn=f94e971a137fcee235d48c51f7ec2250&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','小组开示汇集','','','002','菩提心的邪正','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247497671&amp;idx=2&amp;sn=7e2e77dcb78687ae598bb46766302e9e&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -1433,7 +1424,7 @@ var contdatas62 = [
 ];
 
 
-var contdatas70 = [
+var contdatas7 = [
 //其他专题 
 ['其他专题','破邪显正','','','001','关于扶乩',myaddr+'jtcdx/yszl/135.html','无','无','文章','引用'], 
 ['其他专题','破邪显正','','','002','五个佛法非正法','https://mp.weixin.qq.com/s?__biz=MzI4MTU2NTY2Mg==&amp;mid=2247483781&amp;idx=1&amp;sn=937659c215d480e38d3435c921a39551&amp;scene=21#wechat_redirect','无','无','文章','原始'],
@@ -1451,10 +1442,8 @@ var contdatas70 = [
 ['其他专题','破邪显正','','','014','法义辨析20230819之一','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247486225&amp;idx=1&amp;sn=64dae3551184741c30cfc636f351ab21&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['其他专题','破邪显正','','','015','法义辨析20230819之二','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247486225&amp;idx=2&amp;sn=47736031c0186420ee07dc783e241165&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['其他专题','破邪显正','','','016','法义辨析20230819之三','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247486225&amp;idx=3&amp;sn=350379153f1b3fcfd4c2692ef7a97ff7&amp;scene=21#wechat_redirect','有','无','文章','原始'],
-['其他专题','破邪显正','','','017','法义辨析20230819对于修学的几点提醒说明','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247486225&amp;idx=4&amp;sn=41c334d832e1f04a3ba4081b8274424e&amp;scene=21#wechat_redirect','有','无','文章','原始']
-];
+['其他专题','破邪显正','','','017','法义辨析20230819对于修学的几点提醒说明','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247486225&amp;idx=4&amp;sn=41c334d832e1f04a3ba4081b8274424e&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 
-var contdatas71 = [
 //其他专题 新年寄语
 ['其他专题','新年寄语','','','001','辞旧迎新【2017·恩师】','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247485323&amp;idx=7&amp;sn=a602934e835a5c9555655cf94e266229&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['其他专题','新年寄语','','','002','新年贺卡【2018·恩师】','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494637&amp;idx=5&amp;sn=1f8ec9b74a7fb7831234e8c4cd47b902&amp;scene=21#wechat_redirect','无','无','文章','原始'],
@@ -1462,45 +1451,43 @@ var contdatas71 = [
 ['其他专题','新年寄语','','','004','新年共勉【2020·恩师】','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494637&amp;idx=3&amp;sn=8001e893046f3a7adf6d6c94fde36bef&amp;scene=21#wechat_redirect','无','有','文章','原始'],
 ['其他专题','新年寄语','','','005','新春嘱语-老实念佛【2021·恩师】','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247494637&amp;idx=2&amp;sn=2e56dab6445a0d6f9f7ccf350fd6ab3a&amp;scene=21&amp;token=1052206643&amp;lang=zh_CN#wechat_redirect','无','有','文章','原始'],
 ['其他专题','新年寄语','','','006','人生审思-忙【2022·恩师】','https://mp.weixin.qq.com/s/EPNa6Jpkv3DG2O-Pbeq93w','有','无','文章','原始'],
-['其他专题','新年寄语','','','007','苦与乐【2023·恩师】','https://mp.weixin.qq.com/s/7eI1Wc05pzox7_T0sBh0bw','有','无','文章','原始']
-];
+['其他专题','新年寄语','','','007','苦与乐【2023·恩师】','https://mp.weixin.qq.com/s/7eI1Wc05pzox7_T0sBh0bw','有','无','文章','原始'],
 
-var contdatas72 = [
-//辅导员资料汇集
-['其他专题','辅导员资料汇集','类别一','','001','小组规约','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=2&amp;sn=010364687bb63447f3ea38eeddff45dc&amp;chksm=973cd7a6a04b5eb04f455fcb3dbc52d53d4fb1bf1cb1744205088c3f289728c4e5657e7fe8df&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别一','','002','不允许杂学杂修','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=6&amp;sn=8f435ceb3ef7394da921646e78d379d3&amp;chksm=973cd7b4a04b5ea2e0d4a687dd2423fc033c4fdae158623a0b40963c2487d4dc2b108abe3190&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别一','','003','修学类型选择表','https://mp.weixin.qq.com/s/OUAHtLlR45Zn4xOeq1m1zA','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别一','','004','在选择修学类型时要注意，可以先选择低的','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=5&amp;sn=ba40f49d5b054845c15f574be0fcc056&amp;chksm=973cd7d9a04b5ecfc14f8d0aec1f02bacc60d0d57100919cba653040e91086e0680451d710f8&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别一','','005','每日四项-学习安排参考','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=1&amp;sn=4f4be875cd28cf4a1ef44bf9c88912ae&amp;chksm=973cd709a04b5e1f07a674e43e2f98b4ad434009baab993293d6a7f2602bd3f3561d3692d29c&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别一','','006','净土次第修-学习安排参考','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=2&amp;sn=31ac0bba323ecec7bf4f65bc2deaf69c&amp;chksm=973cd709a04b5e1fffd30a19df6e3f0c2434d27e758317ddd06bdc93ff4d68cc0566863300ee&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别一','','007','关于辅导员的学习、考核','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=3&amp;sn=e41ef95c5c1233c1e85840487b415a48&amp;chksm=973cd7d9a04b5ecff4710e9677b571aecbd6d29fae8a0b303d000964c4a599a46624090804ad&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
+//辅导员资料
+['其他专题','辅导员资料','类别一','','001','小组规约','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=2&amp;sn=010364687bb63447f3ea38eeddff45dc&amp;chksm=973cd7a6a04b5eb04f455fcb3dbc52d53d4fb1bf1cb1744205088c3f289728c4e5657e7fe8df&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别一','','002','不允许杂学杂修','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=6&amp;sn=8f435ceb3ef7394da921646e78d379d3&amp;chksm=973cd7b4a04b5ea2e0d4a687dd2423fc033c4fdae158623a0b40963c2487d4dc2b108abe3190&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别一','','003','修学类型选择表','https://mp.weixin.qq.com/s/OUAHtLlR45Zn4xOeq1m1zA','无','无','文章','引用'],
+['其他专题','辅导员资料','类别一','','004','在选择修学类型时要注意，可以先选择低的','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=5&amp;sn=ba40f49d5b054845c15f574be0fcc056&amp;chksm=973cd7d9a04b5ecfc14f8d0aec1f02bacc60d0d57100919cba653040e91086e0680451d710f8&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别一','','005','每日四项-学习安排参考','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=1&amp;sn=4f4be875cd28cf4a1ef44bf9c88912ae&amp;chksm=973cd709a04b5e1f07a674e43e2f98b4ad434009baab993293d6a7f2602bd3f3561d3692d29c&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别一','','006','净土次第修-学习安排参考','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=2&amp;sn=31ac0bba323ecec7bf4f65bc2deaf69c&amp;chksm=973cd709a04b5e1fffd30a19df6e3f0c2434d27e758317ddd06bdc93ff4d68cc0566863300ee&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别一','','007','关于辅导员的学习、考核','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=3&amp;sn=e41ef95c5c1233c1e85840487b415a48&amp;chksm=973cd7d9a04b5ecff4710e9677b571aecbd6d29fae8a0b303d000964c4a599a46624090804ad&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
 
-['其他专题','辅导员资料汇集','类别二','','001','融入团队','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=1&amp;sn=a0efaa4cc5b7788189f30e1a27712f03&amp;chksm=973cd7a6a04b5eb0ed59d6e21a699be7374741bce71d0356ae80207ad2d6e49e41a2f11fbc20&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','002','是你自己想成就、决心成就，莲社来帮助你','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=3&amp;sn=543733cd80b385c5b6851d555258650e&amp;chksm=973cd7a6a04b5eb06cb86cac31249a1350e1456074d1dfc27540b69198fea507c6f67962ff76&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','003','天天给人讲，自己就不用做功课了，这个决定不可以','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=4&amp;sn=b3ed923a15a75ca314adead8b116bea9&amp;chksm=973cd7a6a04b5eb0ad242b379404e432775f5c1fd6528f2d03e77dd5b33ddd1fa3757654915a&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','004','非是我度人，实是人度我','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=5&amp;sn=2372bc85dac633e5a9c1339ad772b6eb&amp;chksm=973cd7a6a04b5eb0e5ecd5d03c57b970f44e2ff6c1b756859c93c5d5d0a5f49afd2b7d3b0982&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','005','孙居士帮助同修细致查找解决问题','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=6&amp;sn=2efbab6de3ef26b60b3868b72428e3dc&amp;chksm=973cd7a6a04b5eb0f7819b74a56caca758398d4a5d391994537980beba9d659bf32a79db6a0b&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','006','我们是在兴法还是在坏法？','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=7&amp;sn=3e4da6313f4724d4d505ca95a0372a93&amp;chksm=973cd7a6a04b5eb04f42e7330891ac85bd1d281b3156bbcfdd77fc7419a57269edbbdeba02e4&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','007','一位同修的建议，控制好交流时间','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=8&amp;sn=0b3dc117dfa466befb04b4a7523f4f65&amp;chksm=973cd7a6a04b5eb05215953b1af00fae3e56ab2951991082f96c19540d75a8001e603a6a517a&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','008','你讲的有问题，大家可以帮你纠正过来','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=1&amp;sn=359a1daf9fdeb36f273d4b26dbee2297&amp;chksm=973cd7b4a04b5ea255bcb0eb9c0aa2459933a0d4b216ecef12ba5d0740b6159d45e54b7187cb&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','009','都皈到法上去，这就是自度化他的根本','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=2&amp;sn=58c0e4cce7108f739c523400b5d60cf4&amp;chksm=973cd7b4a04b5ea28eb6182615340eaa6b2859cee534986ab0308f404cee8d28b538ba62cb96&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','0010','咱们共同走过了5年','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=3&amp;sn=8a1040bf682bd5d017cf3ef0919c002f&amp;chksm=973cd7b4a04b5ea2d5016acf9039443393dd6e60ffb37ec3834e88b9b290044c7b5f207e0982&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','011','他这上面着重说了宗教信息服务与宗教信息他们之间的区别','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=4&amp;sn=183df37f7fc9e71c60c0be0e6bb7ab36&amp;chksm=973cd7b4a04b5ea2d0e2742a0d593a100fcca0fdb0de7f2e54daca60d6f13e62103260851d9d&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','012','生病这种情况小组同修给回向就可以','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=5&amp;sn=52c6f23c331c0215deefadb66bf93368&amp;chksm=973cd7b4a04b5ea2ec2c158a72a0ecddbad952f4d5c0c0ec2ca961af806e92439b05c3c18556&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','013','应当做好“积极回应”，不能默不吱声','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=7&amp;sn=e84e8d4e9b656c62423546df121a4a9a&amp;chksm=973cd7b4a04b5ea22f94502b841395f723983dfae7a6a770cb5d17afd843bdf576e4f3be1b81&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','014','咱们越是老修，越应该依教奉行，越应该积极响应','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=8&amp;sn=87e31c15803d71064fe6b25c2e684cc9&amp;chksm=973cd7b4a04b5ea22d878a6bd1278e4c8a360fab83985222dc981b6fec8d58ba14a50a98cf0e&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','015','我们在文稿整理上一定要尊重原话','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=1&amp;sn=9179f12c1e2470c0f96ac5134759d2e8&amp;chksm=973cd7d9a04b5ecfa0bf3e955485f20611662fc9b9ea902ef819f4d3e42f2c4ca791a74b777d&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','016','刘居士分享带小组','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487119&idx=3&sn=0a11dd77348b098beabb676fa080cfeb&chksm=973cd709a04b5e1f7a278752cdac4ddc657c2853e91c54035dabdfd660ace6f6c0796397c385&token=1313133918&lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','017','不能长时带着功课，可以采用阶段性的带一带','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=4&amp;sn=388e92705c1ab5ce54c153e1db8b4bf8&amp;chksm=973cd709a04b5e1fd6efb51566cbc385ebcec15994a235b2de316800b3f432541da5263e4c80&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','018','这个普润群里的，现在要求每日必须汇报','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=2&amp;sn=3b12ae52ead34b79a75f78628d1d1359&amp;chksm=973cd7d9a04b5ecf797819af57fecfa550de75d4585b9157d938beb703930e6410ebd7413914&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','019','给大家介绍个智能产品～睡眠监测带','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=4&amp;sn=8d30485bf1c8fcd64f1364e9f17046ad&amp;chksm=973cd7d9a04b5ecf80cf57317d11f92bdc2876f5858e9f107cece4b3c9a83d2c4d6d9821eb30&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','020','有些同修提到眼睛视力的问题','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=6&amp;sn=e8d955b9c673cc50944fd0f734ba4255&amp;chksm=973cd7d9a04b5ecf2b927f3d5ef7769dc7cfc711aec304f005802be5311942868538f8860fab&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','021','普润app','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=7&amp;sn=4f286dddbc5dd65bb1943a3f34cc5d46&amp;chksm=973cd7d9a04b5ecf1520d308993a2a3a3e4b41de0824225fc0dcbf48def6e436bfdeecc62a3b&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','022','一个帮助背法抽考的链接','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=8&amp;sn=5db5e7972d1d9770c094aef86cc6f3fe&amp;chksm=973cd7d9a04b5ecff00a321abb3a481c5cba04de4da43baff8110cac93b114c017010bafdf01&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','023','后面提升内容的学习，能够具备条件的同修都是可以参加的','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=5&amp;sn=0fe75f64eed3ca6429e20b10219bf068&amp;chksm=973cd709a04b5e1fa543bf50ed3fe679fba09da71d29f43247f353b754a73c04745605103a2c&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','024','每月反思总结','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=6&amp;sn=94170357a167dfeb4865d74bb04a960d&amp;chksm=973cd709a04b5e1fda4cd904f71722813958f0ea6b05c9301bdb96407db7394a2dbae78768db&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','025','在对待处理问题上，张居士是个好的表法','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=7&amp;sn=a90b440cfc4b10d1f3114f02f6208309&amp;chksm=973cd709a04b5e1f4bba9d3b821c3aaa888479465b9ec4c26fbb43fd4ae735b34ddbafb75d6a&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辅导员资料汇集','类别二','','026','自己要如理如法地功课','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=8&amp;sn=f472a892fae2f7a1dbb9830764ff25c1&amp;chksm=973cd709a04b5e1fad2a675c1dc0b411b96ab0b15e99f392a9816723a8362929a0a45e20bb03&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','原始']
+['其他专题','辅导员资料','类别二','','001','融入团队','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=1&amp;sn=a0efaa4cc5b7788189f30e1a27712f03&amp;chksm=973cd7a6a04b5eb0ed59d6e21a699be7374741bce71d0356ae80207ad2d6e49e41a2f11fbc20&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','002','是你自己想成就、决心成就，莲社来帮助你','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=3&amp;sn=543733cd80b385c5b6851d555258650e&amp;chksm=973cd7a6a04b5eb06cb86cac31249a1350e1456074d1dfc27540b69198fea507c6f67962ff76&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','003','天天给人讲，自己就不用做功课了，这个决定不可以','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=4&amp;sn=b3ed923a15a75ca314adead8b116bea9&amp;chksm=973cd7a6a04b5eb0ad242b379404e432775f5c1fd6528f2d03e77dd5b33ddd1fa3757654915a&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','004','非是我度人，实是人度我','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=5&amp;sn=2372bc85dac633e5a9c1339ad772b6eb&amp;chksm=973cd7a6a04b5eb0e5ecd5d03c57b970f44e2ff6c1b756859c93c5d5d0a5f49afd2b7d3b0982&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','005','孙居士帮助同修细致查找解决问题','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=6&amp;sn=2efbab6de3ef26b60b3868b72428e3dc&amp;chksm=973cd7a6a04b5eb0f7819b74a56caca758398d4a5d391994537980beba9d659bf32a79db6a0b&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','006','我们是在兴法还是在坏法？','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=7&amp;sn=3e4da6313f4724d4d505ca95a0372a93&amp;chksm=973cd7a6a04b5eb04f42e7330891ac85bd1d281b3156bbcfdd77fc7419a57269edbbdeba02e4&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','007','一位同修的建议，控制好交流时间','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487008&amp;idx=8&amp;sn=0b3dc117dfa466befb04b4a7523f4f65&amp;chksm=973cd7a6a04b5eb05215953b1af00fae3e56ab2951991082f96c19540d75a8001e603a6a517a&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','008','你讲的有问题，大家可以帮你纠正过来','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=1&amp;sn=359a1daf9fdeb36f273d4b26dbee2297&amp;chksm=973cd7b4a04b5ea255bcb0eb9c0aa2459933a0d4b216ecef12ba5d0740b6159d45e54b7187cb&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','009','都皈到法上去，这就是自度化他的根本','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=2&amp;sn=58c0e4cce7108f739c523400b5d60cf4&amp;chksm=973cd7b4a04b5ea28eb6182615340eaa6b2859cee534986ab0308f404cee8d28b538ba62cb96&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','0010','咱们共同走过了5年','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=3&amp;sn=8a1040bf682bd5d017cf3ef0919c002f&amp;chksm=973cd7b4a04b5ea2d5016acf9039443393dd6e60ffb37ec3834e88b9b290044c7b5f207e0982&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','011','他这上面着重说了宗教信息服务与宗教信息他们之间的区别','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=4&amp;sn=183df37f7fc9e71c60c0be0e6bb7ab36&amp;chksm=973cd7b4a04b5ea2d0e2742a0d593a100fcca0fdb0de7f2e54daca60d6f13e62103260851d9d&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','012','生病这种情况小组同修给回向就可以','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=5&amp;sn=52c6f23c331c0215deefadb66bf93368&amp;chksm=973cd7b4a04b5ea2ec2c158a72a0ecddbad952f4d5c0c0ec2ca961af806e92439b05c3c18556&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','013','应当做好“积极回应”，不能默不吱声','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=7&amp;sn=e84e8d4e9b656c62423546df121a4a9a&amp;chksm=973cd7b4a04b5ea22f94502b841395f723983dfae7a6a770cb5d17afd843bdf576e4f3be1b81&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','014','咱们越是老修，越应该依教奉行，越应该积极响应','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487026&amp;idx=8&amp;sn=87e31c15803d71064fe6b25c2e684cc9&amp;chksm=973cd7b4a04b5ea22d878a6bd1278e4c8a360fab83985222dc981b6fec8d58ba14a50a98cf0e&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','015','我们在文稿整理上一定要尊重原话','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=1&amp;sn=9179f12c1e2470c0f96ac5134759d2e8&amp;chksm=973cd7d9a04b5ecfa0bf3e955485f20611662fc9b9ea902ef819f4d3e42f2c4ca791a74b777d&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','016','刘居士分享带小组','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487119&idx=3&sn=0a11dd77348b098beabb676fa080cfeb&chksm=973cd709a04b5e1f7a278752cdac4ddc657c2853e91c54035dabdfd660ace6f6c0796397c385&token=1313133918&lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','017','不能长时带着功课，可以采用阶段性的带一带','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=4&amp;sn=388e92705c1ab5ce54c153e1db8b4bf8&amp;chksm=973cd709a04b5e1fd6efb51566cbc385ebcec15994a235b2de316800b3f432541da5263e4c80&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','018','这个普润群里的，现在要求每日必须汇报','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=2&amp;sn=3b12ae52ead34b79a75f78628d1d1359&amp;chksm=973cd7d9a04b5ecf797819af57fecfa550de75d4585b9157d938beb703930e6410ebd7413914&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','019','给大家介绍个智能产品～睡眠监测带','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=4&amp;sn=8d30485bf1c8fcd64f1364e9f17046ad&amp;chksm=973cd7d9a04b5ecf80cf57317d11f92bdc2876f5858e9f107cece4b3c9a83d2c4d6d9821eb30&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','020','有些同修提到眼睛视力的问题','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=6&amp;sn=e8d955b9c673cc50944fd0f734ba4255&amp;chksm=973cd7d9a04b5ecf2b927f3d5ef7769dc7cfc711aec304f005802be5311942868538f8860fab&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','021','普润app','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=7&amp;sn=4f286dddbc5dd65bb1943a3f34cc5d46&amp;chksm=973cd7d9a04b5ecf1520d308993a2a3a3e4b41de0824225fc0dcbf48def6e436bfdeecc62a3b&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','022','一个帮助背法抽考的链接','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487071&amp;idx=8&amp;sn=5db5e7972d1d9770c094aef86cc6f3fe&amp;chksm=973cd7d9a04b5ecff00a321abb3a481c5cba04de4da43baff8110cac93b114c017010bafdf01&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','023','后面提升内容的学习，能够具备条件的同修都是可以参加的','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=5&amp;sn=0fe75f64eed3ca6429e20b10219bf068&amp;chksm=973cd709a04b5e1fa543bf50ed3fe679fba09da71d29f43247f353b754a73c04745605103a2c&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','024','每月反思总结','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=6&amp;sn=94170357a167dfeb4865d74bb04a960d&amp;chksm=973cd709a04b5e1fda4cd904f71722813958f0ea6b05c9301bdb96407db7394a2dbae78768db&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','025','在对待处理问题上，张居士是个好的表法','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=7&amp;sn=a90b440cfc4b10d1f3114f02f6208309&amp;chksm=973cd709a04b5e1f4bba9d3b821c3aaa888479465b9ec4c26fbb43fd4ae735b34ddbafb75d6a&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['其他专题','辅导员资料','类别二','','026','自己要如理如法地功课','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487119&amp;idx=8&amp;sn=f472a892fae2f7a1dbb9830764ff25c1&amp;chksm=973cd709a04b5e1fad2a675c1dc0b411b96ab0b15e99f392a9816723a8362929a0a45e20bb03&amp;token=1654992247&amp;lang=zh_CN#rd','无','无','文章','引用']
 
 
 
@@ -2018,51 +2005,10 @@ switch(p1){
 		contdatas = contdatas5.map(innerArray => innerArray.slice());
 	break;
 	case '随缘开示':
-		//alert('在随缘开示');
-		switch(p2)
-		{
-			case '因缘果汇集':
-				contdatas = contdatas60.map(innerArray => innerArray.slice());
-				//alert(contdatas.length);
-
-			break;
-			
-			case 'QQ群开示汇集':
-				contdatas = contdatas61.map(innerArray => innerArray.slice());
-				
-			break;
-			case '小组开示汇集':
-				contdatas = contdatas62.map(innerArray => innerArray.slice());
-			break;
-			default:
-				alert('未知类型，在随缘开示');
-    			break;
-		}
-
+		contdatas = contdatas6.map(innerArray => innerArray.slice());
 	break;
 	case '其他专题':
-		switch(p2)
-		{
-			case '破邪显正':
-				contdatas = contdatas70.map(innerArray => innerArray.slice());
-				//alert(contdatas.length);
-
-			break;
-			
-			case '新年寄语':
-				contdatas = contdatas71.map(innerArray => innerArray.slice());
-				
-			break;
-			case '辅导员资料汇集':
-				contdatas = contdatas72.map(innerArray => innerArray.slice());
-				//alert(contdatas.length);
-
-			break;
-			default:
-				alert('未知类型，在其他专题');
-    			break;
-		}
-
+		contdatas = contdatas7.map(innerArray => innerArray.slice());
 	break;
 	case '选学资料汇总':
 		
@@ -2117,14 +2063,12 @@ var index;
 var datas = [];
 
 
-
 	//是否查询
 	if (p6=='是'){
-	//alert('查询关键词的情形');
 	if ( p1=='不选择' )
 	{
 		if ( p5=='' )
-			return datas;
+		return datas;
 		else
 		{
 			//依次查询所有文章
@@ -2133,12 +2077,8 @@ var datas = [];
 			pushDatas(datas,contdatas3,p5);//每日四项
 			pushDatas(datas,contdatas4,p5);//净土次第修
 			pushDatas(datas,contdatas5,p5);//学员分享摘选
-			pushDatas(datas,contdatas60,p5);//随缘开示 因缘果汇集
-			pushDatas(datas,contdatas61,p5);//随缘开示 QQ群开示汇集
-			pushDatas(datas,contdatas62,p5);//随缘开示 小组开示汇集
-			pushDatas(datas,contdatas70,p5);//其他专题 破邪显正
-			pushDatas(datas,contdatas71,p5);//其他专题 新年寄语
-			pushDatas(datas,contdatas72,p5);//其他专题 辅导员资料汇集
+			pushDatas(datas,contdatas6,p5);//随缘开示
+			pushDatas(datas,contdatas7,p5);//其他专题
 			pushDatas(datas,contdatas80,p5);//选学资料汇总 佛教动画
 			pushDatas(datas,contdatas8,p5);//选学资料汇总 老年修学资料
 			pushDatas(datas,contdatas9,p5);//选学资料汇总 静修班资料
@@ -2153,7 +2093,6 @@ var datas = [];
 		//不需要查询p5
 		if ( p5=='' )
 		{
-			//alert(sLen);
 			for(var i=0;i<sLen;i++){
            	 
 				//if  ( p1 === contdatas[i][0] )
@@ -2211,7 +2150,6 @@ var datas = [];
 	}
 	else{
 		//不是查询关键词的情形，只是按照类别列出文章。
-		//alert('不是查询关键词的情形');
 		switch (p7) {
  		case '1':
    		 // 匹配类别一
@@ -2231,8 +2169,6 @@ var datas = [];
     	break;
   		case '2':
     	// 匹配类别一、类别二
-			//alert(sLen);
-
 			for(var i=0;i<sLen;i++){
            	 
 				if  ( p1 === contdatas[i][0] && p2 === contdatas[i][1] && contdatas[i][2] === '' && contdatas[i][3] === '')

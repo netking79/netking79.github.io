@@ -29,8 +29,14 @@
 			<option value="每日四项讲解">-每日四项讲解</option> 
 			<option value="净土次第修">-净土次第修</option>
 			<option value="学员分享摘选">-学员分享摘选</option>
-			<option value="随缘开示">-随缘开示</option>
-			<option value="其他专题">-其他专题</option>
+			<option value="因缘果汇集">-随缘开示-因缘果汇集</option>
+			<option value="QQ群开示汇集">-随缘开示-QQ群开示汇集</option>
+			<option value="小组开示汇集">-随缘开示-小组开示汇集</option>
+
+			<option value="破邪显正">-其他专题-破邪显正</option>
+			<option value="新年寄语">-其他专题-新年寄语</option>
+			<option value="辅导员资料汇集">-辅导员资料汇集</option>
+
 			<option value="佛教动画">-选学资料汇总-佛教动画</option>
 			<option value="老年修学资料">-选学资料汇总-老年修学资料</option>
 			<option value="静修班资料">-选学资料汇总-静修班资料</option>
@@ -78,11 +84,22 @@
                let aList= [];		
 	
 		var str1="";
-		
-		if ( myVal === "佛教动画" ||  myVal === "老年修学资料" ||  myVal === "静修班资料" || myVal === "印祖文钞选讲" || myVal === "二级修学资料")
-			aList = getData('选学资料汇总',myVal,'','',s3,'是','');
+
+		if ( myVal === "因缘果汇集" ||  myVal === "QQ群开示汇集" ||  myVal === "小组开示汇集" )
+			aList = getData('随缘开示',myVal,'','',s3,'是','');
 		else
-			aList = getData(myVal,'','','',s3,'是','');
+		{
+			if ( myVal === "破邪显正" ||  myVal === "新年寄语" ||  myVal === "辅导员资料汇集" )
+				aList = getData('其他专题',myVal,'','',s3,'是','');
+			else
+			{
+
+				if ( myVal === "佛教动画" ||  myVal === "老年修学资料" ||  myVal === "静修班资料" || myVal === "印祖文钞选讲" || myVal === "二级修学资料")
+					aList = getData('选学资料汇总',myVal,'','',s3,'是','');
+				else
+					aList = getData(myVal,'','','',s3,'是','');
+			}
+		}
 
 		var sLen = aList.length;
 		var table =document.getElementById("table1");
