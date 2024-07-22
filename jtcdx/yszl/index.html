@@ -14,7 +14,7 @@
 <body>
 <p></p>
 <h1 >《净土次第修》</h1>
-<h2 >2024-07-09</h2>
+<h2 >2024-07-22</h2>
 
 <p>资料更新日志：<a href="gxrz.html">点击查看</a></p>
 <div align="center">
@@ -74,7 +74,7 @@
 
 
 			if (xuhao == '001')
-					table.innerHTML += "<tr class=\"trh3\"><th >以前博文</th></tr>";
+					table.innerHTML += "<tr class=\"trh3\"><th >一、以前博文</th></tr>";
 			//alert ( aList[i] );
 				if (aList[i+2] === "目录") 
 					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
@@ -84,13 +84,86 @@
 					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
 				
 			
-				if (xuhao == '044')
-						table.innerHTML += "<tr class=\"trh3\"><th >带小组实修阶段</th></tr>";
-				if (xuhao == '178')
-						table.innerHTML += "<tr class=\"trh3\"><th >关于督导修学</th></tr>";
+				if (xuhao == '043')
+						table.innerHTML += "<tr class=\"trh3\"><th >二、带小组实修阶段</th></tr>";
+										
 
        			 }
 		}
+
+		//辨析与破斥部分
+		 lb1 = '其他专题';
+		 lb2 = '辨析与破斥';
+	 	lb3 = '';
+	 	lb4 = '';
+		 cs = '2';
+
+		let aList2= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		sLen = aList2.length;
+		 str1="";
+		
+
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{	table.innerHTML += "<tr class=\"trh3\"><th >三、辨析与破斥</th></tr>";
+			for( i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			 xuhao= getStr(i/3+1,2);
+			//alert ( aList2[i] );
+				if (aList2[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList2[i+1]+">"+aList2[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList2[i+1]+">"+aList2[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+				{
+						//str1 = str1+xuhao+".<a href="+aList2[i+1]+">"+aList2[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList2[i+1]+">"+aList2[i]+"</a> </td></tr>";			
+
+				}
+       			 }		
+		}
+
+		//新年寄语
+		 lb1 = '其他专题';
+		 lb2 = '新年寄语';
+	 	lb3 = '';
+	 	lb4 = '';
+		 cs = '2';
+
+		let aList3= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		sLen = aList3.length;
+		 str1="";
+		
+
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{	table.innerHTML += "<tr class=\"trh3\"><th >四、新年寄语</th></tr>";
+			for( i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			 xuhao= getStr(i/3+1,2);
+			//alert ( aList3[i] );
+				if (aList3[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList3[i+1]+">"+aList3[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList3[i+1]+">"+aList3[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+				{
+						//str1 = str1+xuhao+".<a href="+aList3[i+1]+">"+aList3[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList3[i+1]+">"+aList3[i]+"</a> </td></tr>";			
+
+				}
+       			 }		
+		}
+	
+
+	
+
        
 </script>
 <p><a href="javascript:history.back(-1)">返回上一页</a></p>
