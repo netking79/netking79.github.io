@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compitable" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="../../css/c2.css">
+<script type="text/javascript" src="../../js/s1.js"></script>
+
+    <title>《每日四项讲解》辅助资料</title>
+</head>
+<body>
+<p></p>
+<h1 >《每日四项讲解》辅助资料</h1>
+<h2 >20240725版</h2>
+
+
+<div align="center">
+
+<!--边框为细线-->
+<table id="table1" border="0" cellspacing="1" >
+<tr class="trh1">
+        <th  align="center"> 内容列表 </th>
+        
+    </tr>
+
+</table>
+
+<script>
+        /**
+         * 动态添加的方法有两种
+         *  1、document.create();
+         *  2、innerHTML();
+         *
+         */
+
+       var table =document.getElementById("table1");
+	let lb1 = '每日四项讲解';
+	let lb2 = '辅助资料';
+	let lb3 = '老实听话依教奉行';
+	let lb4 = '';
+	let cs = '3';
+
+	 let aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		var sLen = aList.length;
+		var str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 一、老实听话依教奉行</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+		//拜忏
+		lb3 = '从根本处修';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 二、从根本处修</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+		//背法
+		lb3 = '背法';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 三、背法</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+		//归纳总结
+		lb3 = '归纳总结';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 四、归纳总结</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+		//功课
+		lb3 = '功课';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 五、功课</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+		//学习
+		lb3 = '学习';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 六、学习</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+
+       		//框架脉络
+		lb3 = '框架脉络';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 七、框架脉络</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+
+
+       		//拜忏
+		lb3 = '拜忏';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 八、拜忏</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+
+       		//思维修
+		lb3 = '思维修';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 九、思维修</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+
+       		//修行意愿、自律性
+		lb3 = '修行意愿、自律性';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 十、修行意愿、自律性</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+       		//包容心
+		lb3 = '包容心';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 十一、包容心</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+		//因缘果
+		lb3 = '因缘果';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 十二、因缘果</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+
+		//安住修
+		lb3 = '安住修';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 十三、安住修</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+
+		//觉照
+		lb3 = '觉照';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 十四、觉照</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+		//观修、实际运用
+		lb3 = '观修、实际运用';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 十五、观修、实际运用</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+
+		//反思总结
+		lb3 = '反思总结';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 十六、反思总结</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+
+		//纠偏
+		lb3 = '纠偏';
+		 aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		 sLen = aList.length;
+		str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			table.innerHTML += "<tr class=\"trh3\"><th > 十七、纠偏</th></tr>";
+
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+       			 }
+		}
+
+</script>
+<p><a href="javascript:history.back(-1)">返回上一页</a></p>
+
+</div>
+
+
+</body>
+</html>
