@@ -66,8 +66,8 @@ p7: 比较第几层
 function getData(p1,p2,p3,p4,p5,p6,p7) {
 
 //var myaddr = 'http://www.zhigui.site/';
-//var myaddr = 'http://www.zhigui48.cn/';
-var myaddr = 'http://localhost:4000/';
+var myaddr = 'http://www.zhigui48.cn/';
+//var myaddr = 'http://localhost:4000/';
 
 //督导修学模式 原资料 地址
 var ddxxms_ys = [];
@@ -459,6 +459,9 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','从根本处修','','014','从根本处修','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494520&amp;idx=5&amp;sn=5815c0134a767ec820e92097c5d22eed&amp;chksm=cff6fa6af881737c071334e310e2cbc88a15b0ba208591b8c7ba72b064d57911ad42e6d7a966#rd','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','从根本处修','','015','我们要深刻体会从根本处修的好处','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494520&amp;idx=6&amp;sn=a76de254de56fe9fd77eeff2ef18172a&amp;chksm=cff6fa6af881737ce84446d1096fceb2214e1e3a7ac4512027534965f694485b05097eb83175#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','从根本处修','','016','从根本处修-刘居士是一个很明显的案例','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494520&amp;idx=7&amp;sn=d565e2b47668518cf77cf51f789484b4&amp;chksm=cff6fa6af881737ca75f304c13cbed6fb174726fd0a003b646df5f55e185d7514a3bcc23c1f5#rd','无','无','文章','原始'],
+['每日四项讲解','辅助资料','从根本处修','','017','不断悟入法里才能不断增强修行信心','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491023&idx=1&sn=39f65cc5a6fb64649376f4248f103a57&scene=21#wechat_redirect','有','无','文章','原始'],
+
+
 
 
 ['每日四项讲解','辅助资料','背法','','001','密宗里的辩经','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494476&amp;idx=1&amp;sn=2d183eed095413051b007d1a0ca3fad7&amp;chksm=cff6fa5ef881734881734131172a4aca2c5c6fc97a89c6908376fd85a8d81ee92e47d7f41d11#rd','无','有','文章','原始'],
@@ -522,6 +525,15 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','功课','','033','还想求病好转，该怎样做？','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494846&amp;idx=3&amp;sn=fbf788d2c96f6c19bd2881187780c688&amp;chksm=cff6fdacf88174ba01ceb61d51b4c4e094b8db73674dba80aaef4f3a2369fc2b7a9bb20f0bdf#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','功课','','034','有经济方面的困扰障碍，可以建议他这样做','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494846&amp;idx=4&amp;sn=60d6c227fe15e70f615320deb2eaa9a7&amp;chksm=cff6fdacf88174ba18ef2a52cacaa605679501405c6bc4f1d5880d0bb859f0a02f756c3f9aec#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','功课','','035','她通过穿插式的轮番修，取得了比较好的效果','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494846&amp;idx=5&amp;sn=faf5a37e341c02d662d8fd9c9dd0791b&amp;chksm=cff6fdacf88174bae712af7e9bd16f6b8b54ae9a92cf7fc2cf8a37e857752456492e90c4c519#rd','无','无','文章','原始'],
+['每日四项讲解','辅助资料','功课','','036','每日四项功课的落实不难','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490939&idx=6&sn=4f7a3f0df900eada3f7672fee711cbdb&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','功课','','037','通过每日四项去完善建立好的整体性框架 ','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490939&idx=8&sn=79101c96e195acb8640e4f4583d9ac4f&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','功课','','038','对治习气的方法','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491023&idx=3&sn=10a2624971803ee3097abaa22a182b4d&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','功课','','039','活多事多 功课要灵活修','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497612&idx=2&sn=8c266dfe35e4f0d680f65c858698b68a&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','功课','','040','忙时以稳定自己的状态为主','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497854&idx=6&sn=b2068f518cc4aeb3203a17c507841633&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','功课','','041','关于回向','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497933&idx=7&sn=4e2253baf60baa0836acc094bf620ceb&scene=21#wechat_redirect','有','无','文章','原始'],
+
+
+
 
 
 ['每日四项讲解','辅助资料','学习','','000','专注重复的闻思','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490310&amp;idx=6&amp;sn=24f745b214076cd23785b3fd48eaf929&amp;chksm=cff50a14f88283023c72aa25a7422c054a024ce1321f83f7f7237bce970d0f767d4b8917dad5&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -538,6 +550,7 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','学习','','011','咱们一位同修，把这次资料打印了出来，细读，细品，标记，归纳要点','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495001&amp;idx=5&amp;sn=e23d46bc125d1b85e5f187ee4cbc7f31&amp;chksm=cff6fc4bf881755d9fa7a6abcc56e32b79f7bcbef4562a561b56b52f48247f6a4a0f9dcaa614#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','学习','','012','学习窍诀：放松放慢极致重复','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495001&amp;idx=6&amp;sn=795524aedbb317901061664a8512784d&amp;chksm=cff6fc4bf881755d2f760fc0c54261f770be13f8d60b135d8f0276518803f95e056cc3226019#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','学习','','013','写是一种很好的检验和提升','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487307&idx=8&sn=84695690c837b0bba707d7640898a5f9&chksm=973cd6cda04b5fdbabec0727a4097e21b0c4bc1b30e6a202114aa1eca2d125f15f4a2d3db550&token=1549694626&lang=zh_CN#rd','有','无','文章','原始'],
+['每日四项讲解','辅助资料','学习','','014','尽量不要躺着听经','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490939&idx=5&sn=6678e86d79a371721563dd683685af23&scene=21#wechat_redirect','有','无','文章','原始'],
 
 
 
@@ -561,6 +574,8 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','拜忏','','013','关于邪淫方面的忏悔','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494423&amp;idx=5&amp;sn=a33c9df7b1fb53a7e638864a555b09f7&amp;chksm=cff6fa05f8817313d62fe6718476fc949aa04f9a81a9d2395fb33ddce851b252461e8e05fb83#rd','无','有','文章','原始'],
 ['每日四项讲解','辅助资料','拜忏','','014','轻易的造谣甚至肆意传播，那是非常的可怜可悲','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494423&amp;idx=6&amp;sn=2468413031f34c2177c60e38e07a9ff0&amp;chksm=cff6fa05f881731320759d4468be92ff13fc30bd6d014b58fbb505c52fe2242953e0c5734098#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','拜忏','','015','这样的考试、送礼这些情况属不属于违规？该如何选择？','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494423&amp;idx=7&amp;sn=21bbaac067e68ee94d5f1336c816027e&amp;chksm=cff6fa05f8817313290df50169aeaab06daf9af0cf1fdd07971ed2f080b4ed4bd565f6777c34#rd','无','无','文章','原始'],
+['每日四项讲解','辅助资料','拜忏','','016','曾经错发誓愿怎么办','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497698&idx=7&sn=2dbea332460bf93fd8ce54a415b46a3c&scene=21#wechat_redirect','有','无','文章','原始'],
+
 
 
 ['每日四项讲解','辅助资料','思维修','','000','思维修的必要性','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490388&amp;idx=2&amp;sn=4aa568b99b8b3caed46358ae9f76611a&amp;chksm=cff50a46f882835038d92be4747d1f2b5bef212c745424a114f8932d6f0e72e50fcefc2b1655&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -586,6 +601,9 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','思维修','','020','真正会思辨的人，能找到关键、切要处去发问','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494970&amp;idx=3&amp;sn=c07917243b7215d3f6c13d2d41a02cc3&amp;chksm=cff6fc28f881753ea9e7dd1129300c1af9f20300686d65faa454756568df75db1e7ea7cc9928#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','思维修','','021','老者依佛教导努力修习，内心修得感恩三昧','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494970&amp;idx=4&amp;sn=f4c244822dd1dc3634fa3b6d851e531a&amp;chksm=cff6fc28f881753e4911f23835f24a11c46a394a127851e96f70dcbc5d6e77d63a1e63e8f258#rd','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','思维修','','022','思维修项目涵盖很广，自己不要分对象分状态','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487307&idx=7&sn=2b1520147028295b083afcb3ce4670bb&chksm=973cd6cda04b5fdb3291e9bda4a26a4980580b6eafc16c990ca1227bd14105d7db875339a2ec&token=1549694626&lang=zh_CN#rd','有','无','文章','原始'],
+['每日四项讲解','辅助资料','思维修','','023','弱化贪欲','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497698&idx=4&sn=baa3a758fdeff84bd85bf9a8ee79eb01&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','思维修','','024','简捷修不妨每个小时熏习一遍','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497724&idx=2&sn=5b99befc2fd224b098a09165f8f06f63&scene=21#wechat_redirect','有','无','文章','原始'],
+ 
 
 
 ['每日四项讲解','辅助资料','修行意愿、自律性','','000','染缘要远离','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490388&amp;idx=3&amp;sn=22710258e0020233fb2671a0455e0e1b&amp;chksm=cff50a46f88283501accc869500295b1496a60885ca93e7680e2cee2ef80bfa00932588e0cfa&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -607,12 +625,31 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','修行意愿、自律性','','016','如何真切观苦','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495049&amp;idx=4&amp;sn=0b2a7085b46a25781d819cf4bef2ca7f&amp;chksm=cff6fc9bf881758d2a7303f375ddc23cb7489b6f868869a036b1288ad469c2c8e255e54ce4ac#rd','无','无','文章','原始'],
 
 
+['每日四项讲解','辅助资料','修行意愿、自律性','','017','每个人都有度化的缘 ','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492750&idx=3&sn=557e2b4866e973f26724d81111b7aa29&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','修行意愿、自律性','','018','强顺人情世故，误却一生大事','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497766&idx=3&sn=e21f46c7cb53f4676ddf35c304575c46&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','修行意愿、自律性','','019','有愿力有魄力提升快','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490895&idx=3&sn=b011ab245e5d85dc9ce373af3bef2003&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','修行意愿、自律性','','020','修行是自己的事','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490981&idx=8&sn=baf6a9aa93393841aaaec524a48cb73e&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','修行意愿、自律性','','021','对法改造力要有信心','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497933&idx=4&sn=ed6ecdb4aa25b1bc1b9e39caf15c0ad8&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','修行意愿、自律性','','022','出口就是愿','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497888&idx=2&sn=4b74f89d62cd4359a9e2c8c4f9be109e&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','修行意愿、自律性','','023','以修学为核心','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491113&idx=1&sn=1487cc8185df6d0197ed759aaa523883&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','修行意愿、自律性','','024','病得越严重越要投入修学','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497888&idx=3&sn=78f1ac58869a27b670adff454ca8eb3e&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','修行意愿、自律性','','025','转变为真正的道人','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497888&idx=5&sn=504fa01a9260166e349725dba0664d6a&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','修行意愿、自律性','','026','唯有觉悟才能真正离苦得乐','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497888&idx=7&sn=bb0b90e99006c60aff1b073d55e00002&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','修行意愿、自律性','','027','修行定位也是需要智慧和魄力','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497766&idx=2&sn=1c31009ab5d56d98264ef504473da815&scene=21#wechat_redirect','有','无','文章','原始'],
+
+
+
 ['每日四项讲解','辅助资料','包容心','','000','依法看待众生的问题','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490478&amp;idx=5&amp;sn=d03f5169fe5cd84bb04afab8c82c5528&amp;chksm=cff50abcf88283aaee5354d0d9f8438077f5f9e889b99a0f8285499740d65a554344ba245c0a&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','包容心','','001','将项目无限的扩修','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490673&amp;idx=3&amp;sn=e97ce25fca19de748cd6880e6beac330&amp;chksm=cff50d63f8828475241a5564d252b0d29867c550d937e71cfe24da56355916fce2ee56e70267&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','包容心','','002','包容而不认同','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490478&amp;idx=8&amp;sn=81c4bf819f661a0e7caa849fab699c05&amp;chksm=cff50abcf88283aa35a5ad72da37d5b781847ea129641387a866011ca90713b4d5ea9dafb25f&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','包容心','','003','座上到座下','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490487&amp;idx=4&amp;sn=c4d133adef412531ac7c532c5e1f5704&amp;chksm=cff50aa5f88283b355754f71075069498bfc017d3f0dfdc82b30da3b518f580b5767f1bf3730&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','包容心','','004','包容自己，包容别人','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490599&amp;idx=6&amp;sn=22566b49df332ddeb21ff1ee1ee8c2c7&amp;chksm=cff50d35f8828423176c23654395a0a04683dd3a161ebbce2f5746ff58b93f8e3f8b4fc4bee0&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','包容心','','005','心随境转与境随心转','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494423&amp;idx=8&amp;sn=e62f91dda706ab0ee380f3ff507a05bb&amp;chksm=cff6fa05f8817313e902a07cf8c78b22757b7ae34c65881837b79bcea407d28a0583f2758ba8#rd','有','无','文章','原始'],
+['每日四项讲解','辅助资料','包容心','','006','体悟缘的重要性 ','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247491977&idx=4&sn=34aa2d5ae6dc06041689f479e6557a78&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','包容心','','007','座上观想消融一定要充分','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497854&idx=4&sn=97d32a268cc45d4f8456584bec6bda2d&scene=21#wechat_redirect','有','无','文章','原始'],
+
+
+
 
 ['每日四项讲解','辅助资料','因缘果','','000','苦集灭道','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490657&amp;idx=1&amp;sn=76a90ca9627ce05bccd97a3c2732b57d&amp;chksm=cff50d73f8828465fa6fec51951b0a6723402c73ce2e55f78df4cb953180420451e5053cdafa&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','001','观想要细致些，重视戒律规矩','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490657&amp;idx=2&amp;sn=14df8dac9c5221021ddac561ed6e9cea&amp;chksm=cff50d73f88284654ccfa07e080125ea13b508282eefd526123b6754b080d477489399de85dc&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -643,6 +680,17 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','因缘果','','026','“念念成形，形形皆有识”这句可以这样解释吗','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495049&amp;idx=1&amp;sn=033c84f6c5eb75d0d1777ae9fc4ab5ca&amp;chksm=cff6fc9bf881758d57996378680c51d2321f069c854797babdc18dd56fd33da187e4f0449969#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','027','此时此刻我深刻的感受到这念头太可怕了，身体马上受果报','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495049&amp;idx=3&amp;sn=c6ca97a47939f1bd189db239ff0e2ad6&amp;chksm=cff6fc9bf881758ddd3e85619a73dbdddcdec41d6a43e875bb4e7c81c3bf3ee977a0bf902a09#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','028','关于女人生孩子的开示','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495049&amp;idx=2&amp;sn=ce07157080c8810ad8acd37cd39ff145&amp;chksm=cff6fc9bf881758df8fa6c05e3ca91589ea5f6dc3a88598372c21f035424975e54c815d7719f#rd','无','无','文章','原始'],
+
+['每日四项讲解','辅助资料','因缘果','','029','每个现象形成不是偶然的，都有背后因缘 ','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247491840&idx=7&sn=9e5492cb0a51aca0eae5ecd03474555b&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','因缘果','','030','修行受磨难能了三途业 因缘果','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247491840&idx=3&sn=0011375a6af56105493ec26a9fd3760c&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','因缘果','','031','看清真相，保持正见','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247491977&idx=8&sn=18f350482265f987956c8a6a98bcc65b&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','因缘果','','032','物以类聚人以群分，生气感召众生干扰','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247491977&idx=7&sn=52f3dba8a14ea9be2a9f5e0a79676ace&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','因缘果','','033','境缘就是自己的镜子，一切都是修来的','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247491977&idx=5&sn=e98bc6a63ccd6f73fa4a2e36e94a1767&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','因缘果','','034','没有吃亏占便宜，一切都会平衡掉','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247491977&idx=3&sn=20314a977c2d279933a682d6b1b2ef50&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','因缘果','','035','深信因果，心就安定了','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247491977&idx=1&sn=69808efeb941b7f857a04287006206ac&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','因缘果','','036','所谓得失不过是因缘假相而已','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492431&idx=2&sn=460f9a7afb17a8c02dfdb49c03088a05&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','因缘果','','037','要相信因果，用事实看问题','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492750&idx=2&sn=b4c083374cc71d93435e04e4071bfa01&scene=21#wechat_redirect','有','无','文章','原始'],
+
 
 
 ['每日四项讲解','辅助资料','安住修','','000','净土菩提心和般若净土','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490310&amp;idx=1&amp;sn=61347ee9a6ffff85d2ce8b7a15687a7c&amp;chksm=cff50a14f8828302d67c591ab7bc3ca5a8496c3cdb129c638da99827afa5a82dd812233d5fe0&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -676,6 +724,11 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','觉照','','010','抛开境缘，直观自心','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494903&amp;idx=4&amp;sn=d0494b5b7ab4a61537b2628ede499186&amp;chksm=cff6fde5f88174f3f705e16e69ff8c7feb0f99762e8d9541087f301d1a0320e79fd10947c3c1#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','觉照','','011','念佛微睁眼睛的好处','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494903&amp;idx=5&amp;sn=9716c668a70b59329ee29d15e72069f5&amp;chksm=cff6fde5f88174f3e17c1c09ba805f9314e3c116e8f0f218f93dd3537ceb96ead212334bb2ea#rd','无','无','文章','原始'],
 
+['每日四项讲解','辅助资料','觉照','','012','将修行打成一片','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490851&idx=4&sn=b97525810e425e9a3143c64040633d94&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','觉照','','013','把握好当下','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491075&idx=3&sn=20d215a2e0a9a6d51735564cc6aad843&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','觉照','','014','面对具体人事，怎么更好提起觉照力？','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491075&idx=1&sn=6c0d4cd53dc62e622b9cab8532f57747&scene=21#wechat_redirect','有','无','文章','原始'],
+
+
 
 ['每日四项讲解','辅助资料','观修、实际运用','','000','从座上到座下','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490599&amp;idx=1&amp;sn=eef4a82be564dca7d08a0aab55e2303b&amp;chksm=cff50d35f8828423b9dc848434b0f172a9c2a41327b45bd1e801eb3d9f721f101e6ef32c681f&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','观修、实际运用','','001','将项目积极运用','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490599&amp;idx=2&amp;sn=821e21f891c1eb132934ff0965c816ba&amp;chksm=cff50d35f882842317f47a64aa55672c060f7cca626a23adc4fed76c576cd894ab6255eb10ab&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -698,6 +751,20 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','观修、实际运用','','018','在提婆达多分裂僧团这件事上，我们看到佛陀的表法','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494883&amp;idx=2&amp;sn=95ccc8c2467849936734a537ba299bf0&amp;chksm=cff6fdf1f88174e7f92f098993ab515e0ccc2f8b27f43faec8bbb2738409b4b4bc0837aa8dd2#rd','无','有','文章','原始'],
 ['每日四项讲解','辅助资料','观修、实际运用','','019','这种情况是否属于攀缘','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494883&amp;idx=3&amp;sn=e9d9fa8667e3f0220e78371aef612da2&amp;chksm=cff6fdf1f88174e7659f13559e370bb34c22a3aa1c99642381b7365fdac22cfa877788e1fdd8#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','观修、实际运用','','020','不管哪部经典，在修行上，都在落实“无住生心”','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494883&amp;idx=4&amp;sn=fa085cde94af91d83a96b36ae2d85656&amp;chksm=cff6fdf1f88174e7c67d880077e3e2ee41d16902d56f7e77f28011ae301b6339b7fd7af9ccd2#rd','无','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','021','一个婆媳问题-传统文化和督导修学的两种回答','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495064&idx=1&sn=d21446acf1b2b4c57d45bbe96cb3618c&chksm=cff6fc8af881759c03a98f562cb27f3bc10039456da3774c7b7a37992404f42762975de345b6#rd','无','无','文章','原始'],
+
+['每日四项讲解','辅助资料','观修、实际运用','','022','世间法与出世间法相辅相成 ','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490851&idx=5&sn=5bc8896fac51494b131127059bdd5572&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','023','关于对境的运用','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491023&idx=7&sn=1b80b40acc0526433fc50aac27ba2533&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','024','没有提起正确就是问题','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491113&idx=2&sn=a04126ed7fd4442231cb6ad58f7021a0&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','025','面对人事，先通过法去看淡','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491113&idx=4&sn=716c2090f146e262b7ab698f50bd26e4&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','026','跟自己较真','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497671&idx=6&sn=a50ebcb223a90fb65a192f1816d2ac71&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','027','法理和愿力要紧密结合在一起','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497933&idx=2&sn=a39a35a5c4aad3a1e244e7ccf6295fc8&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','028','应对好世间问题，让心解脱出来','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491113&idx=6&sn=93078faa16144fe678d8fd15b1270ed6&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','029','受到惊吓时要训练提起正念','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490981&idx=2&sn=7175635d6a718a7b8534050a36cba173&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','030','受到惊吓后如何调整不良状态','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490981&idx=3&sn=0fae4a9ecc062975b1d95cf332e5e464&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','031','关于悟静师父的问题开示','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490981&idx=7&sn=dc1595b5627aa6273d2f5e9a73d2db53&scene=21#wechat_redirect','有','无','文章','原始'],
+
+
 
 
 ['每日四项讲解','辅助资料','反思总结','','000','正确地认识修行过程','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490634&amp;idx=5&amp;sn=64b4e556c28eda07ac5a818f294c7aaa&amp;chksm=cff50d58f882844e8fc6c33b3a4c95ae5fed5c5d2c61c6448d9be52d88aee24a1ac57dead6f9&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -712,6 +779,9 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','反思总结','','009','为何不能依法直观出来？非要等到事后果报现前才懂得反思','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494547&amp;idx=8&amp;sn=ce20b3bfeca573df60bb5bb7171a1ae9&amp;chksm=cff6fa81f8817397365fbf2afd0e9d104f1da779f16c34c4549e0010db060129647b3c0c6da7#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','反思总结','','010','当修习一遍时，最好马上对照资料去反观自己修的对不对','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494581&amp;idx=1&amp;sn=ce841bf625e538e128ada88ebb1a0b26&amp;chksm=cff6faa7f88173b127dc54e358422c0dc408f9b0f72bfe1fa1e28f8a8582986d768ae2196ce6#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','反思总结','','011','关于反思总结的一些问答','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494581&amp;idx=2&amp;sn=7bb8e1682565843f1713f355c0b40022&amp;chksm=cff6faa7f88173b115c03bb693b59c295c8f257a9e176a15db855f384856b0fc35881ed6b488#rd','无','无','文章','原始'],
+['每日四项讲解','辅助资料','反思总结','','012','心调中道','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497854&idx=5&sn=e2e8627cffc56b1e64f6134f304c3cee&scene=21#wechat_redirect','无','无','文章','原始'],
+
+
 
 
 ['每日四项讲解','辅助资料','纠偏','','000','好的修学状态','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490843&amp;idx=4&amp;sn=60d26490f6d93a1f00139fd24ede174b&amp;chksm=cff50c09f882851f790dd5e80775b9eb6021627e6239408abd29d558dc7a0dc492122f00b58b&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -738,6 +808,7 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','纠偏','','021','我随喜她，是不是不好的东西一起随喜来了呢','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494958&amp;idx=7&amp;sn=42609969a897d2005554f8b21fed3e84&amp;chksm=cff6fc3cf881752ae95f591a33784512f8c69d99ae9da435ade2981d71ca50458dadceebc34c#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','纠偏','','022','把握好一个度，这就是走“中道”','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494958&amp;idx=8&amp;sn=ad9377421003105dd6b09dd57cce3b49&amp;chksm=cff6fc3cf881752a7106a6d95be3e68d467a9581dc5096c9e3a34cab2aba80a66cf1cd7eca12#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','纠偏','','023','勿过度用心，善用法理引导家人','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494960&amp;idx=1&amp;sn=3dbb53516a8c0f7de05b0947c64116af&amp;chksm=cff6fc22f8817534451a5045e5b94e595f35927f6c3f0547500bbd893e11651306a12b43b609#rd','有','无','文章','原始'],
+['每日四项讲解','辅助资料','纠偏','','024','为什么越修习气越重 ','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491075&idx=2&sn=90649ba2545afd2f7c4c60b975452029&scene=21#wechat_redirect','有','无','文章','原始'],
 
 
 
@@ -1012,6 +1083,22 @@ var contdatas4 = [
 ['净土次第修','原始资料','','','204','《缘起怎样融通佛法》的三个问题总结并画图说明','https://mp.weixin.qq.com/s/wOQSJGNuUlWjhKz6cF6yNw','无','无','文章','原始'],
 ['净土次第修','原始资料','','','205','互为主伴','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487203&amp;idx=1&amp;sn=5815bfa6376f51f7df30cd7f81088393&amp;chksm=973cd765a04b5e739dc4299bf1db6ddc09fe82e3339a71b2fbab335db9a863a0b19bc8fd57a6&amp;token=1576720142&amp;lang=zh_CN#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','206','体相用-从不同方面去看待','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487203&amp;idx=2&amp;sn=63498c31cdea5b2939b9215aac47f7eb&amp;chksm=973cd765a04b5e7345e2086cf788a0c33ac0b34429bdb08b615f230ce2fd04536843be01d44a&amp;token=1576720142&amp;lang=zh_CN#rd','无','无','文章','原始'],
+['净土次第修','原始资料','','','207','菩提心的次第性','https://mp.weixin.qq.com/s/479waTcSE5Su4--8eSK4KA','有','无','文章','原始'],
+['净土次第修','原始资料','','','208','佛法的核心 · 缘起','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492611&idx=2&sn=da6ace20924e764db3bfa37c4fcf84a3&scene=21#wechat_redirect','有','无','文章','原始'],
+
+['净土次第修','原始资料','','','209','菩提心的邪正','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497671&idx=2&sn=7e2e77dcb78687ae598bb46766302e9e&scene=21#wechat_redirect','有','无','文章','原始'],
+['净土次第修','原始资料','','','210','佛法帮助我们超越生死','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497933&idx=6&sn=325b14e26248e63b1778df3207e86768&scene=21#wechat_redirect','有','无','文章','原始'],
+['净土次第修','原始资料','','','211','问题解决通过般若悲心愿力','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491075&idx=7&sn=74fbbf1d64cac40285352c04681e36bf&scene=21#wechat_redirect','有','无','文章','原始'],
+['净土次第修','原始资料','','','212','十二因缘','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492560&idx=2&sn=2ff1b9e5da16dcbc1afe4eed37973119&scene=21#wechat_redirect','有','无','文章','原始'],
+['净土次第修','原始资料','','','213','居士父母身体不好，师父开示怎样心应对','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492375&idx=3&sn=de0a6d8e03eb179c932bfdb4afb2d59d&scene=21#wechat_redirect','有','无','文章','原始'],
+['净土次第修','原始资料','','','214','因上努力，果上随缘','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492731&idx=1&sn=67ee69067850d1f67affeac179dfe8f0&scene=21#wechat_redirect','有','无','文章','原始'],
+['净土次第修','原始资料','','','215','每件事的形成都是无量因缘的促成','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492750&idx=1&sn=66815278ebaf6dc1e6656d4338957cda&scene=21#wechat_redirect','有','无','文章','原始'],
+['净土次第修','原始资料','','','216','有形无形有情无情众生区别','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490939&idx=2&sn=2c294212bad44683035f691c561de150&scene=21#wechat_redirect','有','无','文章','原始'],
+['净土次第修','原始资料','','','217','虚荣心','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497671&idx=5&sn=96d71537f030e25c7e92a6767a381192&scene=21#wechat_redirect','有','无','文章','原始'],
+['净土次第修','原始资料','','','218','不要把自己看的太重要','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247491840&idx=4&sn=aa15ba6e8678f236960d8e63a2205f59&scene=21#wechat_redirect','有','无','文章','原始'],
+['净土次第修','原始资料','','','219','认清无趣无聊 让心歇下来','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491075&idx=8&sn=557bc71c3f3ff414c522c3e35abdaaeb&scene=21#wechat_redirect','有','无','文章','原始'],
+['净土次第修','原始资料','','','220','用法而不执着于法','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497671&idx=4&sn=7a3d28e48969acc62510e0491e4e579f&scene=21#wechat_redirect','有','无','文章','原始'],
+
 
 /*
 ['净土次第修','原始资料','','','207','督导修学-缘起','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491773&amp;idx=8&amp;sn=84ea61d088f7dab7aeb919679326fab8&amp;chksm=cff6f1aff88178b987bb3e52e23c68e5d481bf84d9936a2c085e2474006131a115fd6cc501c8#rd','无','无','文章','原始'],
@@ -1086,6 +1173,8 @@ var contdatas4 = [
 ['净土次第修','分类导读','菩提心','','013','咱们所修项目，跟佛讲的十种心紧密相关','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487152&amp;idx=6&amp;sn=79ff0be602a05b61fc8925e299cb0b79&amp;chksm=973cd736a04b5e20cc402e8beef18df2c13e691876a8cdd1ba67abc32ec93a3f6640cc070360&amp;token=1576720142&amp;lang=zh_CN#rd','无','无','文章','引用'],
 ['净土次第修','分类导读','菩提心','','014','平等具体体现在什么地方？','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487152&amp;idx=7&amp;sn=a704e4a2a268108c512c3fc21844ac25&amp;chksm=973cd736a04b5e2014cd2cbcd075619c6346a5ddbec19e348c9882f44ad8aeedd9f9ade060f5&amp;token=1576720142&amp;lang=zh_CN#rd','无','无','文章','引用'],
 ['净土次第修','分类导读','菩提心','','015','师父开示平等心','https://mp.weixin.qq.com/s/QKV5nqSEZ7cl9byLNGRbeQ','有','无','文章','引用'],
+['净土次第修','分类导读','菩提心','','016','菩提心的次第性','https://mp.weixin.qq.com/s/479waTcSE5Su4--8eSK4KA','有','无','文章','引用'],
+['净土次第修','分类导读','菩提心','','017','菩提心的邪正','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497671&idx=2&sn=7e2e77dcb78687ae598bb46766302e9e&scene=21#wechat_redirect','有','无','文章','引用'],
 
 
 ['净土次第修','分类导读','次第修','','001','次第修（小段汇集）','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247488902&amp;idx=3&amp;sn=c2b5577c0efd68ba001ea1286008a0b9&amp;scene=21#wechat_redirect','无','无','文章','原始'],
@@ -1095,6 +1184,7 @@ var contdatas4 = [
 ['净土次第修','分类导读','次第修','','005','本来是佛与次第修','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487152&amp;idx=1&amp;sn=8aa1d39a843a83b6f7391dd5d9e8b33d&amp;chksm=973cd736a04b5e2004cf4b0ec36c542175ac23410c3a67572721fa466e4669fd022bad653695&amp;token=1576720142&amp;lang=zh_CN#rd','无','无','文章','引用'],
 ['净土次第修','分类导读','次第修','','006','有没有将四级内容综合在一起的更为简捷高效的修法？','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487152&amp;idx=2&amp;sn=6dcec914ec751511601b38c54875799a&amp;chksm=973cd736a04b5e20f21deae7d0dd13f3d3164decde8b734999313dd14e4f572b5ad36811fb14&amp;token=1576720142&amp;lang=zh_CN#rd','无','无','文章','引用'],
 ['净土次第修','分类导读','次第修','','007','为何要遵循次第修','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487152&amp;idx=3&amp;sn=26065b0675ca2a7e5c16c930587d8899&amp;chksm=973cd736a04b5e20e66374ed1c6303e609adb3c2772139e870a42df79f771afdf55c211fc276&amp;token=1576720142&amp;lang=zh_CN#rd','有','无','文章','引用'],
+['净土次第修','分类导读','次第修','','008','佛法帮助我们超越生死','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497933&idx=6&sn=325b14e26248e63b1778df3207e86768&scene=21#wechat_redirect','有','无','文章','引用'],
 
 
 ['净土次第修','分类导读','功课','','001','功课（小段汇集）','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247488902&amp;idx=4&amp;sn=3e85e1995a987301373ba5321ce6c908&amp;scene=21#wechat_redirect','无','无','文章','原始'],
@@ -1126,6 +1216,7 @@ var contdatas4 = [
 ['净土次第修','分类导读','觉照','','002','国王与大臣','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491245&amp;idx=4&amp;sn=fc1b3783c31e9c4152d6cdb06cd01c05&amp;chksm=cff50fbff88286a9eeebf484961b7bb79730c80801815caf2f51feee5ab0109bdbdaa29f4046&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','觉照','','003','对境时怎么灵活运用项目','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491698&amp;idx=2&amp;sn=50bdf2072d2da14f060f49ed980603b4&amp;chksm=cff6f160f881787653e07c0a7ff478aaa5b64d09c22a8c63eb9986c7583c547d64c7e7021766&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','觉照','','004','对境时怎样更好的提起觉照','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491698&amp;idx=3&amp;sn=b39251c35e399f6ea76552fcef0fc288&amp;chksm=cff6f160f8817876bd46aff61cda31dd005d178508bea6d38dd583719fa4b19627a98303ac11&amp;scene=21#wechat_redirect','无','无','文章','引用'],
+['净土次第修','分类导读','觉照','','005','问题解决通过般若悲心愿力','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491075&idx=7&sn=74fbbf1d64cac40285352c04681e36bf&scene=21#wechat_redirect','有','无','文章','引用'],
 
 ['净土次第修','分类导读','缘起','','001','缘起（小段汇集）','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247488902&amp;idx=7&amp;sn=b989151820c97f0d0672ed371134a67f&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['净土次第修','分类导读','缘起','','002','讲理','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488462&amp;idx=7&amp;sn=8dae4dcc9e35ead52f7bdcb879aaec17&amp;chksm=cff502dcf8828bca75b24fc1b822e7d23fb7f5576d2e22056e50b2813d2c1285a50a3a03dcbc&amp;scene=21#wechat_redirect','无','无','文章','引用'],
@@ -1144,6 +1235,9 @@ var contdatas4 = [
 ['净土次第修','分类导读','缘起','','015','《缘起怎样融通佛法》的三个问题总结并画图说明','https://mp.weixin.qq.com/s/wOQSJGNuUlWjhKz6cF6yNw','无','无','文章','引用'],
 ['净土次第修','分类导读','缘起','','016','互为主伴','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487203&amp;idx=1&amp;sn=5815bfa6376f51f7df30cd7f81088393&amp;chksm=973cd765a04b5e739dc4299bf1db6ddc09fe82e3339a71b2fbab335db9a863a0b19bc8fd57a6&amp;token=1576720142&amp;lang=zh_CN#rd','无','无','文章','引用'],
 ['净土次第修','分类导读','缘起','','017','体相用-从不同方面去看待','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487203&amp;idx=2&amp;sn=63498c31cdea5b2939b9215aac47f7eb&amp;chksm=973cd765a04b5e7345e2086cf788a0c33ac0b34429bdb08b615f230ce2fd04536843be01d44a&amp;token=1576720142&amp;lang=zh_CN#rd','无','无','文章','引用'],
+['净土次第修','分类导读','缘起','','018','佛法的核心 · 缘起','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492611&idx=2&sn=da6ace20924e764db3bfa37c4fcf84a3&scene=21#wechat_redirect','有','无','文章','引用'],
+['净土次第修','分类导读','缘起','','019','十二因缘','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492560&idx=2&sn=2ff1b9e5da16dcbc1afe4eed37973119&scene=21#wechat_redirect','有','无','文章','引用'],
+
 
 ['净土次第修','分类导读','学习','','001','学习（小段汇集）','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247488902&amp;idx=8&amp;sn=95a1113502814a6e8416c35deef13748&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 
@@ -1214,6 +1308,7 @@ var contdatas4 = [
 
 ['净土次第修','分类导读','思维修项目-礼敬心','','001','礼敬心开示之一','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491696&amp;idx=6&amp;sn=90f65fff3f4676a41bd51d1fa6b74027&amp;chksm=cff6f162f8817874d9887dc1531f6065013f8bfed8c7fc2207aaca260b53115fa14009a11db7&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','思维修项目-礼敬心','','002','礼敬心开示之二','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491696&amp;idx=7&amp;sn=7e21a4c39d8e37fa3ef4b5b5736099b5&amp;chksm=cff6f162f881787483d7b545fafc07835c5bf04097e003282df29fd909f802f1f2e88ab5b4f7&amp;scene=21#wechat_redirect','无','无','文章','引用'],
+['净土次第修','分类导读','思维修项目-礼敬心','','003','有形无形有情无情众生区别','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490939&idx=2&sn=2c294212bad44683035f691c561de150&scene=21#wechat_redirect','有','无','文章','引用'],
 
 ['净土次第修','分类导读','思维修项目-谦卑心','','001','谦卑心（小段汇集）','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247495401&amp;idx=4&amp;sn=7b2682a2f821c115e172bb9926277258&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['净土次第修','分类导读','思维修项目-谦卑心','','002','平凡','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488362&amp;idx=1&amp;sn=5613ea6343fa91b5d1d180c364f118a3&amp;chksm=cff50278f8828b6e984c414040a24b7a7c36354828292ae4e652faa4a41279fb67dc62d77863&amp;scene=21#wechat_redirect','无','无','文章','引用'],
@@ -1222,8 +1317,13 @@ var contdatas4 = [
 ['净土次第修','分类导读','思维修项目-帮助之心','','002','关于孩子的问题','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247492298&amp;idx=2&amp;sn=632082c5a33967eba4359f4d0632f4d0&amp;chksm=cff6f3d8f8817ace56bc42385862471724083fdf08daee5f536692d207e891b1faf051dfb13f&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','思维修项目-帮助之心','','003','佛法助人','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491390&amp;idx=1&amp;sn=6958d24d296bf56456ac293680376bbb&amp;chksm=cff50e2cf882873a628d09ac19158da3e08972a54f9bdae3f9b7d4ddec1bf769524cb4c7683e&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','思维修项目-帮助之心','','004','有控制心，就是走魔道','https://mp.weixin.qq.com/s/RGMbbkhh4mDgHNbsUM6lUA','无','无','文章','引用'],
+['净土次第修','分类导读','思维修项目-帮助之心','','005','居士父母身体不好，师父开示怎样心应对','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492375&idx=3&sn=de0a6d8e03eb179c932bfdb4afb2d59d&scene=21#wechat_redirect','有','无','文章','引用'],
+['净土次第修','分类导读','思维修项目-帮助之心','','006','因上努力，果上随缘','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492731&idx=1&sn=67ee69067850d1f67affeac179dfe8f0&scene=21#wechat_redirect','有','无','文章','引用'],
+['净土次第修','分类导读','思维修项目-帮助之心','','007','每件事的形成都是无量因缘的促成','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492750&idx=1&sn=66815278ebaf6dc1e6656d4338957cda&scene=21#wechat_redirect','有','无','文章','引用'],
+
 
 ['净土次第修','分类导读','思维修项目-去虚荣心','','001','去虚荣心（小段汇集）','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247495401&amp;idx=6&amp;sn=0cb7e60d18e7c5ad4a71093d0e8089d8&amp;scene=21#wechat_redirect','无','无','文章','原始'],
+['净土次第修','分类导读','思维修项目-去虚荣心','','002','虚荣心','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497671&idx=5&sn=96d71537f030e25c7e92a6767a381192&scene=21#wechat_redirect','有','无','文章','引用'],
 
 ['净土次第修','分类导读','思维修项目-放松去紧张急躁散乱','','001','放松去紧张急躁散乱（小段汇集）','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247495420&amp;idx=1&amp;sn=627fa88fbe78d59204b2c3d32e1b25f3&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['净土次第修','分类导读','思维修项目-放松去紧张急躁散乱','','002','放松训练','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491865&amp;idx=5&amp;sn=c5c9e8b5bd3891e94293d651655d778a&amp;chksm=cff6f00bf881791d876056303a76aaad20df452f0b1258de3c4a0b2e3f5d05a26b3cce95c91c&amp;scene=21#wechat_redirect','无','无','文章','引用'],
@@ -1251,10 +1351,13 @@ var contdatas4 = [
 ['净土次第修','分类导读','思维修项目-弱化我执','','003','国王与大臣','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491245&amp;idx=4&amp;sn=fc1b3783c31e9c4152d6cdb06cd01c05&amp;chksm=cff50fbff88286a9eeebf484961b7bb79730c80801815caf2f51feee5ab0109bdbdaa29f4046&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','思维修项目-弱化我执','','004','关于“我”','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491331&amp;idx=6&amp;sn=c4ac2d7098dacc353bd1ab828fad329e&amp;chksm=cff50e11f88287074dcc685b3188c8f2f88d9620b8754fec555d6d4ceae1399867a9b50f1ded&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','思维修项目-弱化我执','','005','缘起浅谈','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491331&amp;idx=8&amp;sn=bf267f32028e5803c02411afcce1652d&amp;chksm=cff50e11f88287078e5dbb8b2fb41e979aab5bc3dd9f9f2e520414e719794dede7fae09e10a0&amp;scene=21#wechat_redirect','无','无','文章','引用'],
+['净土次第修','分类导读','思维修项目-弱化我执','','006','不要把自己看的太重要','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247491840&idx=4&sn=aa15ba6e8678f236960d8e63a2205f59&scene=21#wechat_redirect','有','无','文章','引用'],
 
 ['净土次第修','分类导读','思维修项目-弱化法执','','001','弱化法执（ 小段汇集）','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247495420&amp;idx=4&amp;sn=5eb0c618b9c58adc7d3bb864763b359b&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['净土次第修','分类导读','思维修项目-弱化法执','','002','缘起浅谈','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491331&amp;idx=8&amp;sn=bf267f32028e5803c02411afcce1652d&amp;chksm=cff50e11f88287078e5dbb8b2fb41e979aab5bc3dd9f9f2e520414e719794dede7fae09e10a0&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','思维修项目-弱化法执','','003','无趣无聊','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491712&amp;idx=2&amp;sn=e433cba895117dee1103cbf8f18f7d74&amp;chksm=cff6f192f88178840b673d1591cc57c1ce77adfa3b887d6ed318b0b8f4889d055fdfcee54c37&amp;scene=21#wechat_redirect','无','无','文章','引用'],
+['净土次第修','分类导读','思维修项目-弱化法执','','004','认清无趣无聊 让心歇下来','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491075&idx=8&sn=557bc71c3f3ff414c522c3e35abdaaeb&scene=21#wechat_redirect','有','无','文章','引用'],
+['净土次第修','分类导读','思维修项目-弱化法执','','005','用法而不执着于法','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497671&idx=4&sn=7a3d28e48969acc62510e0491e4e579f&scene=21#wechat_redirect','有','无','文章','引用'],
 
 ['净土次第修','分类导读','思维修项目-出离心','','001','出离心','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488350&amp;idx=2&amp;sn=4b247828d0000c2a8ccfbde9292c1806&amp;chksm=cff5024cf8828b5a22ce0df5b5eebcb97134052191b743296a5a30a164f95357d3563e2454b8&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','思维修项目-出离心','','002','没有出离心，你做再多的事，也依然是轮回业','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487152&amp;idx=8&amp;sn=f92415a6f0ac1b4aada3e93b82d7f333&amp;chksm=973cd736a04b5e20507023a5084746d95e7338550a4f139f7bce4242e5970cb182e7949362d6&amp;token=1576720142&amp;lang=zh_CN#rd','无','无','文章','引用'],
@@ -1497,8 +1600,8 @@ var contdatas5 = [
 
 
 var contdatas60 = [
-//随缘开示 因缘果汇集
-
+//随缘开示 因缘果汇集 20240726 资料分到其他类了。不用了。
+/*
 ['随缘开示','因缘果汇集','','','001','因缘果讲解','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492375&amp;idx=1&amp;sn=aa6540189713055bed140f7b08f10f90&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','因缘果汇集','','','002','什么是因缘果','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247489993&amp;idx=5&amp;sn=fc07da06893cd612ab528ed35ee56de2&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','因缘果汇集','','','003','因缘果的重要','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247489993&amp;idx=4&amp;sn=5f28c120451f111a1e2a55d72c05f25f&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -1545,7 +1648,7 @@ var contdatas60 = [
 ['随缘开示','因缘果汇集','','','044','因上努力，果上随缘.','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492731&amp;idx=1&amp;sn=67ee69067850d1f67affeac179dfe8f0&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','因缘果汇集','','','045','每件事的形成都是无量因缘的促成','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492750&amp;idx=1&amp;sn=66815278ebaf6dc1e6656d4338957cda&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','因缘果汇集','','','046','要相信因果，用事实看问题','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492750&amp;idx=2&amp;sn=b4c083374cc71d93435e04e4071bfa01&amp;scene=21#wechat_redirect','有','无','文章','原始'],
-['随缘开示','因缘果汇集','','','047','每个人都有度化的缘','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492750&amp;idx=3&amp;sn=557e2b4866e973f26724d81111b7aa29&amp;scene=21#wechat_redirect','有','无','文章','原始']
+['随缘开示','因缘果汇集','','','047','每个人都有度化的缘','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492750&amp;idx=3&amp;sn=557e2b4866e973f26724d81111b7aa29&amp;scene=21#wechat_redirect','有','无','文章','原始']  */
 ];
 
 var contdatas61 = [
@@ -1568,7 +1671,8 @@ var contdatas61 = [
 ];
 
 var contdatas62 = [
-//随缘开示 小组开示汇集
+//随缘开示 小组开示汇集 20240726 资料分到其他类了。不用了。
+/*
 ['随缘开示','小组开示汇集','','','001','往生要有平时的训练','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247490851&amp;idx=8&amp;sn=f94e971a137fcee235d48c51f7ec2250&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','小组开示汇集','','','002','菩提心的邪正','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247497671&amp;idx=2&amp;sn=7e2e77dcb78687ae598bb46766302e9e&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','小组开示汇集','','','003','不断悟入法理才能不断增强修行信心','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247491023&amp;idx=1&amp;sn=39f65cc5a6fb64649376f4248f103a57&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -1676,7 +1780,7 @@ var contdatas62 = [
 ['随缘开示','小组开示汇集','','','105','关于悟静师父的问题开示	','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247490981&amp;idx=7&amp;sn=dc1595b5627aa6273d2f5e9a73d2db53&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','小组开示汇集','','','106','师父讲袁琳前期对境失败的原因是修学不如法','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247491023&amp;idx=5&amp;sn=aa593b9f96f18dbc7580dfa57f52bd8f&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['随缘开示','小组开示汇集','','','107','害怕是业力和正念不足导致	','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247491023&amp;idx=8&amp;sn=38cbb147e34decfcb14eca3b1c6724a3&amp;scene=21#wechat_redirect','有','无','文章','原始'],
-['随缘开示','小组开示汇集','','','108','为什么越修习气越重','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247491075&amp;idx=2&amp;sn=90649ba2545afd2f7c4c60b975452029&amp;scene=21#wechat_redirect','有','无','文章','原始']
+['随缘开示','小组开示汇集','','','108','为什么越修习气越重','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247491075&amp;idx=2&amp;sn=90649ba2545afd2f7c4c60b975452029&amp;scene=21#wechat_redirect','有','无','文章','原始']   */
 ];
 
 
@@ -1981,6 +2085,14 @@ var contdatas9 = [
 ['选学资料汇总','静修班资料','师父随缘开示','','076','54、对于督导修学、对于净土宗更加深入的认识，建立更为坚定的信心','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493948&amp;idx=1&amp;sn=dd8cd6649881edc9a2d5f0ea9a04c89d&amp;chksm=cff6f82ef8817138fa1582357c381818123b1802beb83c89d1f4c96744e45a707a9ec971760f#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','077','55、净士法门是一个特殊法门，不是外面所有宗派所能解释的','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493948&amp;idx=2&amp;sn=613930f749b11c3aaaf3acef4f9c5fa8&amp;chksm=cff6f82ef8817138b4eadf3153ef4d7557e53678f343b97ff354a240452aa837415056decbbd#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','078','56、往生模拟训练，神识怎么个出法，那个不必操心','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493948&amp;idx=3&amp;sn=35e53e2c372b3a6da0db840ea459302a&amp;chksm=cff6f82ef8817138836055a4d8c05d19110481be6ef04d13927fcdfdde5b1c907b8277fe34b7#rd','无','无','文章','原始'],
+//20240726 添加 
+['选学资料汇总','静修班资料','师父随缘开示','','079','57、往生要有平时的训练','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490851&idx=8&sn=f94e971a137fcee235d48c51f7ec2250&scene=21#wechat_redirect','有','无','文章','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','080','58、念佛号与听佛号','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490851&idx=1&sn=f9c99031cf444ba09a406e5927113ded&scene=21#wechat_redirect','有','无','文章','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','081','59、忆佛念佛','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490851&idx=2&sn=05c8777ab24a63f80f77d5799324e12c&scene=21#wechat_redirect','有','无','文章','原始'],
+
+
+
+
 
 //助念专题
 ['选学资料汇总','静修班资料','助念专题','','001','01、助念案例（乌市迟老菩萨）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494001&amp;idx=1&amp;sn=e558e1bb627651357aafbabe05492147&amp;chksm=cff6f863f881717513ab1dafd960125a63cf431820f5e33451ff216438dc4e923b2c475c6bcc#rd','无','无','文章','原始'],
