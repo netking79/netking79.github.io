@@ -158,7 +158,7 @@ var contdatas1 = [
 ['概览说明','次第修学概览','为何要止观双运','','006','思维修经论依据',myaddr+'glsm/cdxxgl/whyzgsy/swxjlyj/','无','无','目录',''],
 //添加"思维修经论依据"里的单篇
 ['概览说明','次第修学概览','为何要止观双运','思维修经论依据','001','陌生又熟悉','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491865&amp;idx=3&amp;sn=d4d6e30a88e8bbef648fbb22f110d541&amp;chksm=cff6f00bf881791d0f99faa87eb01dac803a8121d395012751f2170eaf571c71cd372bb1344c#rd','无','无','文章','引用'],//引用 净土次第修
-['概览说明','次第修学概览','为何要止观双运','思维修经论依据','002','无量寿经中的思维修',myaddr+'jtcdx/yszl/079.html','无','无','文章','引用'],//引用 净土次第修
+['概览说明','次第修学概览','为何要止观双运','思维修经论依据','002','无量寿经中的思维修~app',myaddr+'jtcdx/yszl/079.html','无','无','文章','引用'],//引用 净土次第修
 ['概览说明','次第修学概览','为何要止观双运','思维修经论依据','003','劝发菩提心（前言）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491847&amp;idx=3&amp;sn=7a4fee91cce96445e70b781d0395f819&amp;chksm=cff6f015f8817903b2f7c9633bad6e3c1ad1aae034e7ec50b40d1e4200e254846e02d50c7cf9#rd','无','无','文章','引用'],//引用 净土次第修
 ['概览说明','次第修学概览','为何要止观双运','思维修经论依据','004','学佛四部曲','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491254&amp;idx=1&amp;sn=fd075a51731cb06e342484e6adf02b27&amp;chksm=cff50fa4f88286b2668d2228bdbe1bce863f613e49818d2cc7307f45774f5dc8cf13dd2a8dbf#rd','无','无','文章','引用'],//引用 净土次第修
 ['概览说明','次第修学概览','为何要止观双运','思维修经论依据','005','关于正思维','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491254&amp;idx=8&amp;sn=c25661cfe5917741015fc97e6668d9b3&amp;chksm=cff50fa4f88286b222a2b26946869b06f415152d0d676f58a082f2141e8ad89820b52b471cbb#rd','无','无','文章','引用'],//引用 净土次第修
@@ -182,7 +182,7 @@ var contdatas1 = [
 ['概览说明','次第修学概览','督导修学模式','','002','何谓督导修学模式',ddxxms_ys[2],'无','有','文章','引用'], //引用 
 ['概览说明','次第修学概览','督导修学模式','','003','督导修学模式有什么优势',ddxxms_ys[3],'无','有','文章','引用'], //引用 
 
-['概览说明','次第修学概览','','','011','学员修学效果分享','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247488268&idx=2&sn=158756a50e2c248548c53eb6cf9b4cd3&scene=21#wechat_redirect','无','有','文章','引用'] //引用 基础班资料
+['概览说明','次第修学概览','','','011','同修实修效果','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247488268&idx=2&sn=158756a50e2c248548c53eb6cf9b4cd3&scene=21#wechat_redirect','无','有','文章','引用'] //引用 基础班资料
 ];
 
 
@@ -249,7 +249,7 @@ var contdatas2 = [
 ['基础班资料','原始资料','小组学习总结','','020','关于督导修学','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247486496&amp;idx=3&amp;sn=0310502ed2109278ce6cb4a3125d298a&amp;chksm=cff51d32f88294245c0646a6e0f1b8fe94f1befdbd18e00fad8215abb9774bf24dc3f5ef3dc4&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['基础班资料','原始资料','小组学习总结','','021','师父开示','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247486496&amp;idx=4&amp;sn=ebb270a491ebaa8b3b74c5d6128938ad&amp;chksm=cff51d32f8829424a3d1d33e46e77aecdfd4606c0c07f8a71a6da226fec28c4b626817e31619&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 
-['基础班资料','原始资料','','','039','次第修学-阶段划分','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247488873&amp;idx=1&amp;sn=3292c81e5839ade9ac527a8268016dfc&amp;scene=21f51d69f882947f3e1cb106f6d166365c5d8c55217e61cbd8e5950789253aa95de90e2b2744&amp;scene=21#wechat_redirect','有','无','文章','引用'],
+['基础班资料','原始资料','','','039','次第修学-阶段划分','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247488873&amp;idx=1&amp;sn=3292c81e5839ade9ac527a8268016dfc&amp;scene=21f51d69f882947f3e1cb106f6d166365c5d8c55217e61cbd8e5950789253aa95de90e2b2744&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 
 //基础班资料-问题列表-全部
 ['基础班资料','问题列表_全部','','','001','《师父讲佛教基础》','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247492157&amp;idx=3&amp;sn=aaa0720a915068bc202aa0ac2e24a501&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -385,7 +385,7 @@ var contdatas2 = [
 //
 ['基础班资料','辅助资料','','','032','老法师开示，如何超度冤亲眷属','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493351&amp;idx=8&amp;sn=47290f176b87cb165a2fa635b866331a&amp;chksm=cff6f7f5f8817ee36b17bb95a06a207daa70080f17e63d9a45117910e885d3bcd0d609b497f6&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['基础班资料','辅助资料','','','033','梦参老和尚关于清明节的开示','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493355&amp;idx=1&amp;sn=5023cfa4ae4a1ed12d531c672bdfd6db&amp;chksm=cff6f7f9f8817eef749c507ba1d302c2802c83c43c656df9c62ff90b2dc076fabf651094598c&amp;scene=21#wechat_redirect','无','无','文章','原始'],
-['基础班资料','辅助资料','','','034','关于诚敬心','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487339&idx=2&sn=6f0acd8ed40a375930c8e8966ddfb2e4&chksm=973cd6eda04b5ffba605dfc6e75e1945965451c2b1115f7c1095d5125137d501a785ab099ad9&token=1549694626&lang=zh_CN#rd','无','无','文章','原始'],
+['基础班资料','辅助资料','','','034','关于诚敬心','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487355&idx=1&sn=02d2d1e98bf741d3d61646481702b788&chksm=973cd6fda04b5feba9c0e6e6350c03450a87be6876002f0d32920c4217563b7f75a9e79cc6a0&token=253036803&lang=zh_CN#rd','无','无','文章','原始'],
 ['基础班资料','辅助资料','','','035','视频【厉害的人都是“反内耗”体质】','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487339&idx=5&sn=4a652bd5c7420f2bd9cde013843a9683&chksm=973cd6eda04b5ffb5f3571965e7463aad338dab2ad49a9757f11cc107f551e8a4c04b3443430&token=1549694626&lang=zh_CN#rd','无','无','文章','原始']
 
 
@@ -463,7 +463,7 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','从根本处修','','003','通过转变心行摆脱无形众生的干扰','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490657&amp;idx=4&amp;sn=a3a4f9cd5e16dacdb4fda01ea807652a&amp;chksm=cff50d73f882846571914f0d56851ba5382390a8bdf8161639dc9facf884620c9e24becca495&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','从根本处修','','004','从根本处修才能简捷高效','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490909&amp;idx=3&amp;sn=380e1b2eb485de1f3f7f96c1a5f6dd7b&amp;chksm=cff50c4ff882855947e735ce2aaa60d770f58b84ec159d8d961a559d671d594c18803e3185f2&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','从根本处修','','005','实修，就是要悟，然后悟后修','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494498&amp;idx=6&amp;sn=36cf2d7cd73edb286da14a48750de4bc&amp;chksm=cff6fa70f8817366cfc137bebbe768f4f31ff80c79c7d36b3048c5925024fcd5cf40ff18f460#rd','无','无','文章','原始'],
-['每日四项讲解','辅助资料','从根本处修','','006','只要你修正，这些偏邪问题，就附带解决了',myaddr+'mrsxjj/fzzl/01.html','无','无','文章','原始'],
+['每日四项讲解','辅助资料','从根本处修','','006','只要你修正，这些偏邪问题，就附带解决了~app',myaddr+'mrsxjj/fzzl/01.html','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','从根本处修','','007','好好修学，调身调病就含摄在其中','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494498&amp;idx=5&amp;sn=74a7131e0e4e8137eba4d483561dd8e0&amp;chksm=cff6fa70f8817366ab50bd817baf699af18eee279a5f153c90561d3e1c3a83ab480ce6cf9678#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','从根本处修','','008','修行从根本处修真的太重要了','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494498&amp;idx=7&amp;sn=e4ec7966d06401c2bc92b90e3040b734&amp;chksm=cff6fa70f88173665d7ca7825ffe9b94a4a45fd9f420d88a6d19360943f305cb9983f7674811#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','从根本处修','','009','心行的频道改变了，附体问题自然改善乃至解决','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494520&amp;idx=1&amp;sn=b38a605917e0c708994fa47d21e552cd&amp;chksm=cff6fa6af881737cf7f12e885d9b4fbd66be84bf295c8a86734d14adea439b79fd17d50e5c4a#rd','无','无','文章','原始'],
@@ -474,7 +474,7 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','从根本处修','','014','从根本处修','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494520&amp;idx=5&amp;sn=5815c0134a767ec820e92097c5d22eed&amp;chksm=cff6fa6af881737c071334e310e2cbc88a15b0ba208591b8c7ba72b064d57911ad42e6d7a966#rd','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','从根本处修','','015','我们要深刻体会从根本处修的好处','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494520&amp;idx=6&amp;sn=a76de254de56fe9fd77eeff2ef18172a&amp;chksm=cff6fa6af881737ce84446d1096fceb2214e1e3a7ac4512027534965f694485b05097eb83175#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','从根本处修','','016','从根本处修-刘居士是一个很明显的案例','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494520&amp;idx=7&amp;sn=d565e2b47668518cf77cf51f789484b4&amp;chksm=cff6fa6af881737ca75f304c13cbed6fb174726fd0a003b646df5f55e185d7514a3bcc23c1f5#rd','无','无','文章','原始'],
-['每日四项讲解','辅助资料','从根本处修','','017','不断悟入法里才能不断增强修行信心','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491023&idx=1&sn=39f65cc5a6fb64649376f4248f103a57&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','从根本处修','','017','不断悟入法理才能不断增强修行信心','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491023&idx=1&sn=39f65cc5a6fb64649376f4248f103a57&scene=21#wechat_redirect','有','无','文章','原始'],
 
 
 
@@ -531,7 +531,7 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','功课','','024','如果你总是散漫式或是不够量的修学，那你一生都可能在艰难中度过','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494638&amp;idx=2&amp;sn=97a03a9ee8057433090001c6e5287056&amp;chksm=cff6fafcf88173ea887483272136be1bfb865bb8c5488ec8a6575a361db046793c825165996c#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','功课','','025','突破自律-要修够量','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494638&amp;idx=3&amp;sn=a59dd747ff66666f68fea948431cb2e6&amp;chksm=cff6fafcf88173eadac1eccbd918c1a1893bf4a37f816d1c5ea01886823a3f0182d570524b1f#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','功课','','026','你修对时，当下离苦得乐的效果会即时呈现','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494638&amp;idx=4&amp;sn=d173e18a2db3e4778c833d1201c042d8&amp;chksm=cff6fafcf88173eaecfea90e7bedd6b33933f1e3dc62f932c81ab2a9c057cc5921932a0e2762#rd','无','无','文章','原始'],
-['每日四项讲解','辅助资料','功课','','027','如何做到不被众生给错误影响？',myaddr+'mrsxjj/fzzl/02.html','无','无','文章','原始'],
+['每日四项讲解','辅助资料','功课','','027','如何做到不被众生给错误影响？~app',myaddr+'mrsxjj/fzzl/02.html','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','功课','','028','计划的功课实现不了怎么办','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494638&amp;idx=5&amp;sn=eacdcd2812dcb3459fc755381ca49a66&amp;chksm=cff6fafcf88173ea25e44f1c710d9afe6ea1700e4aba5337cc4fbac10ea1c307abf246b785f0#rd','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','功课','','029','功课先把少量、少时能不能做好？','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494638&amp;idx=6&amp;sn=39a74dc0414a6fc69554ce4502202476&amp;chksm=cff6fafcf88173ea1398ff1eb847c72b2509fedc2036ff87926885279bde8ffb88e6af4ce165#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','功课','','030','在功课方面，要努力坚持哪怕少做，也要日日相续不要中断','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494638&amp;idx=7&amp;sn=0d8a9d5579f30e4d2d4321b782805e2d&amp;chksm=cff6fafcf88173eaf2f879b94f9d4dc39a75f9a63fc18ef0f613842bd8d930ac024edac6097e#rd','无','无','文章','原始'],
@@ -680,7 +680,7 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','因缘果','','008','因果缘每一条都作总观想','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495001&amp;idx=7&amp;sn=ad2688650182c61ffe9432143fcd28a2&amp;chksm=cff6fc4bf881755dcb571e3d6f8544ca12d54e8f89723772a3b3b7e9cb4c7bedcc6a867276e4#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','009','发生的事情到底是必然的还是人为的','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495001&amp;idx=8&amp;sn=f983e79b795e627ae2eb11dc641ba029&amp;chksm=cff6fc4bf881755d50f21265d4325d4620bc24f41cc00b677bf438b2a4c472579a49bd36da7b#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','010','刘居士的父亲已经有了巨大转变','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495021&amp;idx=1&amp;sn=a596a76e9fb9aea170aeea29d484adaf&amp;chksm=cff6fc7ff88175696e2751fdf855dda21ff6674256da178db35a2d5edc406425e1e55f7d880d#rd','无','无','文章','原始'],
-['每日四项讲解','辅助资料','因缘果','','011','境缘的改变都是快速的吗？有没有转了心态但是很久才境缘有变化？',myaddr+'mrsxjj/fzzl/03.html','无','无','文章','原始'],
+['每日四项讲解','辅助资料','因缘果','','011','境缘的改变都是快速的吗？有没有转了心态但是很久才境缘有变化？~app',myaddr+'mrsxjj/fzzl/03.html','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','012','佛法也是因缘和合而产生的吗？佛法不是真理吗','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495021&amp;idx=2&amp;sn=2755d4ea2db2f99bc96fb2f51aff19d9&amp;chksm=cff6fc7ff88175696325b573f639dc40043aa55a7ea9c7d9d0999c062c175ee9b8ad7469d41f#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','013','果报定，果报不定','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495021&amp;idx=3&amp;sn=6f8f43218528fec9835bb79670cc7015&amp;chksm=cff6fc7ff8817569c94425b3106457a2e3d05ad93870aedd95ce217542cbc459af50ef5b397f#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','014','既然一切都是修来的，为啥还要感恩别人','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495021&amp;idx=4&amp;sn=af11f4ae94375b41132ed93bffb2aa05&amp;chksm=cff6fc7ff88175696e6672ca644330d722938c75037bc026f75d26063b457f495ef428925e17#rd','无','无','文章','原始'],
@@ -689,11 +689,11 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','因缘果','','017','接触了两位佛友听经二三十年，但在境缘中还是不能真正相信因果','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495021&amp;idx=7&amp;sn=fbb5fdd346612c74d5154e53487d6815&amp;chksm=cff6fc7ff881756940352682d7122c6203946edf2cd629c777d22b3ca40b945ebec2a72e5e18#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','018','开心居士对“境随心转”的体会','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495034&amp;idx=1&amp;sn=33ca3a434444f7b31204d4ce881811be&amp;chksm=cff6fc68f881757ebade599160b6c9b42ea7eb54a5cefe1d2fea5cbfb1c8aceb3dad81906b2c#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','019','如果跟病毒对立，反感怨憎，内心都是消杀思维，这样反而会加重果报','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495034&amp;idx=2&amp;sn=cf9dac3760677a07ba3d0fb65335c565&amp;chksm=cff6fc68f881757e5f19d6dab6d91bb5d0a3f62f1fc2e9254fcd3f4a2f71ebb6055bacfea456#rd','无','无','文章','原始'],
-['每日四项讲解','辅助资料','因缘果','','020','病毒并不是致病或是要命的因，它们只是缘',myaddr+'mrsxjj/fzzl/04.html','无','无','文章','原始'],
+['每日四项讲解','辅助资料','因缘果','','020','病毒并不是致病或是要命的因，它们只是缘~app',myaddr+'mrsxjj/fzzl/04.html','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','021','每个人感染后不同的症状，根本还在于自己的业力','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495034&amp;idx=3&amp;sn=12ce5e59f03a2ae6e647c449fc77b630&amp;chksm=cff6fc68f881757e1e4fcfb640f990cd6096819c9961ad34fddfce4ed4a3e37efac5311f16a8#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','022','琉璃王被羞辱，只是缘，真正的因是在过去','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495034&amp;idx=4&amp;sn=a504ce7696091f686c4a857772d8d178&amp;chksm=cff6fc68f881757eb5a28260bef350ef5f775e42cb473c2ea7f7f72683163974d1ec408785be#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','023','我之前一直是果上随缘，因上却没有努力','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495034&amp;idx=5&amp;sn=93d0188f6fd1d90b1020b15723de1c74&amp;chksm=cff6fc68f881757ecc79f100d2ea49273f032f8ba93670571c662144831ccef553ef17ec461d#rd','无','无','文章','原始'],
-['每日四项讲解','辅助资料','因缘果','','024','关于日本侵华',myaddr+'mrsxjj/fzzl/05.html','无','无','文章','原始'],
+['每日四项讲解','辅助资料','因缘果','','024','关于日本侵华~app',myaddr+'mrsxjj/fzzl/05.html','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','025','就像是电视连续剧，有的现前在上演，有的还在排列中，有的还在编写中','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495034&amp;idx=6&amp;sn=d7f5e7e072de8e254dcf9e61d79de761&amp;chksm=cff6fc68f881757e8855bd56e61b3d6d7590a7b77e069b9a3a18020c0deb759cc898dd72c248#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','026','“念念成形，形形皆有识”这句可以这样解释吗','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495049&amp;idx=1&amp;sn=033c84f6c5eb75d0d1777ae9fc4ab5ca&amp;chksm=cff6fc9bf881758d57996378680c51d2321f069c854797babdc18dd56fd33da187e4f0449969#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','027','此时此刻我深刻的感受到这念头太可怕了，身体马上受果报','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495049&amp;idx=3&amp;sn=c6ca97a47939f1bd189db239ff0e2ad6&amp;chksm=cff6fc9bf881758ddd3e85619a73dbdddcdec41d6a43e875bb4e7c81c3bf3ee977a0bf902a09#rd','无','无','文章','原始'],
@@ -916,7 +916,7 @@ var contdatas4 = [
 //['净土次第修','原始资料','','','021','思维因缘果','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488351&amp;idx=7&amp;sn=d84ad2a3fcdfc064eafd695a50a1d951&amp;chksm=cff5024df8828b5b35677955927e14a0e50a77b8c79fee180118f87dcac3f6dd27f0fe9121d3#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','022','法，用对否','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488351&amp;idx=8&amp;sn=7607c5bf690ee5c6b2c65a30c83405b9&amp;chksm=cff5024df8828b5b87fd5884910bb75332eb046a562a505856cc2b611e434ec3551630a62469#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','023','平凡','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488362&amp;idx=1&amp;sn=5613ea6343fa91b5d1d180c364f118a3&amp;chksm=cff50278f8828b6e984c414040a24b7a7c36354828292ae4e652faa4a41279fb67dc62d77863#rd','无','无','文章','原始'],
-['净土次第修','原始资料','','','024','靠什么往生',myaddr+'jtcdx/yszl/024.html','无','无','文章','原始'],
+['净土次第修','原始资料','','','024','靠什么往生~app',myaddr+'jtcdx/yszl/024.html','无','无','文章','原始'],
 ['净土次第修','原始资料','','','025','热衷于福报','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488362&amp;idx=2&amp;sn=c6d7f99f89861ba468902576324722e4&amp;chksm=cff50278f8828b6eb4403df2434d0a3f1197a7dfbd3f82b7e22a5cf8fc455a970e5fb9dca413#rd','无','无','文章','原始'],
 //['净土次第修','原始资料','','','026','补充说明一	','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488368&amp;idx=1&amp;sn=f530d76471a4d5afe7c7aa2adab471e0&amp;chksm=cff50262f8828b745fa8176e60ee6b7615989dedde6f2b1d28a58f5b3166aa230b7c6e82c3aa#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','027','念佛方法（印祖）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488362&amp;idx=3&amp;sn=c426724e77acefa2bdb6a65db7ef4ab4&amp;chksm=cff50278f8828b6e9b3d5417a0eaee8058fc101d27317bdd95f50ad5872311c5718e2dc1bdca#rd','无','无','文章','原始'],
@@ -931,7 +931,7 @@ var contdatas4 = [
 //['净土次第修','原始资料','','','036','一向专念','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488462&amp;idx=6&amp;sn=b6748ee26a4c0a35c729356461752e1d&amp;chksm=cff502dcf8828bcaee49b049a9cf961ae36a95aee7106d52f577913fb6c63e20904f0d5e1794#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','037','讲理','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488462&amp;idx=7&amp;sn=8dae4dcc9e35ead52f7bdcb879aaec17&amp;chksm=cff502dcf8828bca75b24fc1b822e7d23fb7f5576d2e22056e50b2813d2c1285a50a3a03dcbc#rd','无','无','文章','原始'],
 //['净土次第修','原始资料','','','038','极妙秘诀（印祖）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488462&amp;idx=8&amp;sn=d6faa31af962031fa2a78c4a0d276f0e&amp;chksm=cff502dcf8828bca744f91e0d7a22d3f407d70701775323a4b67d56f22f964f419ebe16e7689#rd','无','无','文章','原始'],
-['净土次第修','原始资料','','','039','净土法门的核心',myaddr+'jtcdx/yszl/039.html','无','无','文章','原始'],
+['净土次第修','原始资料','','','039','净土法门的核心~app',myaddr+'jtcdx/yszl/039.html','无','无','文章','原始'],
 ['净土次第修','原始资料','','','040','对法麻木','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488854&amp;idx=1&amp;sn=25de909a5ae3f7ab883f5aa41f7ee56a&amp;chksm=cff50444f8828d52ce044c446837743e61347a203fd524ea9f16a0398e7efd09f0a8d5ffa75b#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','041','七笔勾（莲池大师）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488854&amp;idx=2&amp;sn=c1d868407c9f10f2155c5cc92f422396&amp;chksm=cff50444f8828d52d245eaec2e3d5eb1efe66a45b8905ae759f4710cac8c9815bb0e86e3d854#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','042','百不管','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488854&amp;idx=3&amp;sn=5628a2cf7d8e79ddb16fbc1277f90f7f&amp;chksm=cff50444f8828d526fbf9c1244f809364fe8b362868712661fbbcf12e5e584022e65350fe057#rd','无','无','文章','原始'],
@@ -945,17 +945,17 @@ var contdatas4 = [
 //['净土次第修','原始资料','','','050','关于净土流派','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488866&amp;idx=3&amp;sn=4caee92ba7e0b32fb7e277db7b868fb6&amp;chksm=cff50470f8828d66b05566e7a5f816540e310c02d41ed9046d69153d31701b02b7d9d8ee5e3a#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','051','怎样对待病苦','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488866&amp;idx=4&amp;sn=995af457532a16b63313dd6d4b8d2776&amp;chksm=cff50470f8828d66aaba052555e4e15ecc96a09f2aa099c1172b8b32ef5611992d88677ce494#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','052','善调心态','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488866&amp;idx=5&amp;sn=ff87bb8dd6d71b6e0c4f93b77c560686&amp;chksm=cff50470f8828d666e6e2e6d0246f517ec3974c1c865d2f0a90432e114da4952587b35d0c046#rd','无','无','文章','原始'],
-['净土次第修','原始资料','','','053','念佛功夫（江味农）',myaddr+'jtcdx/yszl/053.html','无','无','文章','原始'],
+['净土次第修','原始资料','','','053','念佛功夫（江味农）~app',myaddr+'jtcdx/yszl/053.html','无','无','文章','原始'],
 ['净土次第修','原始资料','','','054','三力与往生','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488866&amp;idx=6&amp;sn=b6fdf914841aa704f76bfdccbad5bfea&amp;chksm=cff50470f8828d668722b0c709562fbb7d8665a3a03fe2cd929707d88f474c902d67f31f7ad0#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','055','标准检验','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488866&amp;idx=7&amp;sn=77748bfcbe92bbe598b2bc6b15067bbd&amp;chksm=cff50470f8828d66d5ade9e425b8b86c648db275cf6771ca54d37d0cc8f8a380cb56454a5986#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','056','世事浮华','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488886&amp;idx=1&amp;sn=c0679cbea8506ebd66fc196cbf2a5334&amp;chksm=cff50464f8828d72a7bf8363c32e4077d666f02275bead27cbc9cad03145b66bf4456eb8cf09#rd','无','无','文章','原始'],
-['净土次第修','原始资料','','','057','往生的障碍',myaddr+'jtcdx/yszl/057.html','无','无','文章','原始'],
+['净土次第修','原始资料','','','057','往生的障碍~app',myaddr+'jtcdx/yszl/057.html','无','无','文章','原始'],
 //['净土次第修','原始资料','','','058','助念流程',myaddr+'jtcdx/yszl/058.html','无','无','文章','原始'],
 //['净土次第修','原始资料','','','059','阶段小结二	','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488886&amp;idx=2&amp;sn=18daca59455f23662df76f2bd219a5e8&amp;chksm=cff50464f8828d72d55552613df349f5a24850ab9836b1eb2750d1e53a181d3629e9ba408e75#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','060','思维修补充一	','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488886&amp;idx=3&amp;sn=f20a1d5313eba54e82dc36e4f292ac6f&amp;chksm=cff50464f8828d7242fb4d3974156b50d52bbfa5fa02b7c68886de8bbb5e4524bd57f9c8aa55#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','061','思维修补充二','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247494903&idx=6&sn=dcdf70a5184dc5c4fc4b1a380e3eba26&chksm=cff6fde5f88174f3c40aa935f77cd11cf1ed483a48a3824a7bdf63ae347901ef3554d4a7acf1#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','062','思维修补充三','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491865&amp;idx=1&amp;sn=912886f6bd6e0acfc142bc817a60321f&amp;chksm=cff6f00bf881791da7acbf469e9cae09f9a642d1f09f5891c4fe838344baa03cdf0d5f56152d#rd','无','无','文章','原始'],
-['净土次第修','原始资料','','','063','关于孩子的问题',myaddr+'jtcdx/yszl/063.html','无','无','文章','原始'],
+['净土次第修','原始资料','','','063','关于孩子的问题~app',myaddr+'jtcdx/yszl/063.html','无','无','文章','原始'],
 ['净土次第修','原始资料','','','064','思维修补充四','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491865&amp;idx=2&amp;sn=f1295b4a0922846c0acab4ebd0e19781&amp;chksm=cff6f00bf881791dced6b256943ce17393037e42336aa916bfa1c955f62d4f3494b0f3b23680#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','065','陌生又熟悉','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491865&amp;idx=3&amp;sn=d4d6e30a88e8bbef648fbb22f110d541&amp;chksm=cff6f00bf881791d0f99faa87eb01dac803a8121d395012751f2170eaf571c71cd372bb1344c#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','066','思维修补充五','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491865&amp;idx=4&amp;sn=e9ad1f2889171cc2c6ccb694228c3bd6&amp;chksm=cff6f00bf881791d2434a70b8e66b6ae97fe4c078509705b1d9e3f925e6df24830e85f5fc9a1#rd','无','无','文章','原始'],
@@ -971,7 +971,7 @@ var contdatas4 = [
 ['净土次第修','原始资料','','','076','修学点滴之三','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491234&amp;idx=5&amp;sn=28d23b850760b058dc97aa727187986f&amp;chksm=cff50fb0f88286a6f423e589e3cdc15b9f742fb9f412ee5a4e84e8c593c7d60c9d3611828dd4#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','077','降化烦恼','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491234&amp;idx=6&amp;sn=348f5b61efdde8628d6973871a77eca0&amp;chksm=cff50fb0f88286a6865a3082ab1f9050f78b74452cab97de88212261549eb7aab9722d79e7c5#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','078','修学点滴之四','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491234&amp;idx=7&amp;sn=56233172664f17cd9ecbe5ec085d4c7c&amp;chksm=cff50fb0f88286a683e101d7f08bd9e350adcca8737f7ca3a835d2b77e8889f81fd16395a9ec#rd','无','无','文章','原始'],
-['净土次第修','原始资料','','','079','《无量寿经》中的思维修',myaddr+'jtcdx/yszl/079.html','无','无','文章','原始'],
+['净土次第修','原始资料','','','079','《无量寿经》中的思维修~app',myaddr+'jtcdx/yszl/079.html','无','无','文章','原始'],
 ['净土次第修','原始资料','','','080','修学点滴五','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491244&amp;idx=1&amp;sn=6aa37881368cb77127e92b5771f87f4e&amp;chksm=cff50fbef88286a85701252c5d8cf68d96ab1bed1ac232e524f1e09105b905e811a6479c7a8e#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','081','思维修补充八','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491244&amp;idx=2&amp;sn=fe4893d26935b907eea1969f5ec34f40&amp;chksm=cff50fbef88286a8c8399c621752a6c226647042aafedfb03564e6a3f4fcb30a72b2a35df730#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','082','修学点滴六','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491244&amp;idx=3&amp;sn=c312062e61be73a72b4513bccc49ab89&amp;chksm=cff50fbef88286a8bc70cadb7f3a61023667179a5ff73cb0a448079966e9802e77dac3e1b79b#rd','无','无','文章','原始'],
@@ -1010,7 +1010,7 @@ var contdatas4 = [
 ['净土次第修','原始资料','','','115','点评摘录之二','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491390&amp;idx=3&amp;sn=717933ebaee1b6bf16f056ec85bfda4e&amp;chksm=cff50e2cf882873a4e22f3323ae47f6dcdc8ebbd7f08094e0f7eaa73efb26d02b22709aaefd3#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','116','点评摘录之三','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491390&amp;idx=4&amp;sn=9c50dcec6d93979ead380bc6a5842fef&amp;chksm=cff50e2cf882873a93114df9b79a6cd031ec7d69f703f6a9cc0ca3fa9d42aa0d555e010d16d7#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','117','点评摘录之四','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491390&amp;idx=5&amp;sn=dd7e98af7fbd8a7d0d1139617fd70b2a&amp;chksm=cff50e2cf882873a86c51fb4242ab41f2cc13dcaf5adc44a5ae4e5fc48665fa66fb601d54993#rd','无','无','文章','原始'],
-['净土次第修','原始资料','','','118','点评摘录之五	',myaddr+'jtcdx/yszl/115.html','无','无','文章','原始'],
+['净土次第修','原始资料','','','118','点评摘录之五~app',myaddr+'jtcdx/yszl/115.html','无','无','文章','原始'],
 ['净土次第修','原始资料','','','119','点评摘录之六','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491390&amp;idx=6&amp;sn=d0d35b95700068609b5d70be4c33f766&amp;chksm=cff50e2cf882873a7a438f7da531bb7af09d5945f2a90dd77672e179cd5344d80320afdbde2e#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','120','点评摘录之七','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491390&amp;idx=7&amp;sn=653b95c11f8368de8cdc6f2cef746c03&amp;chksm=cff50e2cf882873aab625980ddf4ad868c0fded8ac9a6cb3b249ee8c7c76d3bfb3deb1b2af0b#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','121','点评摘录之八','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491393&amp;idx=1&amp;sn=3cf8f4d84d02861272b13b9a2c330bfc&amp;chksm=cff50e53f8828745e5b1eafde2023c6c3c276eb73fca74916d336109030bd75e85bced5cd041#rd','无','无','文章','原始'],
@@ -1021,17 +1021,17 @@ var contdatas4 = [
 //['净土次第修','原始资料','','','126','新春嘱语','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491393&amp;idx=6&amp;sn=72da98722e9a1f515bb868aaa260c4f9&amp;chksm=cff50e53f8828745430ece00857e867d85949a51503bfc9048777267981b2dbf59a6ef79e52c#rd','无','无','文章','原始'],
 //['净土次第修','原始资料','','','127','从内心状态作演示说明','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491399&amp;idx=3&amp;sn=11a4afda071a8e0e595281dc4482a839&amp;chksm=cff50e55f882874304560635abc528c51386b25a5269d6f13e0bf9854fd3a087006b41083419#rd','无','无','文章','原始'],
 //['净土次第修','原始资料','','','128','学员心得提炼','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491393&amp;idx=8&amp;sn=1f800a68ca46512e3916694a6b8664b9&amp;chksm=cff50e53f88287458749e46f126ee14855a9dc802722a60ba7d28c350b416a0ef51acb54a9a0#rd','无','无','文章','原始'],
-['净土次第修','原始资料','','','129','点评摘录十三',myaddr+'jtcdx/yszl/126.html','无','无','文章','原始'],
-['净土次第修','原始资料','','','130','施食	',myaddr+'jtcdx/yszl/127.html','无','无','文章','原始'],
-['净土次第修','原始资料','','','131','大光明真言',myaddr+'jtcdx/yszl/128.html','无','无','文章','原始'],
+['净土次第修','原始资料','','','129','点评摘录十三~app',myaddr+'jtcdx/yszl/126.html','无','无','文章','原始'],
+['净土次第修','原始资料','','','130','施食~app',myaddr+'jtcdx/yszl/127.html','无','无','文章','原始'],
+['净土次第修','原始资料','','','131','大光明真言~app',myaddr+'jtcdx/yszl/128.html','无','无','文章','原始'],
 //['净土次第修','原始资料','','','132','次第修学导图（框架脉络）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491399&amp;idx=1&amp;sn=b131acecd13e687fec5d93ab1ef4b000&amp;chksm=cff50e55f8828743b7a770525879160240e59183bb95b336fe4b5d40f8842a4cb7df4f246ddc#rd','无','无','文章','原始'],
 //['净土次第修','原始资料','','','133','每日四项流程图','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491399&amp;idx=2&amp;sn=6f22102ea4f77b6378d1a82c59396f53&amp;chksm=cff50e55f88287439012cd7eb2bdccb826e738612049195958ca271b2be076ff0305dfbdebc7#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','134','师父开示：苦苦、行苦、坏苦','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491573&amp;idx=1&amp;sn=98beec0192c406f0d5059f6127382746&amp;chksm=cff50ee7f88287f1e43024d61fb84d877cb13cb79c716450b96a25a9d4b2c0208db70797635b#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','135','布施注意事项','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491573&amp;idx=2&amp;sn=d1f79b29f1a687f2b2a92220b59422aa&amp;chksm=cff50ee7f88287f189bbc7d9ab141e1bdca1df57515eccd1257886a28413822b1f9257e1eb3a#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','136','女居士与出家师父的相关礼仪','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491573&amp;idx=3&amp;sn=d937aff81e77e63f36f7d75a3c1da9a9&amp;chksm=cff50ee7f88287f1b0f47c9725c83771559851fe49067e1c1ef690c8224b82966a3bfe7a622d#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','137','八退八进之训','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491573&amp;idx=4&amp;sn=5912392cffe638c1297523d0016234f7&amp;chksm=cff50ee7f88287f1bfe2919c9cddfa7dd4bd092a5d778f946f9d0632b6812c687c537c80a987#rd','无','无','文章','原始'],
-//['净土次第修','原始资料','','','138','关于扶乩',myaddr+'jtcdx/yszl/135.html','无','无','文章','原始'],
-//['净土次第修','原始资料','','','139','专修净土（印祖）',myaddr+'jtcdx/yszl/136.html','无','无','文章','原始'],
+//['净土次第修','原始资料','','','138','关于扶乩~app',myaddr+'jtcdx/yszl/135.html','无','无','文章','原始'],
+//['净土次第修','原始资料','','','139','专修净土（印祖）~app',myaddr+'jtcdx/yszl/136.html','无','无','文章','原始'],
 //['净土次第修','原始资料','','','140','破邪显正之一',myaddr+'jtcdx/yszl/137.html','无','无','文章','原始'],
 //['净土次第修','原始资料','','','141','佛堂设置及供养礼拜','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491573&amp;idx=5&amp;sn=b05029e59001e5fce2177d5e7282d3c7&amp;chksm=cff50ee7f88287f1809b68634ac0b59770d5def1f8e084a1dfb6ffa25d7042231a71a79f96d7#rd','无','无','文章','原始'],
 ['净土次第修','原始资料','','','142','榜样的力量	','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491573&amp;idx=6&amp;sn=6fde2171d3f7c9cc53af1ba25e678896&amp;chksm=cff50ee7f88287f151f3ee8c6c140543b140d6a09142a9fd3cf56203f3adcd94f916cfc5c19f#rd','无','无','文章','原始'],
@@ -1118,7 +1118,7 @@ var contdatas4 = [
 ['净土次第修','原始资料','','','220','用法而不执着于法','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497671&idx=4&sn=7a3d28e48969acc62510e0491e4e579f&scene=21#wechat_redirect','有','无','文章','原始'],
 
 ['净土次第修','原始资料','','','221','视频《地狱一游》','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487339&idx=3&sn=51df20d4c73d6f57ba5f5aed3b4dd75c&chksm=973cd6eda04b5ffb3c31c3d6ccc218f2f8ad67314dbfa6cb8682f8bcbde28fd0149700545da5&token=1549694626&lang=zh_CN#rd','无','有','文章','原始'],
-['净土次第修','原始资料','','','222','咱们学的项目也比较多，应该怎么去用','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487339&idx=7&sn=835eabaaef5706f230cc69ec5edd0ad8&chksm=973cd6eda04b5ffb3d2e28f4a16166e4f0ac10a494166b47f2fe783a340ebc6b934eded7c302&token=1549694626&lang=zh_CN#rd','无','无','文章','原始'],
+['净土次第修','原始资料','','','222','咱们学的项目也比较多，应该怎么去用','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487355&idx=2&sn=0caab3907acc5ebe149067dea09c7a21&chksm=973cd6fda04b5febac5a40b872e804af2ba2b701a2c145f49ed5bd3ffb31d7d9b84fc5466e09&token=253036803&lang=zh_CN#rd','无','无','文章','原始'],
 
 
 
@@ -1283,7 +1283,7 @@ var contdatas4 = [
 ['净土次第修','分类导读','静修','','004','静坐时间长，腰一直疼','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487152&amp;idx=5&amp;sn=3e892d4ef657e3d18aa8c77205aec89b&amp;chksm=973cd736a04b5e20f6b78c8c31c556c2f3814b3ae963a82a2e78df1640f6163d412696f1da8d&amp;token=1576720142&amp;lang=zh_CN#rd','无','无','文章','引用'],
 
 ['净土次第修','分类导读','思维修-经论依据','','001','陌生又熟悉','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491865&amp;idx=3&amp;sn=d4d6e30a88e8bbef648fbb22f110d541&amp;chksm=cff6f00bf881791d0f99faa87eb01dac803a8121d395012751f2170eaf571c71cd372bb1344c&amp;scene=21#wechat_redirect','无','无','文章','引用'],
-['净土次第修','分类导读','思维修-经论依据','','002','无量寿经中的思维修',myaddr+'jtcdx/yszl/079.html','无','无','文章','引用'],
+['净土次第修','分类导读','思维修-经论依据','','002','无量寿经中的思维修~app',myaddr+'jtcdx/yszl/079.html','无','无','文章','引用'],
 ['净土次第修','分类导读','思维修-经论依据','','003','劝发菩提心文（前言）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491847&amp;idx=3&amp;sn=7a4fee91cce96445e70b781d0395f819&amp;chksm=cff6f015f8817903b2f7c9633bad6e3c1ad1aae034e7ec50b40d1e4200e254846e02d50c7cf9&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','思维修-经论依据','','004','学佛四步曲','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491254&amp;idx=1&amp;sn=fd075a51731cb06e342484e6adf02b27&amp;chksm=cff50fa4f88286b2668d2228bdbe1bce863f613e49818d2cc7307f45774f5dc8cf13dd2a8dbf&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','思维修-经论依据','','005','关于“正思维”','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491254&amp;idx=8&amp;sn=c25661cfe5917741015fc97e6668d9b3&amp;chksm=cff50fa4f88286b222a2b26946869b06f415152d0d676f58a082f2141e8ad89820b52b471cbb&amp;scene=21#wechat_redirect','无','无','文章','引用'],
@@ -1395,7 +1395,7 @@ var contdatas4 = [
 ['净土次第修','分类导读','思维修项目-极乐世界','','003','西方发愿文（莲池大师）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491696&amp;idx=1&amp;sn=9ed115d7fa854689e9072626502bb63b&amp;chksm=cff6f162f8817874f508100b402a081b55c27ab6a8dae078e7f547cf63c8ead8f681a3637a88&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 
 ['净土次第修','分类导读','思维修项目-阿弥陀佛','','001','一心皈命','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488351&amp;idx=1&amp;sn=a72cd9d57c752637ca62784b18dd2ddb&amp;chksm=cff5024df8828b5bc307661cac75974c48b786b8f11ea91d38a679864cf1834a49e24461487c&amp;scene=21#wechat_redirect','无','无','文章','引用'],
-['净土次第修','分类导读','思维修项目-阿弥陀佛','','002','靠什么往生？',myaddr+'jtcdx/yszl/024.html','无','无','文章','引用'],
+['净土次第修','分类导读','思维修项目-阿弥陀佛','','002','靠什么往生？~app',myaddr+'jtcdx/yszl/024.html','无','无','文章','引用'],
 ['净土次第修','分类导读','思维修项目-阿弥陀佛','','003','净土法门的核心','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247492298&amp;idx=1&amp;sn=c8ee3ee2ae6a1df6658c16d0ef447318&amp;chksm=cff6f3d8f8817ace93a36335e39844204643aa761ffadf5ac66a3ea5a393383dd12b026bc878&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','思维修项目-阿弥陀佛','','004','三力与往生','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488866&amp;idx=6&amp;sn=b6fdf914841aa704f76bfdccbad5bfea&amp;chksm=cff50470f8828d668722b0c709562fbb7d8665a3a03fe2cd929707d88f474c902d67f31f7ad0&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 //['净土次第修','分类导读','思维修项目-阿弥陀佛','','005','专修净土（印祖开示）','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247485529&amp;idx=5&amp;sn=4062d3e1ecefcea94069e4d843927bbb&amp;scene=21#wechat_redirect','无','无','文章','引用'],
@@ -1404,7 +1404,7 @@ var contdatas4 = [
 ['净土次第修','分类导读','安住修','','002','读经方法','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488362&amp;idx=4&amp;sn=5072a77b0bc162ec1c5cbf458a878846&amp;chksm=cff50278f8828b6e55292e2d288a7687bb0090400dfb61e669c575bdbc991628df271f5d37f1&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','安住修','','003','质量与数量','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488462&amp;idx=5&amp;sn=f03ffbf5fed85ade8c1afa0a93287d04&amp;chksm=cff502dcf8828bca68676178ec806cc9bd10021b659a94e8e8c7055922b459f10522a418073e&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 //['净土次第修','分类导读','安住修','','004','一向专念','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488462&amp;idx=6&amp;sn=b6748ee26a4c0a35c729356461752e1d&amp;chksm=cff502dcf8828bcaee49b049a9cf961ae36a95aee7106d52f577913fb6c63e20904f0d5e1794&amp;scene=21#wechat_redirect','无','无','文章','引用'],
-['净土次第修','分类导读','安住修','','005','念佛功夫（江味农）',myaddr+'jtcdx/yszl/053.html','无','无','文章','引用'],
+['净土次第修','分类导读','安住修','','005','念佛功夫（江味农）~app',myaddr+'jtcdx/yszl/053.html','无','无','文章','引用'],
 ['净土次第修','分类导读','安住修','','006','念佛四层功夫','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491712&amp;idx=4&amp;sn=a9e424a3d4d74e73b2b4ff58a17e56de&amp;chksm=cff6f192f8817884670a016c16e98605fe76c61a5c24a8c9bae4399896ed339c5993a9946b62&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 ['净土次第修','分类导读','安住修','','007','关于每日功课的读经','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247491712&amp;idx=5&amp;sn=a765e434c3d108ce2dd8a6c1768b1059&amp;chksm=cff6f192f8817884f6c80a49915a2c46036e878e0143d595abcd502e3718587f830553341cae&amp;scene=21#wechat_redirect','无','无','文章','引用'],
 
@@ -1813,12 +1813,12 @@ var contdatas62 = [
 
 var contdatas70 = [
 //其他专题 
-['其他专题','辨析与破斥','','','001','关于扶乩',myaddr+'jtcdx/yszl/135.html','无','无','文章','原始'], 
+['其他专题','辨析与破斥','','','001','关于扶乩~app',myaddr+'jtcdx/yszl/135.html','无','无','文章','原始'], 
 ['其他专题','辨析与破斥','','','002','五个佛法非正法','https://mp.weixin.qq.com/s?__biz=MzI4MTU2NTY2Mg==&amp;mid=2247483781&amp;idx=1&amp;sn=937659c215d480e38d3435c921a39551&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['其他专题','辨析与破斥','','','003','此真是魔人想灭我佛教','https://mp.weixin.qq.com/s?__biz=MzIxODI4OTYyNQ==&amp;mid=2247484802&amp;idx=2&amp;sn=9e406664d56da35a7203bd0eca80976e&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['其他专题','辨析与破斥','','','004','《楞严经》里辨别邪师的方法','https://mp.weixin.qq.com/s?__biz=MzA4NDQyOTgzNA==&amp;mid=2651887642&amp;idx=1&amp;sn=c67f8f199d8ae2e45ab18d9f4720dad9&amp;scene=21#wechat_redirect','无','无','文章','原始'],
 ['其他专题','辨析与破斥','','','005','庐山东林寺方丈大安法师二破印广法师之所说','https://mp.weixin.qq.com/s?__biz=MzI0MjE5NjY0NA==&mid=2650865916&idx=8&sn=498f801701ccddf77834f91d7f86f0ca&source=41#wechat_redirect','无','无','文章','原始'],
-['其他专题','辨析与破斥','','','006','破邪显正之一',myaddr+'jtcdx/yszl/137.html','无','无','文章','原始'],
+['其他专题','辨析与破斥','','','006','破邪显正之一~app',myaddr+'jtcdx/yszl/137.html','无','无','文章','原始'],
 ['其他专题','辨析与破斥','','','007','关于净土流派','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247488866&amp;idx=3&amp;sn=4caee92ba7e0b32fb7e277db7b868fb6&amp;chksm=cff50470f8828d66b05566e7a5f816540e310c02d41ed9046d69153d31701b02b7d9d8ee5e3a#rd','无','无','文章','原始'],
 //专修净土，可以替换的地址： myaddr+'jtcdx/yszl/136.html'
 ['其他专题','辨析与破斥','','','008','专修净土【印祖开示】','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&amp;mid=2247485529&amp;idx=5&amp;sn=4062d3e1ecefcea94069e4d843927bbb&amp;scene=21#wechat_redirect','无','无','文章','原始'],
@@ -1837,13 +1837,13 @@ var contdatas70 = [
 ['其他专题','辨析与破斥','','','021','对于印广法师讲法的辨析','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487245&amp;idx=5&amp;sn=79f847cf3786e4683d72cddb0c37c973&amp;chksm=973cd68ba04b5f9dd089b5989ba6aa7a7a2db0462d72e1e9691d6d5617c98f65120065d2dbe0&amp;token=1235667089&amp;lang=zh_CN#rd','无','无','文章','原始'],
 ['其他专题','辨析与破斥','','','022','五个佛法非正法-中国佛教界发声','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487245&amp;idx=6&amp;sn=017a4dad81d39ca70b0260c20cfbe9bf&amp;chksm=973cd68ba04b5f9d140cd7b6c6f4134dceecc9b7c2e9848757ea8878ba6f77b22543c582cb17&amp;token=1235667089&amp;lang=zh_CN#rd','无','无','文章','原始'],
 ['其他专题','辨析与破斥','','','023','分析某同修修学上的欠缺（自我反观、有则改之无则加勉）','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487307&amp;idx=5&amp;sn=3594eca5f2680d29ce924c752e0d291b&amp;chksm=973cd6cda04b5fdb02286ac9bd2310184404b39c6329a43ab9cf13a4d9ae964a56126f645fdf&amp;token=56110212&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辨析与破斥','','','024','以为粘了“因果”就是佛法，其实是邪见',myaddr+'qtzt/pxxz/01.html','无','无','文章','原始'],
+['其他专题','辨析与破斥','','','024','以为粘了“因果”就是佛法，其实是邪见~app',myaddr+'qtzt/pxxz/01.html','无','无','文章','原始'],
 ['其他专题','辨析与破斥','','','025','“万法皆空因果不空”-辨析-1','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487307&amp;idx=1&amp;sn=ab3b011da7e82d6dfdd29813af414d8d&amp;chksm=973cd6cda04b5fdb2fa2eee46a7fe73e0ef210e63dedcbdd75eac4f4f4f0000cc469cf9d39c2&amp;token=56110212&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辨析与破斥','','','026','“万法皆空因果不空”-辨析-2',myaddr+'qtzt/pxxz/02.html','有','无','文章','原始'],
+['其他专题','辨析与破斥','','','026','“万法皆空因果不空”-辨析-2~app',myaddr+'qtzt/pxxz/02.html','有','无','文章','原始'],
 ['其他专题','辨析与破斥','','','027','“万法皆空因果不空”-辨析-补充开示','https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAXRnWajj3SC1WhTgYESYdu36jH7DNwYUI5Z3gKE&amp;target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDYwNzcyMQ%3D%3D%26mid%3D2247487307%26idx%3D2%26sn%3Da8f4a6bded68032b5bf386fd6a6de305%26chksm%3D','无','无','文章','原始'],
 ['其他专题','辨析与破斥','','','028','认为水乃至一切物质都有见闻觉知，这明显是违背经义的','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487307&amp;idx=3&amp;sn=b1105997ba08a9ceeebdfe4008eb15e6&amp;chksm=973cd6cda04b5fdb90510331fd226b587111473f75f214b7247ccd5b228e2e2ef4751ff666ff&amp;token=56110212&amp;lang=zh_CN#rd','无','无','文章','原始'],
 ['其他专题','辨析与破斥','','','029','德文法师往生纪实-辨析-1','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&amp;mid=2247487307&amp;idx=4&amp;sn=e3f17336da3585142865b12ee7f5d3bd&amp;chksm=973cd6cda04b5fdb388aa4a9d1533edfc6956a283fac8bd136cc374634c4457164ee61c59faa&amp;token=56110212&amp;lang=zh_CN#rd','无','无','文章','原始'],
-['其他专题','辨析与破斥','','','030','德文法师往生纪实-辨析-2',myaddr+'qtzt/pxxz/03.html','有','无','文章','原始'],
+['其他专题','辨析与破斥','','','030','德文法师往生纪实-辨析-2~app',myaddr+'qtzt/pxxz/03.html','有','无','文章','原始'],
 ['其他专题','辨析与破斥','','','031','短期出家是不如法的','https://mp.weixin.qq.com/s/jRMWNwOgnUbkM82Xab0vqQ','有','无','文章','原始']
 
 ];
@@ -1933,25 +1933,25 @@ var contdatas8 = [
 
 //选学资料汇总 老年修学资料
 
-['选学资料汇总','老年修学资料','','','001','《四十八大愿》-定弘法师',myaddr+'xxzlhz/lnxxzl/ljsjjyp/46_61.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','002','《大势至菩萨念佛圆通章》-净空法师',myaddr+'xxzlhz/lnxxzl/ljsjjyp/62_77.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','003','《发菩提心一向专念》-定弘法师',myaddr+'xxzlhz/lnxxzl/ljsjjyp/78_82.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','004','《往生净土的理论与事实》-定弘法师',myaddr+'xxzlhz/lnxxzl/ljsjjyp/83_86.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','005','《往生净土之因》-定弘法师',myaddr+'xxzlhz/lnxxzl/ljsjjyp/87_98.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','006','《怎样取得往生的把握》-定弘法师',myaddr+'xxzlhz/lnxxzl/ljsjjyp/99_100.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','007','《印祖开示往生要道暨净土修学座谈会》-定弘法师	',myaddr+'xxzlhz/lnxxzl/ljsjjyp/101_102.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','008','《无上醍醐决定往生》-定弘法师',myaddr+'xxzlhz/lnxxzl/ljsjjyp/103.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','009','《末世无如念佛好》-定弘法师',myaddr+'xxzlhz/lnxxzl/ljsjjyp/104_114.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','010','《如何护持老人往生》-定弘法师',myaddr+'xxzlhz/lnxxzl/ljsjjyp/115.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','011','《印光大师开示临终三大要》-定弘法师	',myaddr+'xxzlhz/lnxxzl/ljsjjyp/116_117.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','012','《喜送姐姐回家》-刘素云',myaddr+'xxzlhz/lnxxzl/ljsjjyp/118_126.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','013','《我为净土鼓与呼》-刘素云',myaddr+'xxzlhz/lnxxzl/ljsjjyp/127_131.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','014','《海会圣贤》-海贤老和尚',myaddr+'xxzlhz/lnxxzl/ljsjjyp/132.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','015','《黄忠昌居士闭关往生纪实》',myaddr+'xxzlhz/lnxxzl/ljsjjyp/133.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','016','《刘素云姐夫郭永发往生报告》-刘素云',myaddr+'xxzlhz/lnxxzl/ljsjjyp/134.html','有','无','文章','原始'],
-['选学资料汇总','老年修学资料','','','017','《助念心得报告》-程晋林',myaddr+'xxzlhz/lnxxzl/ljsjjyp/135_176.html','有','无','文章','原始'],
-//['选学资料汇总','老年修学资料','','','016','《刘素云姐夫郭永发往生报告》-刘素云','myaddr+'xxzlhz/lnxxzl/ljsjjyp/134.html','有','无','文章','原始'],
-//['选学资料汇总','老年修学资料','','','017','《助念心得报告》-程晋林','myaddr+'xxzlhz/lnxxzl/ljsjjyp/135_176.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','001','《四十八大愿》-定弘法师~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/46_61.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','002','《大势至菩萨念佛圆通章》-净空法师~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/62_77.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','003','《发菩提心一向专念》-定弘法师~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/78_82.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','004','《往生净土的理论与事实》-定弘法师~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/83_86.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','005','《往生净土之因》-定弘法师~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/87_98.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','006','《怎样取得往生的把握》-定弘法师~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/99_100.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','007','《印祖开示往生要道暨净土修学座谈会》-定弘法师~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/101_102.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','008','《无上醍醐决定往生》-定弘法师~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/103.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','009','《末世无如念佛好》-定弘法师~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/104_114.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','010','《如何护持老人往生》-定弘法师~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/115.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','011','《印光大师开示临终三大要》-定弘法师~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/116_117.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','012','《喜送姐姐回家》-刘素云~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/118_126.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','013','《我为净土鼓与呼》-刘素云~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/127_131.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','014','《海会圣贤》-海贤老和尚~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/132.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','015','《黄忠昌居士闭关往生纪实》~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/133.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','016','《刘素云姐夫郭永发往生报告》-刘素云~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/134.html','有','无','文章','原始'],
+['选学资料汇总','老年修学资料','','','017','《助念心得报告》-程晋林~app',myaddr+'xxzlhz/lnxxzl/ljsjjyp/135_176.html','有','无','文章','原始'],
+//['选学资料汇总','老年修学资料','','','016','《刘素云姐夫郭永发往生报告》-刘素云~app','myaddr+'xxzlhz/lnxxzl/ljsjjyp/134.html','有','无','文章','原始'],
+//['选学资料汇总','老年修学资料','','','017','《助念心得报告》-程晋林~app','myaddr+'xxzlhz/lnxxzl/ljsjjyp/135_176.html','有','无','文章','原始'],
 
 
 
@@ -2060,27 +2060,27 @@ var contdatas9 = [
 ['选学资料汇总','静修班资料','师父随缘开示','','016','15、最不受干扰的念佛就是心念心听','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493572&amp;idx=7&amp;sn=999e46cb79d490289460a0d2877d67fe&amp;chksm=cff6f6d6f8817fc0717d6ca1a3e2d620421854e2dc817177ae6d90d1410257db4708fac71f1c#rd','有','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','017','16、念佛四层功夫','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493572&amp;idx=8&amp;sn=10081fbbe46583ad7c86d4d2bf1124da&amp;chksm=cff6f6d6f8817fc0a4d43c5c16292e176083250fa9add051e163a9cc0bd06d2beec5ad089ed8#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','018','17、求往生要有魄力','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493646&amp;idx=1&amp;sn=989d3cdaee160d182e6e899ce1afd1ef&amp;chksm=cff6f91cf881700ae335d937cf164c0308b75ee58d54f05156379fbd3a11779c5de2f833b3e3#rd','有','无','文章','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','019','18-01往生见闻记（思归子讲解）01',myaddr+'xxzlhz/jxbzl/wsjwj/01.html','无','有','文章0','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','020','18-02往生见闻记（思归子讲解）02',myaddr+'xxzlhz/jxbzl/wsjwj/02.html','无','有','文章1','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','021','18-03往生见闻记（思归子讲解）03',myaddr+'xxzlhz/jxbzl/wsjwj/03.html','无','有','文章1','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','022','18-04往生见闻记（思归子讲解）04',myaddr+'xxzlhz/jxbzl/wsjwj/04.html','无','有','文章1','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','023','18-05往生见闻记（思归子讲解）05',myaddr+'xxzlhz/jxbzl/wsjwj/05.html','无','有','文章1','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','024','18-06往生见闻记（思归子讲解）06',myaddr+'xxzlhz/jxbzl/wsjwj/06.html','无','有','文章1','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','025','18-07往生见闻记（思归子讲解）07',myaddr+'xxzlhz/jxbzl/wsjwj/07.html','无','有','文章1','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','026','18-08往生见闻记（思归子讲解）08',myaddr+'xxzlhz/jxbzl/wsjwj/08.html','无','有','文章1','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','027','18-09往生见闻记（思归子讲解）09',myaddr+'xxzlhz/jxbzl/wsjwj/09.html','无','有','文章1','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','028','18-10往生见闻记（思归子讲解）10',myaddr+'xxzlhz/jxbzl/wsjwj/10.html','无','有','文章2','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','019','18-01往生见闻记（思归子讲解）01~app',myaddr+'xxzlhz/jxbzl/wsjwj/01.html','无','有','文章0','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','020','18-02往生见闻记（思归子讲解）02~app',myaddr+'xxzlhz/jxbzl/wsjwj/02.html','无','有','文章1','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','021','18-03往生见闻记（思归子讲解）03~app',myaddr+'xxzlhz/jxbzl/wsjwj/03.html','无','有','文章1','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','022','18-04往生见闻记（思归子讲解）04~app',myaddr+'xxzlhz/jxbzl/wsjwj/04.html','无','有','文章1','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','023','18-05往生见闻记（思归子讲解）05~app',myaddr+'xxzlhz/jxbzl/wsjwj/05.html','无','有','文章1','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','024','18-06往生见闻记（思归子讲解）06~app',myaddr+'xxzlhz/jxbzl/wsjwj/06.html','无','有','文章1','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','025','18-07往生见闻记（思归子讲解）07~app',myaddr+'xxzlhz/jxbzl/wsjwj/07.html','无','有','文章1','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','026','18-08往生见闻记（思归子讲解）08~app',myaddr+'xxzlhz/jxbzl/wsjwj/08.html','无','有','文章1','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','027','18-09往生见闻记（思归子讲解）09~app',myaddr+'xxzlhz/jxbzl/wsjwj/09.html','无','有','文章1','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','028','18-10往生见闻记（思归子讲解）10~app',myaddr+'xxzlhz/jxbzl/wsjwj/10.html','无','有','文章2','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','029','19-01《往生见闻记》讲解-前言','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493646&amp;idx=2&amp;sn=3ff6b5ccfd4cbea9440e091369a12761&amp;chksm=cff6f91cf881700a09d10c486687ccc0ddd5ed347a54f704b90c84f1e2175fc710c027675737#rd','有','无','文章0','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','030','19-02《往生见闻记》讲解-台中莲社和印祖简介','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493646&amp;idx=3&amp;sn=ad18697af254f44d9bda51cad988db3d&amp;chksm=cff6f91cf881700a8af7b77fe15eefda770eec74f6b1f1b6e51cce910c479a31947750dfbc2c#rd','有','无','文章1','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','031','19-03《往生见闻记》讲解-出家师父往生案例','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493646&amp;idx=4&amp;sn=6c375708ec1535791771d45591f0ac62&amp;chksm=cff6f91cf881700a51e8b490264e5ddaaba028045c2be291c8797deed9eeb370c4d825f023ef#rd','有','无','文章1','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','032','19-04《往生见闻记》讲解-日常事务是不是修学的障碍','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493646&amp;idx=5&amp;sn=62dc85d7ecfc460f3262bdaeef966162&amp;chksm=cff6f91cf881700a09a816cc340cd505b90852ecec611644ee417c7f519c71bd727952d8e0a0#rd','有','无','文章1','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','033','19-05《往生见闻记》讲解-忏悔为辅，极力仰靠阿弥陀佛','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493646&amp;idx=6&amp;sn=87b16cb9c376d446691d6d02e63eeb84&amp;chksm=cff6f91cf881700a3470bcc04348fad2a86b222df521c7e7a3639d7cde5b86321fd0143e2651#rd','有','无','文章1','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','034','19-06《往生见闻记》讲解-居士往生案例讲解之一','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247490857&amp;idx=8&amp;sn=f9d1036f0254ffe1c2dc4924b8a0af08&amp;scene=21#wechat_redirect','有','无','文章1','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','035','19-07《往生见闻记》讲解-居士往生案例之二','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247490917&amp;idx=1&amp;sn=2319e80a6de95fb213cf5f58584ef891&amp;scene=21#wechat_redirect','有','无','文章1','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','036','19-08《往生见闻记》讲解-居士往生案例之三','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247490917&amp;idx=2&amp;sn=589a21d0f6cbdebd21d00d7f06f0eac6&amp;scene=21#wechat_redirect','有','无','文章1','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','034','19-06《往生见闻记》讲解-居士往生案例之一~app',myaddr+'xxzlhz/jxbzl/19-06.html','有','无','文章1','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','035','19-07《往生见闻记》讲解-居士往生案例之二~app',myaddr+'xxzlhz/jxbzl/19-07.html','有','无','文章1','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','036','19-08《往生见闻记》讲解-居士往生案例之三~app',myaddr+'xxzlhz/jxbzl/19-08.html','有','无','文章1','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','037','19-09《往生见闻记》讲解-居士往生案例讲解之四','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493685&amp;idx=1&amp;sn=93ec94bc464dae57ab93a58c13d41e25&amp;chksm=cff6f927f88170311b97db3586e0ca9b6719cab59f02507c476ee767c3499396c2c26d36f7f7#rd','有','无','文章1','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','038','19-10《往生见闻记》讲解-世间和出世间的结合','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493685&amp;idx=2&amp;sn=98313741407e3ecbe8380d7baee12c39&amp;chksm=cff6f927f881703141a442bcb9ec0a7b73f35d64bdf0d21159117db031577c9ac742fd169118#rd','有','无','文章1','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','039','19-11《往生见闻记》讲解-李炳南老师','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247487186&amp;idx=3&amp;sn=4b71973945eb15be602f4697d445b6c5&amp;scene=21#wechat_redirect','有','无','文章1','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','039','19-11《往生见闻记》讲解-李炳南老师','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495049&idx=5&sn=c238d5bbbe05883583099c47abbe07af&chksm=cff6fc9bf881758dc2dc026662b344d3472d2920b6bc5c79458d34793c46cc1bfa2d1113c80d#rd','有','无','文章1','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','040','19-12《往生见闻记》讲解-印光大师','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247490917&amp;idx=6&amp;sn=af98518a248ab8fc703c1d7cb6d20255&amp;scene=21#wechat_redirect','有','无','文章1','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','041','19-13《往生见闻记》讲解-其他祖师大德；纯正净土知见','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&amp;mid=2247490917&amp;idx=7&amp;sn=998cc74db0e185b6f70f75deed0c5aac&amp;scene=21#wechat_redirect','有','无','文章2','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','042','20、往生极乐世界纪实（这是一位居士亲身经历和自述）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493685&amp;idx=3&amp;sn=ab346c836ddc73e169b5524b27ff54e9&amp;chksm=cff6f927f881703179b43b5c50c6f9b69c49d5b803c1fcdc7800c319df4750073a9a595f4adf#rd','有','无','文章','原始'],
@@ -2109,8 +2109,8 @@ var contdatas9 = [
 ['选学资料汇总','静修班资料','师父随缘开示','','065','43、不可带新业，具体怎么讲','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493867&amp;idx=6&amp;sn=fec262661a90a3d35e93a6bb892736f2&amp;chksm=cff6f9f9f88170ef243985adf62dfa590a41a1ebde98b5f11cf208f6414f0874acbc6efbbf14#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','066','44、愿力大过业力的实际标准是什么','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493867&amp;idx=7&amp;sn=245c413ab85a30af0bb7d6d06915a041&amp;chksm=cff6f9f9f88170efaab4c40c37ed0a2ee9c71b8398fa13df1d96418982ba7ec95c14e55f1082#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','067','45、不是佛那边有问题，是自己的问题','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494317&amp;idx=1&amp;sn=44fe15d664e69dbe6d92ee4e71a96619&amp;chksm=cff6fbbff88172a9150c33494d9576f854a76ccbc334b6ff56f2ca270cd4554cdcd43d7cffe8#rd','有','无','文章','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','068','46、要老实专注在净土法门',myaddr+'xxzlhz/jxbzl/46.html','无','无','文章','原始'],
-['选学资料汇总','静修班资料','师父随缘开示','','069','47、我们求佛接引，是不是外求?',myaddr+'xxzlhz/jxbzl/47.html','无','无','文章','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','068','46、要老实专注在净土法门~app',myaddr+'xxzlhz/jxbzl/46.html','无','无','文章','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','069','47、我们求佛接引，是不是外求?~app',myaddr+'xxzlhz/jxbzl/47.html','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','070','48、往生到极乐世界或是依然生到六道中的某一道，也都是自己心现识变','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493922&amp;idx=1&amp;sn=6f2858d080bcb6b085b43f837078f082&amp;chksm=cff6f830f88171265e505272f117fc785f271b28db51023a414ad7765e6d61d5a4228c129065#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','071','49、师父，我临终的时候想现个出家相','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493922&amp;idx=2&amp;sn=a3e2b52783b0e3dd865922d072db9aa3&amp;chksm=cff6f830f8817126c99a493a9f18f03ed9b4e58ea189be7c414076b96dafe76196ed0d5f0d8f#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','072','50、将所有善根，心心回向，愿生极乐净土','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247493922&amp;idx=3&amp;sn=8962b75c9f78a59840b50f1faa245a20&amp;chksm=cff6f830f88171262845e0ee3eb84cb6b9205c91924cf64cec9e8b24840b204222d52a92fb7d#rd','无','无','文章','原始'],
@@ -2140,11 +2140,11 @@ var contdatas9 = [
 ['选学资料汇总','静修班资料','助念专题','','003','03、助念案例（孙淑云）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494001&amp;idx=2&amp;sn=2cf4c829eeca016d12928a5b6b11ea4d&amp;chksm=cff6f863f881717575d34c3398bb08561c23c7c469b90650ce703ef18b561c94a66a3e459f08#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','助念专题','','004','04、助念小组成立和筹备','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494001&amp;idx=3&amp;sn=da0cff37ad0c44f311f9d4c807014a98&amp;chksm=cff6f863f8817175426d5acd59125edd0eb66dc4dd3db0eb653e39f036d41474fef4882addd5#rd','无','无','文章','原始'],
 
-['选学资料汇总','静修班资料','助念专题','','005','05-1、助念简要手册',myaddr+'xxzlhz/jxbzl/zn05-1.html','无','无','文章0','原始'],
-['选学资料汇总','静修班资料','助念专题','','006','05-2-1、助念简要手册-讲解',myaddr+'xxzlhz/jxbzl/zn05-2-1.html','有','无','文章1','原始'],
-['选学资料汇总','静修班资料','助念专题','','006','05-2-2、助念简要手册-补充说明',myaddr+'xxzlhz/jxbzl/zn05-2-2.html','有','无','文章1','原始'],
-['选学资料汇总','静修班资料','助念专题','','006','05-2-3、助念简要手册-如何用佛法看待和面对疫情',myaddr+'xxzlhz/jxbzl/zn05-2-3.html','有','无','文章1','原始'],
-['选学资料汇总','静修班资料','助念专题','','006','05-2-4、助念简要手册-问答',myaddr+'xxzlhz/jxbzl/zn05-2-4.html','有','无','文章2','原始'],
+['选学资料汇总','静修班资料','助念专题','','005','05-1、助念简要手册~app',myaddr+'xxzlhz/jxbzl/zn05-1.html','无','无','文章0','原始'],
+['选学资料汇总','静修班资料','助念专题','','006','05-2-1、助念简要手册-讲解~app',myaddr+'xxzlhz/jxbzl/zn05-2-1.html','有','无','文章1','原始'],
+['选学资料汇总','静修班资料','助念专题','','006','05-2-2、助念简要手册-补充说明~app',myaddr+'xxzlhz/jxbzl/zn05-2-2.html','有','无','文章1','原始'],
+['选学资料汇总','静修班资料','助念专题','','006','05-2-3、助念简要手册-如何用佛法看待和面对疫情~app',myaddr+'xxzlhz/jxbzl/zn05-2-3.html','有','无','文章1','原始'],
+['选学资料汇总','静修班资料','助念专题','','006','05-2-4、助念简要手册-问答~app',myaddr+'xxzlhz/jxbzl/zn05-2-4.html','有','无','文章2','原始'],
 
 ['选学资料汇总','静修班资料','助念专题','','007','06、助念佛号的练习','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494001&amp;idx=4&amp;sn=e5a9b50856c06f05293c029b5daab859&amp;chksm=cff6f863f8817175b9a8ee6ca06594171a0687b8286d99e60e53554dafca2eba35ff7b390768#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','助念专题','','008','07、法器引领念佛时的节奏变化','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494001&amp;idx=5&amp;sn=8034a0faa3e9eff895fa1d3bac25fcc0&amp;chksm=cff6f863f8817175e7302551b6eae669f65b404ae17208bd0140c004ebedf47fc9225a638746#rd','无','无','文章','原始'],
@@ -2157,10 +2157,10 @@ var contdatas9 = [
 ['选学资料汇总','静修班资料','助念专题','','015','13、助念案例（丁艳霞）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494176&amp;idx=4&amp;sn=6a2371b590e6eddc7ed81098aada8b43&amp;chksm=cff6fb32f881722448a5035d8c5d7e8b519e47dbc5c3569bf6d06a3edb66e0c031c848eb3c8b#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','助念专题','','016','14、张景丽给婆婆助念','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494176&amp;idx=5&amp;sn=0429f3c0967e6c0bd2bd977692916987&amp;chksm=cff6fb32f88172247906a54ea3d2a5d91555f97152fdeb4f7828aff65af64e0323c4f1670dcb#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','助念专题','','017','15、助念案例（一位同修的父亲停留在鬼道）','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494176&amp;idx=6&amp;sn=4a037450335034a924354221daa3e692&amp;chksm=cff6fb32f881722422d3b5576e42e9455388e6136b397f7be226a33c680affc0901d9f57a659#rd','无','无','文章','原始'],
-['选学资料汇总','静修班资料','助念专题','','018','16、几段国外“濒死体验”的研究记录',myaddr+'xxzlhz/jxbzl/zn16.html','无','有','文章','原始'],
+['选学资料汇总','静修班资料','助念专题','','018','16、几段国外“濒死体验”的研究记录~app',myaddr+'xxzlhz/jxbzl/zn16.html','无','有','文章','原始'],
 ['选学资料汇总','静修班资料','助念专题','','019','17、两个给动物助念送往生的案例','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494176&amp;idx=7&amp;sn=a04ff88eb429d81d9b1909a1bf96debc&amp;chksm=cff6fb32f881722406480f597b9b017760296385a83f5904625d21c2e218c629504b382444a6#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','助念专题','','020','18、平时不要随意拿起就敲','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494176&amp;idx=8&amp;sn=47fbcde481fb50ec836e8729dc68c068&amp;chksm=cff6fb32f88172246b525d96f527da97d53567db383d4d7ebdba20cfa0677a5dc40df5518dc5#rd','无','无','文章','原始'],
-['选学资料汇总','静修班资料','助念专题','','021','19-1、助念案例（刘淑贤老菩萨）',myaddr+'xxzlhz/jxbzl/zn19-1.html','有','无','文章0','原始'],
+['选学资料汇总','静修班资料','助念专题','','021','19-1、助念案例（刘淑贤老菩萨）~app',myaddr+'xxzlhz/jxbzl/zn19-1.html','有','无','文章0','原始'],
 ['选学资料汇总','静修班资料','助念专题','','022','19-2、刘淑贤老菩萨往生助念专题','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247492870&amp;idx=1&amp;sn=9089e05d4862ba9899bb02339c97fe0d&amp;scene=21#wechat_redirect','有','无','文章1','原始'],
 ['选学资料汇总','静修班资料','助念专题','','022','19-3、刘淑贤老菩萨视频整理-待制作','#','无','有','文章2','原始'],
 ['选学资料汇总','静修班资料','助念专题','','023','20、热成像仪的使用','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494227&amp;idx=2&amp;sn=96187b7a103422fc2de8be845569ce58&amp;chksm=cff6fb41f88172574c4c71e509b9120bb4f6c67e21f1f29697e9d54b202194a781a3df7286ce#rd','有','无','文章','原始'],
@@ -2172,7 +2172,7 @@ var contdatas9 = [
 ['选学资料汇总','静修班资料','助念专题','','029','24-1“助念模拟训练”前的开示1-每个阶段都要模拟训练','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494317&amp;idx=5&amp;sn=319b23d7d319e205550ee34140815d36&amp;chksm=cff6fbbff88172a96b78e543fa848d744d5de592117cebb4a5a072d4d7cf8e13718eb2444552#rd','无','无','文章0','原始'],
 ['选学资料汇总','静修班资料','助念专题','','030','24-2“助念模拟训练”前的开示2-助念时如何念佛','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494317&amp;idx=6&amp;sn=0f513d090a312036a02e0c2090c9b286&amp;chksm=cff6fbbff88172a92ac271488b08e433ab07b872f7c99f2d6450c3f27aa8d0ff0ad3e5d21bdc#rd','无','无','文章1','原始'],
 ['选学资料汇总','静修班资料','助念专题','','031','24-3“助念模拟训练”前的开示3-实修为主，助念为辅','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494317&amp;idx=7&amp;sn=0bd58114d4296f02e301620f45aa64f5&amp;chksm=cff6fbbff88172a9d17bf4eb76f7c609bf15fd02bca87167cdf2d25ecd4f383889ec8a292190#rd','无','无','文章2','原始'],
-['选学资料汇总','静修班资料','助念专题','','032','25、助念模拟训练',myaddr+'xxzlhz/jxbzl/zn25.html','无','无','文章','原始'],
+['选学资料汇总','静修班资料','助念专题','','032','25、助念模拟训练~app',myaddr+'xxzlhz/jxbzl/zn25.html','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','助念专题','','033','26-1“助念模拟训练”后的开示1-把问题提前挖掘出来并解决掉','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494337&amp;idx=1&amp;sn=429f202e17c9b9066809a9f0960b4b1d&amp;chksm=cff6fbd3f88172c5fbfab2a463366351ece31af889da39452c9246bf57f4f1c28b9913735e35#rd','无','无','文章0','原始'],
 ['选学资料汇总','静修班资料','助念专题','','034','26-2“助念模拟训练”后的开示2-佛号要听清要念熟','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494337&amp;idx=2&amp;sn=de53409aac2e085419454a9c20f07917&amp;chksm=cff6fbd3f88172c5d664910908ff319c1d970d136481ea161a452722201f66c5a9edce2232a6#rd','无','无','文章1','原始'],
 ['选学资料汇总','静修班资料','助念专题','','035','26-3“助念模拟训练”后的开示3-回向是在做往生的转化','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494337&amp;idx=3&amp;sn=8dc87571d68de8c3cf30b02005db05cc&amp;chksm=cff6fbd3f88172c55e22d58141118b4e4a99b6801709f436b5e744627db73110aa34c014afec#rd','无','无','文章1','原始'],
