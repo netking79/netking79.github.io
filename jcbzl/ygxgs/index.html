@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compitable" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="../../css/c2.css">
+
+<script type="text/javascript" src="../../js/s1.js"></script>
+
+    <title>基础班资料-因果小故事</title>
+</head>
+<body>
+<p></p>
+<h1 >基础班资料</h1>
+<h2 >因果小故事</h2>
+
+<h3 >学习安排：可以在学习“基础班及辅助资料”期间，每天或是隔天给同修发一篇学习。也可以在学习完“基础班及辅助资料”后，单独学习。</h3>
+
+<div align="center">
+
+<!--边框为细线-->
+<table id="table1" border="0" cellspacing="1" >
+<tr class="trh1">
+        <th  align="center"> 内容列表 </th>
+        
+    </tr>
+<tr class="trh3">
+        <th  align="center"> 一、 佛陀相关 </th>
+        
+    </tr>
+</table>
+
+<script>
+        /**
+         * 动态添加的方法有两种
+         *  1、document.create();
+         *  2、innerHTML();
+         *
+         */
+
+       var table =document.getElementById("table1");
+	let lb1 = '基础班资料';
+	let lb2 = '因果小故事';
+	let lb3 = '';
+	let lb4 = '';
+	let cs = '2';
+
+	 let aList= getData(lb1,lb2,lb3,lb4,'','不',cs);
+		var sLen = aList.length;
+		var str1="";
+		
+	
+		if (sLen === 0)
+		{
+			str1 = "无内容！";
+		}
+		else
+		{
+			for(var i=0;i<sLen;i+=3){
+           		
+			//查询序号
+			var xuhao= getStr(i/3+1,2);
+			//alert ( aList[i] );
+				if (aList[i+2] === "目录") 
+					//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><font color=\"#FF0000\">{目录}</font> </td></tr>";
+				else
+				{
+						//str1 = str1+xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a><p></p>";
+					table.innerHTML += "<tr class=\"trh2\"><td>" +xuhao+".<a href="+aList[i+1]+">"+aList[i]+"</a> </td></tr>";
+					if (xuhao == '27')
+						table.innerHTML += "<tr class=\"trh3\"><th >二、老法师开示</th></tr>";
+					if (xuhao == '51')
+						table.innerHTML += "<tr class=\"trh3\"><th >三、历史因果故事</th></tr>";
+
+					if (xuhao == '55')
+						table.innerHTML += "<tr class=\"trh3\"><th >四、现代因果故事</th></tr>";
+
+				}
+       			 }
+		}
+       
+</script>
+<p><a href="javascript:history.back(-1)">返回上一页</a></p>
+
+</div>
+
+
+</body>
+</html>
