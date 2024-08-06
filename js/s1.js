@@ -453,7 +453,7 @@ var contdatas2 = [
 ['基础班资料','因果小故事','','','052','杨翥~app',myaddr+'jcbzl/ygxgs/02.html','无','有','文章','原始'],
 ['基础班资料','因果小故事','','','053','刘宽','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495747&amp;idx=2&amp;sn=b695ab0e82c7412f10bdc37007c31329&amp;chksm=cff6e151f88168479908e16a78c1c983af7caacd911ac0b5c0dd6b6519a75aa82a6305aab859&amp;scene=21#wechat_redirect','无','有','文章','原始'],
 ['基础班资料','因果小故事','','','054','崔浩毁佛','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495747&amp;idx=3&amp;sn=6d865137f91afecf7bc1f4268ed97893&amp;chksm=cff6e151f8816847ae692f5550fc637f68c5bbd63d7a5a950c432fe86c5a0e0a426c6e1e3ca5&amp;scene=21#wechat_redirect','无','有','文章','原始'],
-['基础班资料','因果小故事','','','055','不是沾了“因果”就是佛法~app',myaddr+'qtzt/pxxz/01.html','无','有','文章','原始'],
+['基础班资料','因果小故事','','','055','不是沾了“因果”就是佛法~app',myaddr+'qtzt/pxxz/01.html','无','有','文章','引用'],
 ['基础班资料','因果小故事','','','056','一位37岁男子的发露忏悔','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495747&amp;idx=4&amp;sn=14353049276c5f1d27a0d2da49429808&amp;chksm=cff6e151f88168474a99490a53b9a79772f8911d595f6153f596ebdc33ef6530688ee2b0d5c2&amp;scene=21#wechat_redirect','无','有','文章','原始'],
 ['基础班资料','因果小故事','','','057','邪淫给一家人带来的恶报','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495747&amp;idx=5&amp;sn=6ef62bb35a84a118fbeb53107e59a2a0&amp;chksm=cff6e151f8816847714441a477b1ce5955d9a600be3d84c06c29357a5ab8802ddc5fd6a6e041&amp;scene=21#wechat_redirect','无','有','文章','原始'],
 ['基础班资料','因果小故事','','','058','一位女士忏悔邪淫堕胎','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247495747&amp;idx=6&amp;sn=77a14ba4aa62cb75e5095a608438861e&amp;chksm=cff6e151f8816847407990311a16797ab8cede2eecd513a796eab96b780ce1b7db90ecd20a74&amp;scene=21#wechat_redirect','无','有','文章','原始'],
@@ -781,6 +781,7 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','因缘果','','037','要相信因果，用事实看问题','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247492750&idx=2&sn=b4c083374cc71d93435e04e4071bfa01&scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','因缘果','','038','对大家各种提问的统一答复-业感缘起','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495238&idx=1&sn=43bce3def3e5381be5fe7175bc47896f&chksm=cff6ff54f881764263f00635879cb4ccc24cc2e5a348a09c2fbc6f1df087c0d3419438c228a0#rd','有','无','文章','引用'],
 ['每日四项讲解','辅助资料','因缘果','','039','关于用药治病','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495238&idx=6&sn=3e123b1000f7490ad05c7f288f855da5&chksm=cff6ff54f88176428613730dadf8667ea1f9ceb50310bb7f1a22f5500cb0bb2bbdc561b3d676#rd','有','无','文章','原始'],
+['每日四项讲解','辅助资料','因缘果','','040','如何用佛法看待和面对疫情~app',myaddr+'xxzlhz/jxbzl/zn05-2-3.html','有','无','文章','原始'],
 
 ['每日四项讲解','辅助资料','安住修','','000','净土菩提心和般若净土','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490310&amp;idx=1&amp;sn=61347ee9a6ffff85d2ce8b7a15687a7c&amp;chksm=cff50a14f8828302d67c591ab7bc3ca5a8496c3cdb129c638da99827afa5a82dd812233d5fe0&amp;scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','安住修','','001','怎样才能万修万人去','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247490998&amp;idx=3&amp;sn=7a80e7bde6145f9c13a6de4f6891a34f&amp;chksm=cff50ca4f88285b2a3328beee322fa11d3c47c179ada79425ca1fc2e65e35b0d435a0507bd89&amp;scene=21#wechat_redirect','有','无','文章','原始'],
@@ -2072,6 +2073,8 @@ var contdatas9 = [
 ['选学资料汇总','静修班资料','师父随缘开示','','083','61、通过《五母子经》看清真相，不要贪恋世间','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487339&idx=1&sn=d4725e4fbe0e3c2cfa1a82a996f919ce&chksm=973cd6eda04b5ffb0ab97f24eb454742b55c784aaa1c72714ca8eed68b1c3a3e7eaf805dbcb0&token=1549694626&lang=zh_CN#rd','有','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','084','62、非见阿弥陀佛不可','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487339&idx=4&sn=f8d1fd93dc1be6fc393a69800a49f023&chksm=973cd6eda04b5ffb5e40443d20666306ceab95b8403eedc50ded968f23a9e0e83337c1497b85&token=1549694626&lang=zh_CN#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','085','63、《佛说大乘无量寿庄严清净平等觉经》白话解释',myaddr+'xxzlhz/jxbzl/wlsj.html','无','无','目录','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','086','64、阿妈往生了-带着孙女游历极乐世界~app',myaddr+'xxzlhz/jxbzl/64.html','无','无','文章','原始'],
+
 
 
 
@@ -2088,8 +2091,7 @@ var contdatas9 = [
 ['选学资料汇总','静修班资料','助念专题','','005','05-1、助念简要手册~app',myaddr+'xxzlhz/jxbzl/zn05-1.html','无','无','文章0','原始'],
 ['选学资料汇总','静修班资料','助念专题','','006','05-2-1、助念简要手册-讲解~app',myaddr+'xxzlhz/jxbzl/zn05-2-1.html','有','无','文章1','原始'],
 ['选学资料汇总','静修班资料','助念专题','','006','05-2-2、助念简要手册-补充说明~app',myaddr+'xxzlhz/jxbzl/zn05-2-2.html','有','无','文章1','原始'],
-['选学资料汇总','静修班资料','助念专题','','006','05-2-3、助念简要手册-如何用佛法看待和面对疫情~app',myaddr+'xxzlhz/jxbzl/zn05-2-3.html','有','无','文章1','原始'],
-['选学资料汇总','静修班资料','助念专题','','006','05-2-4、助念简要手册-问答~app',myaddr+'xxzlhz/jxbzl/zn05-2-4.html','有','无','文章2','原始'],
+['选学资料汇总','静修班资料','助念专题','','006','05-2-3、助念简要手册-问答~app',myaddr+'xxzlhz/jxbzl/zn05-2-4.html','有','无','文章2','原始'],
 
 ['选学资料汇总','静修班资料','助念专题','','007','06、助念佛号的练习','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494001&amp;idx=4&amp;sn=e5a9b50856c06f05293c029b5daab859&amp;chksm=cff6f863f8817175b9a8ee6ca06594171a0687b8286d99e60e53554dafca2eba35ff7b390768#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','助念专题','','008','07、法器引领念佛时的节奏变化','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494001&amp;idx=5&amp;sn=8034a0faa3e9eff895fa1d3bac25fcc0&amp;chksm=cff6f863f8817175e7302551b6eae669f65b404ae17208bd0140c004ebedf47fc9225a638746#rd','无','无','文章','原始'],
