@@ -65,8 +65,8 @@ p7: 比较第几层
 */
 function getData(p1,p2,p3,p4,p5,p6,p7) {
 
-var myaddr = 'http://www.zhigui.site/';
-//var myaddr = 'http://www.zhigui48.cn/';
+//var myaddr = 'http://www.zhigui.site/';
+var myaddr = 'http://www.zhigui48.cn/';
 //var myaddr = 'http://localhost:4000/';
 
 //督导修学模式 原资料 地址
@@ -813,9 +813,9 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','觉照','','010','抛开境缘，直观自心','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494903&amp;idx=4&amp;sn=d0494b5b7ab4a61537b2628ede499186&amp;chksm=cff6fde5f88174f3f705e16e69ff8c7feb0f99762e8d9541087f301d1a0320e79fd10947c3c1#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','觉照','','011','念佛微睁眼睛的好处','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494903&amp;idx=5&amp;sn=9716c668a70b59329ee29d15e72069f5&amp;chksm=cff6fde5f88174f3e17c1c09ba805f9314e3c116e8f0f218f93dd3537ceb96ead212334bb2ea#rd','无','无','文章','原始'],
 
-['每日四项讲解','辅助资料','觉照','','012','将修行打成一片','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490851&idx=4&sn=b97525810e425e9a3143c64040633d94&scene=21#wechat_redirect','有','无','文章','原始'],
-['每日四项讲解','辅助资料','觉照','','013','把握好当下','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491075&idx=3&sn=20d215a2e0a9a6d51735564cc6aad843&scene=21#wechat_redirect','有','无','文章','原始'],
-['每日四项讲解','辅助资料','觉照','','014','面对具体人事，怎么更好提起觉照力？','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491075&idx=1&sn=6c0d4cd53dc62e622b9cab8532f57747&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','觉照','','012','将修行打成一片','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495794&idx=5&sn=027c5d08738d8d58cd9771c97bf4fddb&chksm=cff6e160f88168762a01cbc140e4bc53a29930e2211adf29381ee917549cfdb0bd95bec2ca53&token=1656850354&lang=zh_CN#rd','有','无','文章','原始'],
+['每日四项讲解','辅助资料','觉照','','013','把握好当下','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495794&idx=6&sn=87e9de29645d8230b8f2728e44c9de58&chksm=cff6e160f8816876b65602250a16177226323eb057b5674c81dab40ac461ef1173192138887d&token=1656850354&lang=zh_CN#rd','有','无','文章','原始'],
+['每日四项讲解','辅助资料','觉照','','014','面对具体人事，怎么更好提起觉照力？','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495794&idx=7&sn=b7ba5f8ee647dbf857b921de42a6db8f&chksm=cff6e160f88168767931da39438cf794173bd371eb65114cf2a7420e4356c6bf69b5ca7f3fa3&token=1656850354&lang=zh_CN#rd','有','无','文章','原始'],
 
 
 
@@ -842,13 +842,13 @@ var contdatas3 = [
 ['每日四项讲解','辅助资料','观修、实际运用','','020','不管哪部经典，在修行上，都在落实“无住生心”','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&amp;mid=2247494883&amp;idx=4&amp;sn=fa085cde94af91d83a96b36ae2d85656&amp;chksm=cff6fdf1f88174e7c67d880077e3e2ee41d16902d56f7e77f28011ae301b6339b7fd7af9ccd2#rd','无','无','文章','原始'],
 ['每日四项讲解','辅助资料','观修、实际运用','','021','一个婆媳问题-传统文化和督导修学的两种回答','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495064&idx=1&sn=d21446acf1b2b4c57d45bbe96cb3618c&chksm=cff6fc8af881759c03a98f562cb27f3bc10039456da3774c7b7a37992404f42762975de345b6#rd','无','无','文章','原始'],
 
-['每日四项讲解','辅助资料','观修、实际运用','','022','世间法与出世间法相辅相成 ','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490851&idx=5&sn=5bc8896fac51494b131127059bdd5572&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','022','世间法与出世间法相辅相成 ','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495838&idx=1&sn=e20b515fcfa2b59d96b43b4c98a40dc4&chksm=cff6e18cf881689a4e2f56e9c99c8b0a14ae0f537cc192139cd37f9000a529d54e250cdbf63e&token=1656850354&lang=zh_CN#rd','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','观修、实际运用','','023','关于对境的运用','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491023&idx=7&sn=1b80b40acc0526433fc50aac27ba2533&scene=21#wechat_redirect','有','无','文章','原始'],
-['每日四项讲解','辅助资料','观修、实际运用','','024','没有提起正确就是问题','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491113&idx=2&sn=a04126ed7fd4442231cb6ad58f7021a0&scene=21#wechat_redirect','有','无','文章','原始'],
-['每日四项讲解','辅助资料','观修、实际运用','','025','面对人事，先通过法去看淡','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491113&idx=4&sn=716c2090f146e262b7ab698f50bd26e4&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','024','没有提起正确就是问题','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495838&idx=2&sn=817d2cbbf0f75c3855bb475dcaa6d6ab&chksm=cff6e18cf881689aeef6e6d43782c463d82ee9561425c3910e0b4f6419b4f4f3026541018af5&token=1656850354&lang=zh_CN#rd','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','025','面对人事，先通过法去看淡','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495838&idx=3&sn=20b291709bbb195400d7470e9063b9f8&chksm=cff6e18cf881689a885d94e0149f21d0c094a0d9b4cd5991b85cf40635b1a1d5b5491642b5cc&token=1656850354&lang=zh_CN#rd','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','观修、实际运用','','026','跟自己较真','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497671&idx=6&sn=a50ebcb223a90fb65a192f1816d2ac71&scene=21#wechat_redirect','有','无','文章','原始'],
-['每日四项讲解','辅助资料','观修、实际运用','','027','法理和愿力要紧密结合在一起','https://mp.weixin.qq.com/s?__biz=MzU4ODE2NzM2OQ==&mid=2247497933&idx=2&sn=a39a35a5c4aad3a1e244e7ccf6295fc8&scene=21#wechat_redirect','有','无','文章','原始'],
-['每日四项讲解','辅助资料','观修、实际运用','','028','应对好世间问题，让心解脱出来','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247491113&idx=6&sn=93078faa16144fe678d8fd15b1270ed6&scene=21#wechat_redirect','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','027','法理和愿力要紧密结合在一起','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495838&idx=4&sn=0e9f16b4bf9bcdc533e6e27e52bb345c&chksm=cff6e18cf881689a5fa3d393af732aa23f40729773e97fb75148afd6b6dadd8aa552331b4e8d&token=1656850354&lang=zh_CN#rd','有','无','文章','原始'],
+['每日四项讲解','辅助资料','观修、实际运用','','028','应对好世间问题，让心解脱出来','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495838&idx=5&sn=15876e0d9b9d6ea2bf29b57ebcb1b223&chksm=cff6e18cf881689a9b480ea7178775e273073c7d62da4ea4f83d2bb92a50bd4726df7c0c88fd&token=1656850354&lang=zh_CN#rd','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','观修、实际运用','','029','受到惊吓时要训练提起正念','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490981&idx=2&sn=7175635d6a718a7b8534050a36cba173&scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','观修、实际运用','','030','受到惊吓后如何调整不良状态','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490981&idx=3&sn=0fae4a9ecc062975b1d95cf332e5e464&scene=21#wechat_redirect','有','无','文章','原始'],
 ['每日四项讲解','辅助资料','观修、实际运用','','031','关于悟静师父的问题开示','https://mp.weixin.qq.com/s?__biz=MzkzNjI1MzQzOQ==&mid=2247490981&idx=7&sn=dc1595b5627aa6273d2f5e9a73d2db53&scene=21#wechat_redirect','有','无','文章','原始'],
@@ -2071,6 +2071,7 @@ var contdatas9 = [
 ['选学资料汇总','静修班资料','师父随缘开示','','082','60、本师释迦牟尼佛圣诞','https://mp.weixin.qq.com/s?__biz=Mzg4ODg4MzMyNQ==&mid=2247495098&idx=2&sn=4dffc8c1fe03c97136d31e072c064bba&chksm=cff6fca8f88175beec0fc03ceda79a614f274ad7708689bad486c7d829576b1138b5692aa8b2#rd','无','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','083','61、通过《五母子经》看清真相，不要贪恋世间','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487339&idx=1&sn=d4725e4fbe0e3c2cfa1a82a996f919ce&chksm=973cd6eda04b5ffb0ab97f24eb454742b55c784aaa1c72714ca8eed68b1c3a3e7eaf805dbcb0&token=1549694626&lang=zh_CN#rd','有','无','文章','原始'],
 ['选学资料汇总','静修班资料','师父随缘开示','','084','62、非见阿弥陀佛不可','https://mp.weixin.qq.com/s?__biz=MzIwNDYwNzcyMQ==&mid=2247487339&idx=4&sn=f8d1fd93dc1be6fc393a69800a49f023&chksm=973cd6eda04b5ffb5e40443d20666306ceab95b8403eedc50ded968f23a9e0e83337c1497b85&token=1549694626&lang=zh_CN#rd','无','无','文章','原始'],
+['选学资料汇总','静修班资料','师父随缘开示','','085','63、《佛说大乘无量寿庄严清净平等觉经》简注易解',myaddr+'xxzlhz/jxbzl/wlsj.html','无','无','目录','原始'],
 
 
 
