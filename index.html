@@ -1,11 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>Netking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智览浏览器 - 简洁高效的Android浏览器</title>
+    <meta name="description" content="智览是一款简洁高效的Android浏览器应用，适合搜索和阅读。支持网址收藏、语音播报、字体调节等功能。">
+    <meta name="keywords" content="智览,浏览器,Android浏览器,网页浏览,语音播报,浏览器下载">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌐</text></svg>">
 </head>
 <body>
-    <h1>Netking的个人主页</h1>
-    <h1>Hello ~</h1>
+    <!-- 顶部导航 -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">览</div>
+                    <span class="logo-text">智览</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#features">功能特点</a></li>
+                    <li><a href="#download">下载安装</a></li>
+                    <li><a href="privacy.html">隐私政策</a></li>
+                    <li><a href="agreement.html">用户协议</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+                <a href="#download" class="btn-download">下载应用</a>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero区域 -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>智览浏览器</h1>
+                <p class="hero-subtitle">简洁高效的Android浏览器，适合搜索和阅读</p>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>网址收藏</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>语音播报</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>字体调节</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>自动更新</span>
+                    </div>
+                </div>
+                <div class="hero-download">
+                    <a href="#download" class="btn-primary">
+                        <span>立即下载</span>
+                    </a>
+                    <a href="#features" class="btn-secondary">
+                        <span>了解更多</span>
+                    </a>
+                </div>
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="phone-notch"></div>
+                            <!-- 这里可以放APP截图 -->
+                            <div style="padding: 50px 20px 20px; text-align: center;">
+                                <h3 style="color: #1976D2; margin-bottom: 20px;">智览浏览器</h3>
+                                <div style="background: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 10px;">
+                                    <div style="font-size: 14px; color: #666; margin-bottom: 8px;">常用搜索</div>
+                                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                                        <span style="background: #E3F2FD; padding: 6px 12px; border-radius: 15px; font-size: 12px; color: #1976D2;">百度</span>
+                                        <span style="background: #E3F2FD; padding: 6px 12px; border-radius: 15px; font-size: 12px; color: #1976D2;">必应</span>
+                                        <span style="background: #E3F2FD; padding: 6px 12px; border-radius: 15px; font-size: 12px; color: #1976D2;">搜狗</span>
+                                        <span style="background: #E3F2FD; padding: 6px 12px; border-radius: 15px; font-size: 12px; color: #1976D2;">360搜索</span>
+                                        <span style="background: #E3F2FD; padding: 6px 12px; border-radius: 15px; font-size: 12px; color: #1976D2;">夸克</span>
+                                    </div>
+                                </div>
+                                <div style="background: #f5f5f5; padding: 15px; border-radius: 8px;">
+                                    <div style="font-size: 14px; color: #666; margin-bottom: 8px;">古典阅读</div>
+                                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                                        <span style="background: #FFF3E0; padding: 6px 12px; border-radius: 15px; font-size: 12px; color: #FF7043;">国学楼</span>
+                                        <span style="background: #FFF3E0; padding: 6px 12px; border-radius: 15px; font-size: 12px; color: #FF7043;">汉程网</span>
+                                        <span style="background: #FFF3E0; padding: 6px 12px; border-radius: 15px; font-size: 12px; color: #FF7043;">国学网</span>
+                                        <span style="background: #FFF3E0; padding: 6px 12px; border-radius: 15px; font-size: 12px; color: #FF7043;">国学典籍网</span>
+                                        <span style="background: #FFF3E0; padding: 6px 12px; border-radius: 15px; font-size: 12px; color: #FF7043;">国学经典网</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能特点 -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>功能特点</h2>
+                <p>简洁设计，强大功能，专注阅读体验</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-large">📚</div>
+                    <h3>网址收藏</h3>
+                    <p>主页面显示常用网址收藏，分为"常用搜索"和"古典阅读"两类，每类可收藏10个地址，满足您的多样需求。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">🔊</div>
+                    <h3>语音播报</h3>
+                    <p>支持语音朗读网页内容，字体可调节大小，适合阅读和听书，让您解放双手，轻松获取信息。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">✒️</div>
+                    <h3>个性签名</h3>
+                    <p>工具栏上方显示个性签名区域，彩色优美显示，展示您的独特风格，让浏览器更具个人特色。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">🔄</div>
+                    <h3>自动更新</h3>
+                    <p>内置版本自动检测和更新功能，确保您始终使用最新版本，享受最新功能和安全性改进。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">⬅️➡️</div>
+                    <h3>便捷导航</h3>
+                    <p>底部工具栏集成返回、前进、刷新等常用功能，操作直观便捷，适合各种年龄段用户使用。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">🔍</div>
+                    <h3>页面查找</h3>
+                    <p>支持页面内关键词搜索，快速定位内容，提升阅读效率。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <!-- 下载区域 -->
+    <section id="download" class="download-section">
+        <div class="container">
+            <h2>立即下载</h2>
+            <p>简洁高效，专注阅读体验</p>
+            <div class="download-buttons">
+                <a href="/app/zhilan-1.0.1.apk" class="btn-primary"  >
+                    <span>下载 APK</span>
+                </a>
+                          </div>
+            <div style="margin-top: 30px; font-size: 14px; opacity: 0.8;">
+                <p>版本：1.0.1 | 大小：约 5MB | 系统：Android 5.0+</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="features" style="background: white;">
+        <div class="container">
+            <div class="section-title">
+                <h2>联系我们</h2>
+                <p>有任何问题或建议，欢迎随时联系我们</p>
+            </div>
+            <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+                <div style="background: #f5f5f5; padding: 40px; border-radius: 16px;">
+                    <p style="font-size: 18px; margin-bottom: 20px; color: #666;">电子邮件</p>
+                    <a href="mailto:1969575270@qq.com" style="font-size: 24px; color: #1976D2; text-decoration: none; font-weight: 500;">1969575270@qq.com</a>
+                    <p style="margin-top: 30px; font-size: 18px; margin-bottom: 20px; color: #666;">官方网站</p>
+                    <a href="#" style="font-size: 18px; color: #1976D2; text-decoration: none;">www.zhigui.site</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>智览浏览器</h4>
+                    <p style="color: #999; line-height: 1.8;">简洁高效的Android浏览器，专注搜索和阅读体验。</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#features">功能特点</a></li>
+                        <li><a href="#download">下载安装</a></li>
+                        <li><a href="#contact">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>法律信息</h4>
+                    <ul>
+                        <li><a href="privacy.html">隐私政策</a></li>
+                        <li><a href="agreement.html">用户协议</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>关注我们</h4>
+                    <ul>
+                        <li><a href="mailto:1969575270@qq.com">发送邮件</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 智览浏览器. All rights reserved. | 版本 1.0.1</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
